@@ -9,7 +9,7 @@ from django.shortcuts import render_to_response
 import xml.etree.cElementTree as ET
 
 def xml_to_html_parser(request):
-	tree = ET.ElementTree(file='CC.xml')
+	tree = ET.ElementTree(file='CF.xml')
 
 	passage = passage_parser(tree)
 	title = title_parser(tree)
@@ -18,7 +18,9 @@ def xml_to_html_parser(request):
 
 	# company_data = company_data_parser(tree)
 
-	return render_to_response('xmlToHtml/output.html', {'passage' : passage, 'title' : title, 'header_data' : header_data, 'team_members' : team_members})
+	footer_stuff = footer_parser(tree)
+
+	return render_to_response('xmlToHtml/output.html', {'passage' : passage, 'title' : title, 'header_data' : header_data, 'team_members' : team_members, 'footer_stuff' : footer_stuff})
 
 def passage_parser(tree):
 	data_dict = {}
@@ -112,3 +114,23 @@ def member_parser(tree):
 	# 	print 'Key not found'
 
 	# return data_dict
+
+def footer_parser(tree):
+	data_dict = {}
+
+	for elem in tree.iter(tag='Disclaimer'):
+		if elem.attrib['code'] == 'REG_AC':
+			data_dict['certification'] = elem.text.strip()
+
+	data_dict['disclosures'] = []
+
+	for elem in tree.iter(tag='Disclosure'):
+		data_dict['disclosures'].append(elem.text.strip())
+
+	for elem in tree.iter(tag='BoilerPlate'):
+		if elem.attrib['name'] == 'Methodology':
+			data_dict['methodology'] = elem.text.strip()
+		if elem.attrib['name'] == 'Risks':
+			data_dict['risks'] = elem.text.strip()
+
+	return data_dict

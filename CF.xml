@@ -1,0 +1,978 @@
+<Product  productID="3950eb27-f644-44e8-bef7-e3ae8990b987" shortProductID="lUscNGVK" language="en">
+
+<ProductStatus  statusType="Published" extendedStatus="Published" statusDateTime="2017-05-03T08:20:43.00" userDisplayDate="" releaseDate="2017-05-03T08:20:43.00" localeStatusDate="2017-05-03T08:20:43.00" customLocaleStatusDate="2017-05-03T08:20:43.00" displayDateTime="2017-05-03T08:20:43.00" localeDisplayDateTime="2017-05-03T08:20:43.00" customLocaleDisplayDateTime="2017-05-03T08:20:43.00" previousWorkDay="2017-05-02" bluematrixXmlID="3" documentStatus="7" bluematrixDocId="35494" previousDocId="34493" updateFinancials="Yes" bluematrixXmlAbbr="CF" bluematrixXmlDescr="1. Company_Flash" comment="" productCategory="Issuer" focus="Issuer" libraryOnly="no" mailListOnly="no" internalUseOnly="no" sendingMail="yes" totalPageNumber="5" server_tz="GMT-4:00" server_tz_short="EDT" baseHref="https://bmo.bluematrix.com" analyst_tz="GMT-5:00" analyst_tz_short="EST" />
+<Source>
+<Publisher  sequence="1" primaryIndicator="Yes">
+<PublisherID  idType="Shortname">bmo</PublisherID>
+<PublisherID  idType="BM" encrypted="oJofgHhfPKewbKt79kEgbw5Nn5nqqEwU" library="https://bmoresearch.bluematrix.com">18524</PublisherID>
+<PublisherName  nameType="Legal">BMO Capital Markets</PublisherName>
+<PublisherName  nameType="Person">
+<LastName>Best</LastName>
+<FirstName>Waldo</FirstName>
+<DisplayName>Waldo Best</DisplayName>
+<ClientCode>W3B</ClientCode>
+</PublisherName>
+<Team>
+<TeamMember  sequence="1" primaryIndicator="Yes" personID="78">
+<Role  rank="1">Analyst</Role>
+<LastName>Sklar</LastName>
+<FirstName>Peter</FirstName>
+<MiddleName />
+<Position>CPA, CA</Position>
+<ClientCode>PS</ClientCode>
+<Division  ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
+<Office  ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
+<DisplayName>Peter Sklar</DisplayName>
+<Phone>(416) 359-5188</Phone>
+<Email>peter.sklar@bmo.com</Email>
+<Sector  id="112" parentId="17" analystRank="1">Retailing/Consumer</Sector>
+<Sector  id="113" parentId="17" analystRank="1">Auto Parts</Sector>
+<Tagging />
+<CustomFields>
+<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Auto Parts</CustomField>
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</TeamMember>
+<TeamMember  sequence="2" primaryIndicator="No" personID="346">
+<Role  rank="1">Associate</Role>
+<LastName>Panes</LastName>
+<FirstName>Jennifer</FirstName>
+<MiddleName>L</MiddleName>
+<Position />
+<ClientCode>JLP</ClientCode>
+<Division  ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
+<Office  ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
+<DisplayName>Jennifer L Panes</DisplayName>
+<Phone>(416) 359-5961</Phone>
+<Email>jennifer.panes@bmo.com</Email>
+<Tagging />
+<CustomFields>
+<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</TeamMember>
+</Team>
+</Publisher>
+</Source>
+<Content>
+<Title><![CDATA[Q1/17 Moderately Better than Expected In Challenging Deflationary Environment]]></Title>
+<SubTitle />
+<Abstract />
+<Resource  resourceID="3950eb27-f644-44e8-bef7-e3ae8990b987">
+<Data>
+<TextElement  name="bottom_line" elementId="227" max_word_count="75" displayName="Bottom Line" status="optional" rixmlName="bottom_line" clientCode="bottom_line"><![CDATA[<strong>Overall, we would describe Loblaw&#39;s Q1/17 as positive, as it was moderately better than expected.</strong> We attribute the better-than-expected results to strong grocery performance, with slightly better-than-expected deflation and tonnage. In addition, retail gross margin and SG&amp;A margin improved y/y (excluding the impact of franchise consolidation).]]></TextElement>
+<TextElement  name="key_points" elementId="228" max_word_count="300" displayName="Key Points" status="optional" rixmlName="key_points" clientCode="key_points"><![CDATA[<ul><li><font><strong>On May 3, before the market open, Loblaw reported Q1/17 fully diluted adjusted earnings of $0.90, above our estimate and the Mean estimate, both of which were $0.87.</strong> Loblaw reported same-store sales (SSS) decline of 2.1%, however on an adjusted basis after considering to the timing of New Year&#39;s Day and Easter, SSS growth was flat y/y. <strong>With internal food deflation in line with the CPI of 3.9% deflation for the quarter, this implies reported tonnage growth of about 1.8%.</strong></font></li><li>Shoppers reported overall SSS of 0.9%, with SSS of 2.5% on an adjusted basis, which was in line with our expectation for 2.8%. Adjusted pharmacy SSS of 1.4% (vs. BMO&#39;s 2.5%) was below our expectation. Adjusted front store SSS was slightly stronger than we had anticipated at 3.6% (vs. BMO&#39;s 3.0%).</li><li>Retail gross margin improved by 63 bps, better than our expectation for an improvement of 2 bps. Excluding the accounting impact from the consolidation of franchises, <strong>retail gross margin improved by 10 bps, versus our expectation for a deterioration of 20 bps.</strong></li><li>Excluding the consolidation of franchises, <strong>SG&amp;A margin improved 10 bps y/y, slightly worse than our expectation for an improvement of 20 bps.</strong> The y/y improvement was aided by the positive impact of store closures and favourable changes in the value of the franchise business. However, this was partially offset by the unfavourable timing of New Year&#8217;s Day and Easter in both Food and Drug retail.</li><li><strong>Loblaw is continuing to call for positive SSS for 2017, suggesting that management anticipates continuing strong tonnage trends to offset the effect of food deflation.</strong></li><li>See Page 2 for the historical valuation of the Canadian grocers&#39; core retail businesses.</li><li>Conference call today at 10am ET; 647-427-7450 or 1-888-231-8191; Replay: 416-849-0833 or 1-855-859-2056 (Passcode: 1695648); Webcast <a target="_blank" href="http://investors.loblaw.ca/English/investors/investor-snapshot/default.aspx">here</a>.</li></ul>]]></TextElement>
+<TextElement  name="banner_insertion_box" elementId="235" max_word_count="0" displayName="Banner Insertion Box" status="optional" rixmlName="BANNER_BOX" clientCode="BANNER_BOX" />
+<TextElement  name="body_text" elementId="229" max_word_count="0" displayName="Body Text" status="optional" rixmlName="body_text" clientCode="body_text" />
+<TextElement  name="summary" elementId="253" max_word_count="1000" displayName="Summary" status="optional" rixmlName="summary" clientCode="summary" />
+<TextElement  name="sector_name_override" elementId="250" max_word_count="0" displayName="Sector Name Override" status="optional" rixmlName="sector_name_override" clientCode="SECTOR_OR"><![CDATA[Retailing/Consumer]]></TextElement>
+<TextElement  name="bmort_category_override" elementId="287" max_word_count="0" displayName="BMORT Category Override" status="optional" rixmlName="BMORTCO" clientCode="" />
+<TextElement  name="legal_entity" elementId="309" max_word_count="0" displayName="Legal Entity" status="optional" rixmlName="LEGAL_ENTITY" clientCode="LEGAL_ENTITY"><![CDATA[<p class="legalEntity">BMO Nesbitt Burns Inc.</p>]]></TextElement>
+<TextElement  name="text_box1/3" elementId="606" max_word_count="0" displayName="Text_Box1/3" status="optional" rixmlName="ONETHIRD_TEXTBOX" clientCode="" />
+<TextElement  name="text_box1/2" elementId="607" max_word_count="0" displayName="Text_Box1/2" status="optional" rixmlName="TWOTHIRD_TEXT" clientCode="" />
+<TextElement  name="left_column" elementId="608" max_word_count="0" displayName="Left Column" status="optional" rixmlName="LEFT_COLUMN" clientCode="" />
+<TextElement  name="right_column" elementId="609" max_word_count="0" displayName="Right Column" status="optional" rixmlName="RIGHT_COLUMN" clientCode="RIGHT_COLUMN" />
+<TextElement  name="chart_text_box_flash" elementId="991" max_word_count="0" displayName="Chart Text Box Flash" status="optional" rixmlName="CHART_BOX_FLASH" clientCode="CHART_BOX_FLASH" />
+<BoilerPlate  id="226" formId="boilerplate.100.787.226" stylesheetId="boilerplate.787.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="L-TSX"><![CDATA[<p>We rate Loblaw shares Market Perform. We believe Loblaw continues to benefit from incremental synergies from the Shoppers Drug Mart acquisition, and operational improvements related to the completed implementation and optimization of the SAP system. However, the Canadian grocers are now in a deflationary environment that will pressure top-line growth and operating results.</p>]]></BoilerPlate>
+<BoilerPlate  id="231" formId="boilerplate.100.787.231" stylesheetId="boilerplate.787.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="L-TSX"><![CDATA[<p>Loblaw is currently valued at about 8.1x our 2017 EBITDAR estimate, after carving out the value attributable to the interest in Choice Properties REIT. This valuation is toward the high end of Loblaw&#39;s historical valuation, which has traditionally been within a range of 6.0-8.0x trailing EBITDAR (ex. Choice REIT).</p>]]></BoilerPlate>
+<BoilerPlate  id="232" formId="boilerplate.100.787.232" stylesheetId="boilerplate.787.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="L-TSX"><![CDATA[<p>Under the upside scenario, we would see a higher EBITDA growth rate of 7%. Applying a roughly 9x multiple to EBITDAR would result in an $81 share price.</p>]]></BoilerPlate>
+<BoilerPlate  id="233" formId="boilerplate.100.787.233" stylesheetId="boilerplate.787.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="L-TSX"><![CDATA[<p>Under the downside scenario, we would see a 5% decline in EBITDA y/y. Applying a 7x multiple to EBITDAR would result in a $57 share price.</p>]]></BoilerPlate>
+<BoilerPlate  id="234" formId="boilerplate.100.787.234" stylesheetId="boilerplate.787.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="L-TSX"><![CDATA[<p>Loblaw Companies Limited is the largest food retailer/wholesaler in Canada. It operates corporate stores and franchised or affiliated stores in all provinces. Banners include Loblaws, Fortinos, Zehrs Markets, Provigo, Maxi, The Atlantic Superstore, No Frills, The Real Canadian Superstore, and T&amp;T. In March 2014, Loblaw acquired Shoppers Drug Mart.</p>]]></BoilerPlate>
+<BoilerPlate  id="237" formId="boilerplate.100.787.237" stylesheetId="boilerplate.787.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="L-TSX"><![CDATA[<p>Our target price is based on 8.1x our 2017 EBITDAR estimate, plus Loblaw&#8217;s interest in Choice Properties REIT.</p>]]></BoilerPlate>
+<BoilerPlate  id="238" formId="boilerplate.100.787.238" stylesheetId="boilerplate.787.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="L-TSX"><![CDATA[<p>The Canadian grocery industry is sensitive to a number of economic factors. In particular, declines in personal disposable income, food inflation/deflation, and appreciation of the Canadian dollar could have a negative impact on the industry&#8217;s revenues and profitability. Also, competitive pressures from existing Canadian food retailing competitors and potential new entrants could result in reduced revenues and margins. Labour disputes could present higher costs and business disruptions. Associated dealer relationships, if not maintained, could also subject the company to risk. The loss of key senior management could have an adverse effect on the company. Share declines at publicly traded Choice Properties REIT (CHP.UN, $13.90, Market Perform rated by Troy MacLean) could adversely affect Loblaw&#8217;s valuation.</p>]]></BoilerPlate>
+<BoilerPlate  id="251" formId="boilerplate.100.787.251" stylesheetId="boilerplate.787.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="L-TSX" />
+<BoilerPlate  id="252" formId="boilerplate.100.787.252" stylesheetId="boilerplate.787.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="L-TSX" />
+<BoilerPlate  id="257" formId="boilerplate.100.787.257" stylesheetId="boilerplate.787.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="L-TSX" />
+<BoilerPlate  id="305" formId="boilerplate.300.112.305" stylesheetId="boilerplate.112.SECTOR_BOILER_1" type="Sector Type" typeId="300" name="Sector Boiler Plate 1" maxWordCount="" required="0" typeSymbol="MRFDR" />
+<BoilerPlate  id="305" formId="boilerplate.300.17.305" stylesheetId="boilerplate.17.SECTOR_BOILER_1" type="Sector Type" typeId="300" name="Sector Boiler Plate 1" maxWordCount="" required="0" typeSymbol="CP" />
+<BoilerPlate  id="306" formId="boilerplate.300.112.306" stylesheetId="boilerplate.112.SECTOR_BOILER_2" type="Sector Type" typeId="300" name="Sector Boiler Plate 2" maxWordCount="" required="0" typeSymbol="MRFDR" />
+<BoilerPlate  id="306" formId="boilerplate.300.17.306" stylesheetId="boilerplate.17.SECTOR_BOILER_2" type="Sector Type" typeId="300" name="Sector Boiler Plate 2" maxWordCount="" required="0" typeSymbol="CP" />
+<BoilerPlate  id="307" formId="boilerplate.300.112.307" stylesheetId="boilerplate.112.SECTOR_BOILER_3" type="Sector Type" typeId="300" name="Sector Boiler Plate 3" maxWordCount="" required="0" typeSymbol="MRFDR" />
+<BoilerPlate  id="307" formId="boilerplate.300.17.307" stylesheetId="boilerplate.17.SECTOR_BOILER_3" type="Sector Type" typeId="300" name="Sector Boiler Plate 3" maxWordCount="" required="0" typeSymbol="CP" />
+<BoilerPlate  id="317" formId="boilerplate.300.112.317" stylesheetId="boilerplate.112.SECTOR_BOILER_4" type="Sector Type" typeId="300" name="Sector Boiler Plate 4" maxWordCount="" required="0" typeSymbol="MRFDR" />
+<BoilerPlate  id="317" formId="boilerplate.300.17.317" stylesheetId="boilerplate.17.SECTOR_BOILER_4" type="Sector Type" typeId="300" name="Sector Boiler Plate 4" maxWordCount="" required="0" typeSymbol="CP" />
+<BoilerPlate  id="318" formId="boilerplate.300.112.318" stylesheetId="boilerplate.112.SECTOR_BOILER_5" type="Sector Type" typeId="300" name="Sector Boiler Plate 5" maxWordCount="" required="0" typeSymbol="MRFDR" />
+<BoilerPlate  id="318" formId="boilerplate.300.17.318" stylesheetId="boilerplate.17.SECTOR_BOILER_5" type="Sector Type" typeId="300" name="Sector Boiler Plate 5" maxWordCount="" required="0" typeSymbol="CP" />
+<BoilerPlate  id="1275" formId="boilerplate.100.787.1275" stylesheetId="boilerplate.787.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="L-TSX" />
+</Data>
+<Length  lengthUnit="Pages">5</Length>
+</Resource>
+<Attachments>
+<Attachment  type="199" tag="7676" rank="1" fileName="EV-EBITDAR Charts.pdf" originalFile="/sellside/AttachmentViewer.action?encrypt=3950eb27-f644-44e8-bef7-e3ae8990b987&amp;fileId=35494_5539437a-5944-49f1-8d92-e767c3901ab3&amp;isPdf=false" landscapePages="">35494_5539437a-5944-49f1-8d92-e767c3901ab3.pdf</Attachment>
+</Attachments>
+</Content>
+<Context>
+<ProductClassifications>
+<SectorIndustry  level="2" classificationType="GICS" code="2550" focusLevel="Yes" primaryIndicator="Yes" BM_ID="112" ParentBM_ID="17" clientSymbol="Retailing/Consumer">
+<Name>Retailing</Name>
+</SectorIndustry>
+<SectorIndustry  code="MRFDR" level="2" classificationType="PublisherDefined" focusLevel="Yes" primaryIndicator="Yes" BM_ID="112" ParentBM_ID="17" clientsSymbol="Retailing/Consumer">
+<Name>Retailing/Consumer</Name>
+<CustomFields>
+<CustomField  displayName="FactSet Code" type="Textbox" clientCode="FS_CODE" length="50">SP421-SPX</CustomField>
+<CustomField  displayName="Display Sector Page" type="Dropdown, single choice" clientCode="DISP_SCTR_PG" />
+<CustomField  displayName="Sector Short Name" type="Textbox" clientCode="SECTOR_SNAME" length="50">Retailing/Consumer</CustomField>
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</SectorIndustry>
+<SectorIndustry  level="1" classificationType="GICS" code="25" focusLevel="Yes" primaryIndicator="No" BM_ID="17" clientSymbol="CP">
+<Name>Consumer Discretionary</Name>
+</SectorIndustry>
+<SectorIndustry  code="CP" level="1" classificationType="PublisherDefined" focusLevel="Yes" primaryIndicator="No" BM_ID="17" clientsSymbol="CP">
+<Name>Consumer Products</Name>
+<CustomFields>
+<CustomField  displayName="FactSet Code" type="Textbox" clientCode="FS_CODE" length="50" />
+<CustomField  displayName="Display Sector Page" type="Dropdown, single choice" clientCode="DISP_SCTR_PG">N</CustomField>
+<CustomField  displayName="Sector Short Name" type="Textbox" clientCode="SECTOR_SNAME" length="50" />
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</SectorIndustry>
+<Tagging>
+<Tag  name="EstimateChange" rank="1" code="" attributeId="6" levelId="3" clientCode="">Downgrade</Tag>
+<Tag  name="RecommendationChange" rank="1" code="" attributeId="9" levelId="2" clientCode="">Reiterate</Tag>
+<Tag  name="RiskChange" rank="1" code="RE" attributeId="222" levelId="2" clientCode="RISK_CHANGE">Reiterate</Tag>
+<Tag  name="MainSubject" rank="1" code="CU" attributeId="20" levelId="3" clientCode="MainSubject">1-Company Update</Tag>
+</Tagging>
+<CustomFields />
+</ProductClassifications>
+<RelatedCompanies />
+<IssuerDetails>
+<Issuer  type="Corporate" sequence="1" domicileCountryCode="CA" domicileCountry="Canada" clientCode="L=CA" fyEnd="12" companyName="Loblaw Companies" companyId="787" symbol="L-TSX" shortName="Loblaw Companies" bmSectorIndustryId="112" bmSectorSymbol="MRFDR" website="www.loblaw.com" fiscalYearEnd="2017-12-31T00:00:00.00" reportingFrequency="Quarterly" accounting="GAAP" targetPriceAction="Reiterate" recommendationAction="Reiterate" riskAction="Reiterate" estimateAction="Reiterate">
+<IssuerChanges  type="EPS (Consensus)" id="90" qualifier="--" fiscalCalendar="1" previous="4.41" current="4.39" period="5" year="2017" />
+<IssuerChanges  type="EPS (Consensus)" id="90" qualifier="--" fiscalCalendar="1" previous="4.86" current="4.85" period="5" year="2018" />
+<IssuerChanges  type="EPS (Consensus)" id="90" qualifier="--" fiscalCalendar="1" previous="5.22" current="5.18" period="5" year="2019" />
+<SecurityDetails>
+<Security  sequence="1" primaryIndicator="Yes">
+<GridEstimateChanges  type="90" period="Annual" estimateAction="Downgrade" />
+<GridEstimateChanges  type="90" period="Annual" estimateAction="Downgrade" />
+<GridEstimateChanges  type="90" period="Annual" estimateAction="Downgrade" />
+<SecurityID  idType="CUSIP" idValue="L-TSX" BM_ID="788" clientSymbol="L=CA" encryptedId="KefYwgokSWuDKzk9p++rbGt4yYSr0aWA" chartSymbol="L-TSX" defaultCurrency="CAD" defaultCurrencySymbol="C$" tradingCurrency="CAD" tradingCurrencySymbol="C$" dividendCurrency="CAD" dividendCurrencySymbol="C$" type="Common" TradingExchange="TSX" ownershipUnit="Common ShareOwner" TradingExchange2="TSX" displaySymbol="L" displaySymbol2="" pricingSymbol2="" compareTo="" compareTo2="" cusip="539481101" sedol="2521800" isin="CA5394811015">
+<Symbol  name="ISIN" type="2">CA5394811015</Symbol>
+<Tagging />
+</SecurityID>
+<FinancialDates  reportingDate="2017-05-03T08:20:43.00" />
+<FinancialDisplayYears>
+<Year  rank="1" actual="A" fiscalCalendar="1" show="Yes">2015</Year>
+<Year  rank="2" actual="A" fiscalCalendar="1" show="Yes">2016</Year>
+<Year  rank="3" actual="E" fiscalCalendar="1" show="Yes">2017</Year>
+<Year  rank="4" actual="E" fiscalCalendar="1" show="Yes">2018</Year>
+</FinancialDisplayYears>
+<CustomFields>
+<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
+<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">L495002</CustomField>
+<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+<Clusters  id="236" rank="1" name="BMO &amp; Market Data" active="1">
+<FinancialValue  name="RATING" clientCode="RATING" BM_ID="16" type="4" financialsType="Rating" row="1" col="1" shortCode="Mkt" display="Yes" displayName="Rating" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="Market Perform">3</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="PRICING_DATE" clientCode="PRICING_DATE" BM_ID="20" type="7" financialsType="Pricing Date" row="3" col="1" shortCode="" display="Yes" displayName="Pricing Date" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="May 2 2017 12:00AM" shortCode="2017-05-02">2017-05-02T00:00:00.00</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="PRICE" clientCode="PRICE" BM_ID="21" type="2" financialsType="Price" row="4" col="1" shortCode="" display="Yes" displayName="Price" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$76.99">76.99</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="PRICE_TARGET" clientCode="PRICE_TARGET" BM_ID="27" type="2" financialsType="Price Target" row="5" col="1" shortCode="" display="Yes" displayName="Price Target" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$71.00">71</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="TOTAL_RETURN" clientCode="TOTAL_RETURN" BM_ID="239" type="9" financialsType="Total Return" row="6" col="1" shortCode="" display="Yes" displayName="Total Return" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="-6%">-6.42940642</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="UPSIDE" clientCode="UPSIDE" BM_ID="240" type="2" financialsType="Upside Scenario" row="1" col="2" shortCode="" display="Yes" displayName="Upside Scenario" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$81.00">81</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="DOWNSIDE" clientCode="DOWNSIDE" BM_ID="241" type="2" financialsType="Downside Scenario" row="2" col="2" shortCode="" display="Yes" displayName="Downside Scenario" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$57.00">57</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="52_WEEK_HIGH" clientCode="52_WEEK_HIGH" BM_ID="23" type="2" financialsType="52-Week High" row="3" col="2" shortCode="" display="No" displayName="52-Week High" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$78.21">78.21</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="52_WEEK_LOW" clientCode="52_WEEK_LOW" BM_ID="24" type="2" financialsType="52-Week Low" row="4" col="2" shortCode="" display="No" displayName="52-Week Low" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$62.33">62.33</CurrentValue>
+</FinancialValue>
+</Clusters>
+<Clusters  id="587" rank="6" name="Consumer Discretionary - Company Data - Max of 6 for display" active="1">
+<FinancialValue  name="DIVIDEND" clientCode="DIVIDEND" BM_ID="208" type="2" financialsType="Dividend" row="1" col="1" shortCode="" display="Yes" displayName="Dividend" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$1.04">1.04</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="YIELD_CALC" clientCode="YIELD_CALC" BM_ID="225" type="9" financialsType="Yield" row="3" col="1" shortCode="" display="Yes" displayName="Yield" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="1.4%">1.35082478</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="NET_DEBT" clientCode="NET_DEBT" BM_ID="279" type="2" financialsType="Net Debt (mm)" row="4" col="1" shortCode="" display="Yes" displayName="Net Debt (mm)" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$7,296">7296</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="SHARES_OUT" clientCode="SHARES_OUT" BM_ID="203" type="2" financialsType="Shares O/S (mm)" row="1" col="2" shortCode="" display="Yes" displayName="Shares O/S (mm)" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="398.4">398.405</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="MKT_CAP_CALC" clientCode="MKT_CAP_CALC" BM_ID="258" type="9" financialsType="Market Cap (mm)" row="3" col="2" shortCode="" display="Yes" displayName="Market Cap (mm)" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$30,673">30673.20095</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="BOOK_VAL" clientCode="BOOK_VAL" BM_ID="205" type="2" financialsType="Book Value" row="4" col="2" shortCode="" display="Yes" displayName="Book Value" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="$32.10">32.0991</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="P_BV" clientCode="P_BV" BM_ID="244" type="9" financialsType="P/BV" row="5" col="2" shortCode="" display="Yes" displayName="P/BV" dataSource="" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="2.4x">2.3985096155</CurrentValue>
+</FinancialValue>
+<FinancialValue  name="WEEKLY_DOLLAR_VOL" clientCode="WEEKLY_DOLLAR_VOL" BM_ID="266" type="2" financialsType="Wkly $Vol (000s)" row="7" col="2" shortCode="" display="Yes" displayName="Wkly $Vol (000s)" dataSource="FactSet OnDemand" currencyName="CAD" currencySymbol="C$">
+<CurrentValue  displayValue="476,670">476670</CurrentValue>
+</FinancialValue>
+</Clusters>
+<CurrentPeriod  lastPeriod="4" lastYear="2016" period="1" year="2017" nextPeriod="2" nextYear="2017" />
+<Quarters  Q1="3" />
+<Quarters  Q2="6" />
+<Quarters  Q3="9" />
+<Quarters  Q4="12" />
+<FinancialModels>
+<FinancialModel  id="765" name="BMO Estimates - Consumer Staples_EMP_MRU_L" rixmlName="A" clientCode="A" prevDocId="34493" rank="1">
+<Values  name="EPS" rank="1" clientCode="EPS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$2,625.35" displayValue="$3.01" rawDisplayValue="3.01">3.01</Value>
+<Value  year="2015" runningValue="$6,204.99" displayValue="$3.45" rawDisplayValue="3.45">3.45</Value>
+<Value  year="2016" runningValue="$6,959.66" displayValue="$4.05" rawDisplayValue="4.05">4.054</Value>
+<Value  year="2017" runningValue="$7,250.24" displayValue="$4.28" rawDisplayValue="4.28">4.282</Value>
+<Value  year="2018" runningValue="$7,444.54" displayValue="$4.55" rawDisplayValue="4.55">4.553</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="CFPS" rank="2" clientCode="CFPS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$(1,079.66)" displayValue="$6.34" rawDisplayValue="6.34">6.342</Value>
+<Value  year="2015" runningValue="$1,248.54" displayValue="$7.54" rawDisplayValue="7.54">7.545</Value>
+<Value  year="2016" runningValue="$1,232.60" displayValue="$8.60" rawDisplayValue="8.60">8.603</Value>
+<Value  year="2017" runningValue="$1,208.79" displayValue="$8.79" rawDisplayValue="8.79">8.785</Value>
+<Value  year="2018" runningValue="$1,209.16" displayValue="$9.16" rawDisplayValue="9.16">9.165</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Revenue" rank="3" clientCode="REVENUE" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$54,204" displayValue="$42,611" rawDisplayValue="42611">42611</Value>
+<Value  year="2015" runningValue="$59,711" displayValue="$45,394" rawDisplayValue="45394">45394</Value>
+<Value  year="2016" runningValue="$60,641" displayValue="$46,385" rawDisplayValue="46385">46385</Value>
+<Value  year="2017" runningValue="$60,392" displayValue="$46,574" rawDisplayValue="46574">46573.57</Value>
+<Value  year="2018" runningValue="$58,718" displayValue="$46,076" rawDisplayValue="46076">46075.925</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Normalized SSS" rank="4" clientCode="NORMAL_SSS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="11,593.4" displayValue="2.2%" rawDisplayValue="2.2">0.022</Value>
+<Value  year="2015" runningValue="14,317.0" displayValue="4.3%" rawDisplayValue="4.3">0.043</Value>
+<Value  year="2016" runningValue="14,255.7" displayValue="1.4%" rawDisplayValue="1.4">0.014</Value>
+<Value  year="2017" runningValue="13,817.9" displayValue="0.1%" rawDisplayValue="0.1">0.001</Value>
+<Value  year="2018" runningValue="12,642.4" displayValue="1.5%" rawDisplayValue="1.5">0.015</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="EBITDA (Retail)" rank="5" clientCode="EBITDA_RETAIL" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$2,622" displayValue="$3,040" rawDisplayValue="3040">3040</Value>
+<Value  year="2015" runningValue="$6,202" displayValue="$3,352" rawDisplayValue="3352">3352</Value>
+<Value  year="2016" runningValue="$6,956" displayValue="$3,631" rawDisplayValue="3631">3631</Value>
+<Value  year="2017" runningValue="$7,246" displayValue="$3,681" rawDisplayValue="3681">3680.752</Value>
+<Value  year="2018" runningValue="$7,440" displayValue="$3,763" rawDisplayValue="3763">3762.638</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+<FinancialModel  id="245" name="Consensus Estimates - BMO EPS" rixmlName="A" clientCode="CONS_MD" prevDocId="34493" rank="2">
+<Values  name="EPS" rank="1" clientCode="EPS_CONSENSUS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2015" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2016" runningValue="0" displayValue="" rawDisplayValue="" />
+<PreviousValue  year="2016" displayValue="$4.44" rawDisplayValue="4.44">4.44</PreviousValue>
+<Value  year="2017" runningValue="$4.39" displayValue="$4.39" rawDisplayValue="4.39">4.394</Value>
+<PreviousValue  year="2017" displayValue="$4.41" rawDisplayValue="4.41">4.408</PreviousValue>
+<Value  year="2018" runningValue="$4.85" displayValue="$4.85" rawDisplayValue="4.85">4.848</Value>
+<PreviousValue  year="2018" displayValue="$4.86" rawDisplayValue="4.86">4.863</PreviousValue>
+<Value  year="2019" runningValue="$5.18" displayValue="$5.18" rawDisplayValue="5.18">5.18</Value>
+<PreviousValue  year="2019" displayValue="$5.21" rawDisplayValue="5.21">5.215</PreviousValue>
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+<FinancialModel  id="1145" name="Income Statement - Consumer Staples L_MRU_EMP" rixmlName="B" clientCode="B" prevDocId="34493" rank="3">
+<Values  name="Revenue" rank="1" clientCode="REVENUE" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$42,611" displayValue="$42,611" rawDisplayValue="42611">42611</Value>
+<Value  year="2015" runningValue="$45,394" displayValue="$45,394" rawDisplayValue="45394">45394</Value>
+<Value  year="2016" runningValue="$46,385" displayValue="$46,385" rawDisplayValue="46385">46385</Value>
+<Value  year="2017" runningValue="$46,574" displayValue="$46,574" rawDisplayValue="46574">46573.57</Value>
+<Value  year="2018" runningValue="$46,076" displayValue="$46,076" rawDisplayValue="46076">46075.925</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Sales" rank="2" clientCode="SALES" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$42,611" displayValue="" rawDisplayValue="" />
+<Value  year="2015" runningValue="$45,394" displayValue="" rawDisplayValue="" />
+<Value  year="2016" runningValue="$46,385" displayValue="" rawDisplayValue="" />
+<Value  year="2017" runningValue="$46,574" displayValue="" rawDisplayValue="" />
+<Value  year="2018" runningValue="$46,076" displayValue="" rawDisplayValue="" />
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Gross Profit" rank="3" clientCode="GROSS_PROFIT" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="53,159" displayValue="10,548" rawDisplayValue="10548">10548</Value>
+<Value  year="2015" runningValue="57,942" displayValue="12,548" rawDisplayValue="12548">12548</Value>
+<Value  year="2016" runningValue="59,557" displayValue="13,172" rawDisplayValue="13172">13172</Value>
+<Value  year="2017" runningValue="59,850" displayValue="13,276" rawDisplayValue="13276">13276.014</Value>
+<Value  year="2018" runningValue="59,491" displayValue="13,415" rawDisplayValue="13415">13414.75</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="SG&amp;A" rank="4" clientCode="SGANDA" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="61,573" displayValue="8,414" rawDisplayValue="8414">8414</Value>
+<Value  year="2015" runningValue="67,304" displayValue="9,362" rawDisplayValue="9362">9362</Value>
+<Value  year="2016" runningValue="69,094" displayValue="9,537" rawDisplayValue="9537">9537</Value>
+<Value  year="2017" runningValue="69,226" displayValue="9,376" rawDisplayValue="9376">9376.261</Value>
+<Value  year="2018" runningValue="68,911" displayValue="9,420" rawDisplayValue="9420">9420.236</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="EBITDA" rank="5" clientCode="EBITDA_BLOCK_MODEL" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="61,573" displayValue="" rawDisplayValue="" />
+<Value  year="2015" runningValue="70,490" displayValue="3,186" rawDisplayValue="3186">3186</Value>
+<Value  year="2016" runningValue="72,729" displayValue="3,635" rawDisplayValue="3635">3635</Value>
+<Value  year="2017" runningValue="73,126" displayValue="3,900" rawDisplayValue="3900">3899.752</Value>
+<Value  year="2018" runningValue="72,905" displayValue="3,995" rawDisplayValue="3995">3994.514</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="EBIT" rank="6" clientCode="EBIT" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="65,275" displayValue="662" rawDisplayValue="662">662</Value>
+<Value  year="2015" runningValue="75,443" displayValue="1,601" rawDisplayValue="1601">1601</Value>
+<Value  year="2016" runningValue="78,452" displayValue="2,092" rawDisplayValue="2092">2092</Value>
+<Value  year="2017" runningValue="79,163" displayValue="2,356" rawDisplayValue="2356">2356.419</Value>
+<Value  year="2018" runningValue="79,136" displayValue="2,468" rawDisplayValue="2468">2468.18</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Interest Expense" rank="7" clientCode="INTEREST_EXP" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="64,769" displayValue="(506)" rawDisplayValue="(506)">-506</Value>
+<Value  year="2015" runningValue="76,087" displayValue="644" rawDisplayValue="644">644</Value>
+<Value  year="2016" runningValue="78,926" displayValue="474" rawDisplayValue="474">474</Value>
+<Value  year="2017" runningValue="79,569" displayValue="406" rawDisplayValue="406">406.25</Value>
+<Value  year="2018" runningValue="79,691" displayValue="555" rawDisplayValue="555">554.667</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Net Earnings" rank="8" clientCode="NET_EARN" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="64,822" displayValue="53" rawDisplayValue="53">53</Value>
+<Value  year="2015" runningValue="76,719" displayValue="632" rawDisplayValue="632">632</Value>
+<Value  year="2016" runningValue="79,909" displayValue="983" rawDisplayValue="983">983</Value>
+<Value  year="2017" runningValue="80,911" displayValue="1,342" rawDisplayValue="1342">1341.723</Value>
+<Value  year="2018" runningValue="81,108" displayValue="1,417" rawDisplayValue="1417">1416.865</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="EPS" rank="9" clientCode="EPS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$146,949.29" displayValue="$3.01" rawDisplayValue="3.01">3.01</Value>
+<Value  year="2015" runningValue="$165,658.73" displayValue="$3.45" rawDisplayValue="3.45">3.45</Value>
+<Value  year="2016" runningValue="$170,651.51" displayValue="$4.05" rawDisplayValue="4.05">4.054</Value>
+<Value  year="2017" runningValue="$173,015.86" displayValue="$4.28" rawDisplayValue="4.28">4.282</Value>
+<Value  year="2018" runningValue="$175,149.44" displayValue="$4.55" rawDisplayValue="4.55">4.553</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+<FinancialModel  id="368" name="Cash Flow Statement - Consumer Staples" rixmlName="B" clientCode="B" prevDocId="34493" rank="4">
+<Values  name="Cash From Operating Activities" rank="1" clientCode="CASH_FROM_OP_ACTY" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="64,822" displayValue="" rawDisplayValue="" />
+<Value  year="2015" runningValue="76,719" displayValue="" rawDisplayValue="" />
+<Value  year="2016" runningValue="79,909" displayValue="" rawDisplayValue="" />
+<Value  year="2017" runningValue="80,911" displayValue="" rawDisplayValue="" />
+<Value  year="2018" runningValue="81,108" displayValue="" rawDisplayValue="" />
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Capex" rank="2" clientCode="CAPEX" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="63,736" displayValue="(1,086)" rawDisplayValue="(1086)">-1086</Value>
+<Value  year="2015" runningValue="77,960" displayValue="1,241" rawDisplayValue="1241">1241</Value>
+<Value  year="2016" runningValue="81,133" displayValue="1,224" rawDisplayValue="1224">1224</Value>
+<Value  year="2017" runningValue="82,111" displayValue="1,200" rawDisplayValue="1200">1200</Value>
+<Value  year="2018" runningValue="82,308" displayValue="1,200" rawDisplayValue="1200">1200</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Share Repurchase (Net)" rank="3" clientCode="SHARE_REPURCHASE_NET" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="63,558" displayValue="(178)" rawDisplayValue="(178)">-178</Value>
+<Value  year="2015" runningValue="78,303" displayValue="343" rawDisplayValue="343">343</Value>
+<Value  year="2016" runningValue="81,931" displayValue="798" rawDisplayValue="798">798</Value>
+<Value  year="2017" runningValue="82,811" displayValue="700" rawDisplayValue="700">700</Value>
+<Value  year="2018" runningValue="83,008" displayValue="700" rawDisplayValue="700">700</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Dividends" rank="4" clientCode="DIVIDENDS_PAID" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="63,558" displayValue="" rawDisplayValue="" />
+<Value  year="2015" runningValue="78,719" displayValue="416" rawDisplayValue="416">416</Value>
+<Value  year="2016" runningValue="82,356" displayValue="425" rawDisplayValue="425">425</Value>
+<Value  year="2017" runningValue="83,237" displayValue="427" rawDisplayValue="427">426.693</Value>
+<Value  year="2018" runningValue="83,450" displayValue="442" rawDisplayValue="442">442.453</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Interest Expense" rank="5" clientCode="INTEREST_EXP" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="64,769" displayValue="(506)" rawDisplayValue="(506)">-506</Value>
+<Value  year="2015" runningValue="76,087" displayValue="644" rawDisplayValue="644">644</Value>
+<Value  year="2016" runningValue="78,926" displayValue="474" rawDisplayValue="474">474</Value>
+<Value  year="2017" runningValue="79,569" displayValue="406" rawDisplayValue="406">406.25</Value>
+<Value  year="2018" runningValue="79,691" displayValue="555" rawDisplayValue="555">554.667</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Free Cash Flow" rank="6" clientCode="FREE_CASH_FLOW" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="63,533" displayValue="481" rawDisplayValue="481">481</Value>
+<Value  year="2015" runningValue="80,710" displayValue="1,347" rawDisplayValue="1347">1347</Value>
+<Value  year="2016" runningValue="84,651" displayValue="1,821" rawDisplayValue="1821">1821</Value>
+<Value  year="2017" runningValue="85,564" displayValue="1,921" rawDisplayValue="1921">1920.733</Value>
+<Value  year="2018" runningValue="86,001" displayValue="1,996" rawDisplayValue="1996">1996.027</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Free Cash Flow Per Share" rank="7" clientCode="FREE_CASH_FLOW_PER_SHARE" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$63,534.26" displayValue="$1.26" rawDisplayValue="1.26">1.256</Value>
+<Value  year="2015" runningValue="$80,713.24" displayValue="$3.24" rawDisplayValue="3.24">3.238</Value>
+<Value  year="2016" runningValue="$84,655.45" displayValue="$4.45" rawDisplayValue="4.45">4.452</Value>
+<Value  year="2017" runningValue="$85,569.20" displayValue="$4.78" rawDisplayValue="4.78">4.784</Value>
+<Value  year="2018" runningValue="$86,005.99" displayValue="$5.06" rawDisplayValue="5.06">5.065</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+<FinancialModel  id="369" name="Balance Sheet - Consumer Staples" rixmlName="B" clientCode="B" prevDocId="34493" rank="5">
+<Values  name="Total Current Assets" rank="1" clientCode="TOT_CUR_ASSETS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="72,939" displayValue="9,405" rawDisplayValue="9405">9405</Value>
+<Value  year="2015" runningValue="90,568" displayValue="9,855" rawDisplayValue="9855">9855</Value>
+<Value  year="2016" runningValue="94,859" displayValue="10,204" rawDisplayValue="10204">10204</Value>
+<Value  year="2017" runningValue="96,584" displayValue="11,015" rawDisplayValue="11015">11015.298</Value>
+<Value  year="2018" runningValue="97,875" displayValue="11,869" rawDisplayValue="11869">11869.131</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Total Assets" rank="2" clientCode="TOTAL_ASSETS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="106,698" displayValue="33,759" rawDisplayValue="33759">33759</Value>
+<Value  year="2015" runningValue="124,507" displayValue="33,939" rawDisplayValue="33939">33939</Value>
+<Value  year="2016" runningValue="129,295" displayValue="34,436" rawDisplayValue="34436">34436</Value>
+<Value  year="2017" runningValue="131,348" displayValue="34,764" rawDisplayValue="34764">34763.548</Value>
+<Value  year="2018" runningValue="133,022" displayValue="35,147" rawDisplayValue="35147">35147.381</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Total Current Liabilities" rank="3" clientCode="TOT_CUR_LIAB" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="113,195" displayValue="6,497" rawDisplayValue="6497">6497</Value>
+<Value  year="2015" runningValue="131,729" displayValue="7,222" rawDisplayValue="7222">7222</Value>
+<Value  year="2016" runningValue="136,237" displayValue="6,942" rawDisplayValue="6942">6942</Value>
+<Value  year="2017" runningValue="138,274" displayValue="6,926" rawDisplayValue="6926">6926</Value>
+<Value  year="2018" runningValue="140,023" displayValue="7,001" rawDisplayValue="7001">7001</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Total Liabilities" rank="4" clientCode="TOTAL_LIAB" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="134,167" displayValue="20,972" rawDisplayValue="20972">20972</Value>
+<Value  year="2015" runningValue="152,504" displayValue="20,775" rawDisplayValue="20775">20775</Value>
+<Value  year="2016" runningValue="157,645" displayValue="21,408" rawDisplayValue="21408">21408</Value>
+<Value  year="2017" runningValue="159,629" displayValue="21,355" rawDisplayValue="21355">21355.259</Value>
+<Value  year="2018" runningValue="161,323" displayValue="21,299" rawDisplayValue="21299">21299.421</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Net Debt" rank="5" clientCode="NET_DEBT" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="155,917" displayValue="8,968" rawDisplayValue="8968">8968</Value>
+<Value  year="2015" runningValue="173,771" displayValue="8,112" rawDisplayValue="8112">8112</Value>
+<Value  year="2016" runningValue="177,948" displayValue="7,296" rawDisplayValue="7296">7296</Value>
+<Value  year="2017" runningValue="179,584" displayValue="6,568" rawDisplayValue="6568">6567.702</Value>
+<Value  year="2018" runningValue="180,347" displayValue="5,198" rawDisplayValue="5198">5197.869</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Total Shareholders&#39; Equity" rank="6" clientCode="TOT_SHHLDR_EQ" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="146,946" displayValue="12,779" rawDisplayValue="12779">12779</Value>
+<Value  year="2015" runningValue="165,655" displayValue="13,151" rawDisplayValue="13151">13151</Value>
+<Value  year="2016" runningValue="170,647" displayValue="13,002" rawDisplayValue="13002">13002</Value>
+<Value  year="2017" runningValue="173,012" displayValue="13,382" rawDisplayValue="13382">13382.289</Value>
+<Value  year="2018" runningValue="175,145" displayValue="13,822" rawDisplayValue="13822">13821.96</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+<FinancialModel  id="1147" name="Key Metrics - Consumer Staples L_MRU_EMP" rixmlName="B" clientCode="B" prevDocId="34493" rank="6">
+<Values  name="Retail Inflation" rank="1" clientCode="RETAIL_INFLATION" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="146,946.3" displayValue="2.6%" rawDisplayValue="2.6">0.026</Value>
+<Value  year="2015" runningValue="165,655.3" displayValue="4.3%" rawDisplayValue="4.3">0.043</Value>
+<Value  year="2016" runningValue="170,647.5" displayValue="0.8%" rawDisplayValue="0.8">0.008</Value>
+<Value  year="2017" runningValue="173,011.6" displayValue="-2.1%" rawDisplayValue="2.1">-0.021</Value>
+<Value  year="2018" runningValue="175,144.9" displayValue="1.0%" rawDisplayValue="1.0">0.01</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="Normalized SSS" rank="2" clientCode="NORMAL_SSS" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="155,917.3" displayValue="2.2%" rawDisplayValue="2.2">0.022</Value>
+<Value  year="2015" runningValue="173,770.8" displayValue="4.3%" rawDisplayValue="4.3">0.043</Value>
+<Value  year="2016" runningValue="177,947.5" displayValue="1.4%" rawDisplayValue="1.4">0.014</Value>
+<Value  year="2017" runningValue="179,583.6" displayValue="0.1%" rawDisplayValue="0.1">0.001</Value>
+<Value  year="2018" runningValue="180,347.3" displayValue="1.5%" rawDisplayValue="1.5">0.015</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+<Values  name="EBITDA (Retail)" rank="3" clientCode="EBITDA_RETAIL" isBold="false" isIndent="false" isShowLine="false" isAlwaysPositive="false" isAlwaysNegative="false" option="" currency="C$">
+<Value  year="2014" runningValue="$64,613" displayValue="$3,040" rawDisplayValue="3040">3040</Value>
+<Value  year="2015" runningValue="$73,842" displayValue="$3,352" rawDisplayValue="3352">3352</Value>
+<Value  year="2016" runningValue="$76,360" displayValue="$3,631" rawDisplayValue="3631">3631</Value>
+<Value  year="2017" runningValue="$76,806" displayValue="$3,681" rawDisplayValue="3681">3680.752</Value>
+<Value  year="2018" runningValue="$76,668" displayValue="$3,763" rawDisplayValue="3763">3762.638</Value>
+<Value  year="2019" runningValue="0" displayValue="" rawDisplayValue="" />
+<Value  year="2020" runningValue="0" displayValue="" rawDisplayValue="" />
+</Values>
+</FinancialModel>
+</FinancialModels>
+<FinancialModelCalculations />
+</Security>
+</SecurityDetails>
+<CustomFields />
+</Issuer>
+</IssuerDetails>
+</Context>
+<Legal>
+<MAR  sequence="1" publishedDateTime="2017-05-03T08:20:43.00" releasedDateTime="2017-05-03T08:20:42.00" timezone="EDT" />
+<Disclosure  code="5" typeId="1" isPrimaryTopic="1" ticker="L-TSX" companyName="Loblaw Companies" priority="5"><![CDATA[Disclosure 5: BMO Capital Markets or an affiliate received compensation for products or services other than investment banking services within the past 12 months from Loblaw Companies.]]></Disclosure>
+<Disclosure  code="6C" typeId="1" isPrimaryTopic="1" ticker="L-TSX" companyName="Loblaw Companies" priority="9"><![CDATA[Disclosure 6C: Loblaw Companies is a client (or was a client) of <font style="line-height:20.8px">BMO Nesbitt Burns Inc., BMO Capital Markets Corp., BMO Capital Markets Limited</font> or an affiliate within the past 12 months: C) Non-Securities Related Services.]]></Disclosure>
+<Disclosure  code="8A" typeId="1" isPrimaryTopic="1" ticker="L-TSX" companyName="Loblaw Companies" priority="11"><![CDATA[Disclosure 8A: BMO Capital Markets or an affiliate has a financial interest in 1% or more of any class of the equity securities of Loblaw Companies.]]></Disclosure>
+<Disclosure  code="8C" typeId="1" isPrimaryTopic="1" ticker="L-TSX" companyName="Loblaw Companies" priority="12"><![CDATA[Disclosure 8C: BMO Capital Markets or an affiliate has a financial interest in 0.5% or more in the issued share capital of Loblaw Companies.]]></Disclosure>
+<Disclosure  code="8E" typeId="1" isPrimaryTopic="1" ticker="L-TSX" companyName="Loblaw Companies" priority="12"><![CDATA[Disclosure 8E: BMO Capital Markets trades or may trade as principal in the debt securities of Loblaw Companies.]]></Disclosure>
+<Disclaimer  code="DOR_LEGEND" typeId="2" priority="2"><![CDATA[* Reflects rating distribution of all companies covered by BMO Capital Markets Corp. equity research analysts.<br/>** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage within ratings category.<br/>*** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage of Investment Banking clients.<br/>**** Reflects rating distribution of all companies covered by BMO Capital Markets equity research analysts.<br/>***** Reflects rating distribution of all companies from which BMO Capital Markets has received compensation for Investment Banking services as percentage of Investment Banking clients.]]></Disclaimer>
+<Disclaimer  code="RATINGS" typeId="2" priority="2"><![CDATA[<p><strong>Ratings Key (as of October 2016)</strong></p><p>We use the following ratings system definitions:<br/>OP = Outperform - Forecast to outperform the analyst&#8217;s coverage universe on a total return basis;<br/>Mkt = Market Perform - Forecast to perform roughly in line with the analyst&#8217;s coverage universe on a total return basis;<br/>Und = Underperform - Forecast to underperform the analyst&#8217;s coverage universe on a total return basis;<br/>(S) = Speculative investment;<br/>Spd = Suspended - Coverage and rating suspended until coverage is reinstated;<br/>NR = No Rated - No rating at this time; and<br/>R = Restricted - Dissemination of research is currently restricted.</p><p>BMO Capital Markets&#39; seven Top 15 lists guide investors to our best ideas according to different objectives (CDN Large Cap, CDN Small Cap, US Large Cap, US Small Cap, Income, CDN Quant, and US Quant have replaced the Top Pick rating).</p><p><strong>Prior BMO Capital Markets Rating System</strong></p><p><strong>(April 2013 - October 2016)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf</a></p><p><strong>(January 2010 - April 2013)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf</a></p>]]></Disclaimer>
+<Disclaimer  code="OTHER_DIS" typeId="2" priority="3"><![CDATA[<p><strong>Other Important Disclosures</strong></p><p>For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a> or write to Editorial Department, BMO Capital Markets, 3 Times Square, New York, NY 10036 or Editorial Department, BMO Capital Markets, 1 First Canadian Place, Toronto, Ontario, M5X 1H3.</p><p><strong>Dissemination of Research</strong></p><p>Dissemination of BMO Capital Markets Equity Research is available via our website <a href="https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx">https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx</a>. Institutional clients may also receive our research via Thomson Reuters, Bloomberg, FactSet, and Capital IQ. Research reports and other commentary are required to be simultaneously disseminated internally and externally to our clients.</p><p>~ Research distribution and approval times are provided on the cover of each report. Times are approximations as system and distribution processes are not exact and can vary based on the sender and recipients&#8217; services. Unless otherwise noted, times are Eastern Standard and when two times are provided, the approval time precedes the distribution time.</p><p>BMO Capital Markets may use proprietary models in the preparation of reports. Material information about such models may be obtained by contacting the research analyst directly. There is no planned frequency of updates to this report.</p><p><strong>General Disclaimer</strong></p><p>&quot;BMO Capital Markets&quot; is a trade name used by the BMO Investment Banking Group, which includes the wholesale arm of Bank of Montreal and its subsidiaries BMO Nesbitt Burns Inc., BMO Capital Markets Limited in the U.K. and BMO Capital Markets Corp. in the U.S. BMO Nesbitt Burns Inc., BMO Capital Markets Limited and BMO Capital Markets Corp are affiliates. Bank of Montreal or its subsidiaries (&quot;BMO Financial Group&quot;) has lending arrangements with, or provide other remunerated services to, many issuers covered by BMO Capital Markets. The opinions, estimates and projections contained in this report are those of BMO Capital Markets as of the date of this report and are subject to change without notice. BMO Capital Markets endeavours to ensure that the contents have been compiled or derived from sources that we believe are reliable and contain information and opinions that are accurate and complete. However, BMO Capital Markets makes no representation or warranty, express or implied, in respect thereof, takes no responsibility for any errors and omissions contained herein and accepts no liability whatsoever for any loss arising from any use of, or reliance on, this report or its contents. Information may be available to BMO Capital Markets or its affiliates that is not reflected in this report. The information in this report is not intended to be used as the primary basis of investment decisions, and because of individual client objectives, should not be construed as advice designed to meet the particular investment needs of any investor. This material is for information purposes only and is not an offer to sell or the solicitation of an offer to buy any security. BMO Capital Markets or its affiliates will buy from or sell to customers the securities of issuers mentioned in this report on a principal basis. BMO Capital Markets or its affiliates, officers, directors or employees have a long or short position in many of the securities discussed herein, related securities or in options, futures or other derivative instruments based thereon. The reader should assume that BMO Capital Markets or its affiliates may have a conflict of interest and should not rely solely on this report in evaluating whether or not to buy or sell securities of issuers discussed herein.</p><p><strong>Additional Matters</strong></p><p>To Canadian Residents: BMO Nesbitt Burns Inc. furnishes this report to Canadian residents and accepts responsibility for the contents herein subject to the terms set out above. Any Canadian person wishing to effect transactions in any of the securities included in this report should do so through BMO Nesbitt Burns Inc.</p><p>The following applies if this research was prepared in whole or in part by Alexander Pearce, David Round, Edward Sterck or Brendan Warn: This research is not prepared subject to Canadian disclosure requirements. This research is prepared by BMO Capital Markets Limited and subject to the regulations of the Financial Conduct Authority (FCA) in the United Kingdom. FCA regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 5% or more of the equity of the issuer. Canadian regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 1% or more of the equity of the issuer that is the subject of the research. Therefore BMO Capital Markets Limited will disclose its and its affiliates&#39; ownership interest in the subject issuer only if such ownership exceeds 5% of the equity of the issuer.</p><p>To E.U. Residents: In an E.U. Member State this document is issued and distributed by BMO Capital Markets Limited which is authorised and regulated in the UK and operates in the E.U. on a passported basis. This document is only intended for Professional Clients, as defined in Annex II to &#8220;Markets in Financial Instruments Directive&#8221; 2004/39/EC (&#8220;MiFID&#8221;).</p><p>To U.S. Residents: BMO Capital Markets Corp. furnishes this report to U.S. residents and accepts responsibility for the contents herein, except to the extent that it refers to securities of Bank of Montreal. Any U.S. person wishing to effect transactions in any security discussed herein should do so through BMO Capital Markets Corp.</p><p>To U.K. Residents: In the UK this document is published by BMO Capital Markets Limited which is authorised and regulated by the Financial Conduct Authority. The contents hereof are intended solely for the use of, and may only be issued or passed on to, (I) persons who have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the &quot;Order&quot;) or (II) high net worth entities falling within Article 49(2)(a) to (d) of the Order (all such persons together referred to as &quot;relevant persons&quot;). The contents hereof are not intended for the use of and may not be issued or passed on to retail clients.</p><p>Unauthorized reproduction, distribution, transmission or publication without the prior written consent of BMO Capital Markets is strictly prohibited.</p><p><a href="http://research-ca.bmocapitalmarkets.com/documents/C17EA078-97CF-4438-AC2C-B5A8118F8C4B.PDF">Click here</a> for data vendor disclosures when referenced within a BMO Capital Markets research document.</p>]]></Disclaimer>
+<Disclaimer  code="ADDL_INFO" typeId="2" priority="16"><![CDATA[<p align="center"><strong>ADDITIONAL INFORMATION IS AVAILABLE UPON REQUEST</strong><br/>BMO Financial Group (NYSE, TSX: BMO) is an integrated financial services provider offering a range of retail banking, wealth management, and investment and corporate banking products. BMO serves Canadian retail clients through BMO Bank of Montreal and BMO Nesbitt Burns. In the United States, personal and commercial banking clients are served by BMO Harris Bank N.A., (Member FDIC). Investment and corporate banking services are provided in Canada and the US through BMO Capital Markets.</p><p align="center">BMO Capital Markets is a trade name used by BMO Financial Group for the wholesale banking businesses of Bank of Montreal, BMO Harris Bank N.A, (Member FDIC), BMO Ireland Plc, and Bank of Montreal (China) Co. Ltd. and the institutional broker dealer businesses of BMO Capital Markets Corp. (Member SIPC) in the U.S., BMO Nesbitt Burns Inc. (Member Canadian Investor Protection Fund) in Canada, Europe and Asia, BMO Capital Markets Limited in Europe and Australia and BMO Advisors Private Limited in India.</p><p align="center">&#174; Registered trademark of Bank of Montreal in the United States, Canada and elsewhere.<br/>TM Trademark Bank of Montreal</p><p align="center">&#169;COPYRIGHT 2017 BMO CAPITAL MARKETS CORP.</p><p align="center"><img width="300" src="http://research-ca.bmocapitalmarkets.com/ebooks/a-member-of-bmo-financial.jpg" height="29" alt="A Member of BMO Financial Group"/></p>]]></Disclaimer>
+<Disclaimer  code="P1-CA" typeId="2" priority="1"><![CDATA[This report was prepared by an analyst(s) employed by BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="P1-UK" typeId="2" priority="1"><![CDATA[This report was prepared by an analyst(s) employed by BMO Capital Markets Limited, authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="P1-CAUSUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by analysts employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited, authorised and regulated by the Financial Services Authority in the UK, and who are not registered as research analysts under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="P1-CAUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK, and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="P1-CAUS" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="P1-USUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
+<Disclaimer  code="COMP" typeId="2" priority="1"><![CDATA[For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a>.]]></Disclaimer>
+<Disclaimer  code="REG_AC" typeId="6" priority="1"><![CDATA[<p>I, Peter Sklar, hereby certify that the views expressed in this report accurately reflect my personal views about the subject securities or issuers. I also certify that no part of my compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.</p><p>Analysts who prepared this report are compensated based upon (among other factors) the overall profitability of BMO Capital Markets and their affiliates, which includes the overall profitability of investment banking services. Compensation for research is based on effectiveness in generating new ideas and in communication of ideas to clients, performance of recommendations, accuracy of earnings estimates, and service to clients.</p><p>Analysts employed by BMO Nesbitt Burns Inc. and/or BMO Capital Markets Limited are not registered as research analysts with FINRA. These analysts may not be associated persons of BMO Capital Markets Corp. and therefore may not be subject to the FINRA Rule 2241 restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.</p>]]></Disclaimer>
+<Chart  ticker="L-TSX">
+<URLsvg>/nas/web/charts/clients/18524/out/large/L-TSX.svg</URLsvg>
+<staticURL>/nas/web/charts/clients/18524/out/largeStatic/L-TSX.35494.png</staticURL>
+<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/L-TSX.35494.png</staticURL2>
+</Chart>
+</Legal>
+<Extended>
+<Security  securityId="788" pricingSymbol="L-TSX">
+<CustomFields>
+<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
+<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">L495002</CustomField>
+<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+<SiblingSecurities />
+<TimesSeriesList  description="EPS" clientsDescription="EPS" rank="1" id="1" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Q1" periodEnd="2015-03-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.73">0.73</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Q2" periodEnd="2015-06-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.84">0.84</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Q3" periodEnd="2015-09-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.98">0.98</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Q4" periodEnd="2015-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.88">0.88</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$3.45">3.45</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Q1" periodEnd="2016-03-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.82">0.82</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Q2" periodEnd="2016-06-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$1.01">1.014</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Q3" periodEnd="2016-09-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$1.26">1.26</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Q4" periodEnd="2016-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.97">0.974</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$4.05">4.0537</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Q1" periodEnd="2017-03-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$0.87">0.8741</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Q2" periodEnd="2017-06-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$1.09">1.0857</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Q3" periodEnd="2017-09-30T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$1.29">1.2889</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Q4" periodEnd="2017-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$1.06">1.0571</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$4.28">4.2824</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="EPS">
+<CurrentValue  displayValue="$4.55">4.5528</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="CFPS" clientsDescription="CFPS" rank="1" id="24" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="CFPS">
+<CurrentValue  displayValue="$7.54">7.5445</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="CFPS">
+<CurrentValue  displayValue="$8.60">8.6027</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="CFPS">
+<CurrentValue  displayValue="$8.79">8.7851</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="CFPS">
+<CurrentValue  displayValue="$9.16">9.1648</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Revenue" clientsDescription="REVENUE" rank="1" id="1008" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Revenue">
+<CurrentValue  displayValue="$45,394">45394</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Revenue">
+<CurrentValue  displayValue="$46,385">46385</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Revenue">
+<CurrentValue  displayValue="$46,574">46573.57</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Revenue">
+<CurrentValue  displayValue="$46,076">46075.9251</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Normalized SSS" clientsDescription="NORMAL_SSS" rank="1" id="254" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Normalized SSS">
+<CurrentValue  displayValue="4.3%">4.2956758347</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Normalized SSS">
+<CurrentValue  displayValue="1.4%">1.4461538462</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Normalized SSS">
+<CurrentValue  displayValue="0.1%">0.0769230769</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Normalized SSS">
+<CurrentValue  displayValue="1.5%">1.5</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="EBITDA (Retail)" clientsDescription="EBITDA_RETAIL" rank="1" id="165" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="EBITDA (Retail)">
+<CurrentValue  displayValue="$3,352">3352</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="EBITDA (Retail)">
+<CurrentValue  displayValue="$3,631">3631</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="EBITDA (Retail)">
+<CurrentValue  displayValue="$3,681">3680.7522860521</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="EBITDA (Retail)">
+<CurrentValue  displayValue="$3,763">3762.6381456191</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="EPS (Consensus)" clientsDescription="EPS_CONSENSUS" rank="1" id="90" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="EPS (Consensus)">
+<CurrentValue  displayValue="$4.39">4.39417</CurrentValue>
+<PreviousValue  displayValue="$4.41" type="DECREASE" estimateActual="Estimate">4.40833</PreviousValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="EPS (Consensus)">
+<CurrentValue  displayValue="$4.85">4.84833</CurrentValue>
+<PreviousValue  displayValue="$4.86" type="DECREASE" estimateActual="Estimate">4.86333</PreviousValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Gross Profit" clientsDescription="GROSS_PROFIT" rank="1" id="630" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Gross Profit">
+<CurrentValue  displayValue="12,548">12548</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Gross Profit">
+<CurrentValue  displayValue="13,172">13172</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Gross Profit">
+<CurrentValue  displayValue="13,276">13276.0136909705</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Gross Profit">
+<CurrentValue  displayValue="13,415">13414.7497052716</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="SG&amp;A" clientsDescription="SGANDA" rank="1" id="1061" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="SG&amp;A">
+<CurrentValue  displayValue="9,362">9362</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="SG&amp;A">
+<CurrentValue  displayValue="9,537">9537</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="SG&amp;A">
+<CurrentValue  displayValue="9,376">9376.2614049184</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="SG&amp;A">
+<CurrentValue  displayValue="9,420">9420.2360596525</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="EBITDA BSM" clientsDescription="EBITDA_BLOCK_MODEL" rank="1" id="2276" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="EBITDA BSM">
+<CurrentValue  displayValue="3,186">3186</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="EBITDA BSM">
+<CurrentValue  displayValue="3,635">3635</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="EBITDA BSM">
+<CurrentValue  displayValue="3,900">3899.7522860521</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="EBITDA BSM">
+<CurrentValue  displayValue="3,995">3994.5136456191</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="EBIT" clientsDescription="EBIT" rank="1" id="3" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="EBIT">
+<CurrentValue  displayValue="1,601">1601</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="EBIT">
+<CurrentValue  displayValue="2,092">2092</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="EBIT">
+<CurrentValue  displayValue="2,356">2356.4189527188</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="EBIT">
+<CurrentValue  displayValue="2,468">2468.1803122858</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Interest Expense" clientsDescription="INTEREST_EXP" rank="1" id="96" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Interest Expense">
+<CurrentValue  displayValue="644">644</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Interest Expense">
+<CurrentValue  displayValue="474">474</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Interest Expense">
+<CurrentValue  displayValue="406">406.25</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Interest Expense">
+<CurrentValue  displayValue="555">554.6666666667</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Net Earnings" clientsDescription="NET_EARN" rank="1" id="781" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Net Earnings">
+<CurrentValue  displayValue="632">632</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Net Earnings">
+<CurrentValue  displayValue="983">983</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Net Earnings">
+<CurrentValue  displayValue="1,342">1341.723291279</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Net Earnings">
+<CurrentValue  displayValue="1,417">1416.8649613019</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Capex" clientsDescription="CAPEX" rank="1" id="185" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Capex">
+<CurrentValue  displayValue="1,241">1241</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Capex">
+<CurrentValue  displayValue="1,224">1224</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Capex">
+<CurrentValue  displayValue="1,200">1200</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Capex">
+<CurrentValue  displayValue="1,200">1200</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Share Repurchase (Net)" clientsDescription="SHARE_REPURCHASE_NET" rank="1" id="1067" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Share Repurchase (Net)">
+<CurrentValue  displayValue="343">343</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Share Repurchase (Net)">
+<CurrentValue  displayValue="798">798</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Share Repurchase (Net)">
+<CurrentValue  displayValue="700">700</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Share Repurchase (Net)">
+<CurrentValue  displayValue="700">700</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Dividends paid" clientsDescription="DIVIDENDS_PAID" rank="1" id="550" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Dividends paid">
+<CurrentValue  displayValue="416">416</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Dividends paid">
+<CurrentValue  displayValue="425">425</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Dividends paid">
+<CurrentValue  displayValue="427">426.69293504</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Dividends paid">
+<CurrentValue  displayValue="442">442.4525808</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Free Cash Flow" clientsDescription="FREE_CASH_FLOW" rank="1" id="599" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Free Cash Flow">
+<CurrentValue  displayValue="1,347">1347</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Free Cash Flow">
+<CurrentValue  displayValue="1,821">1821</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Free Cash Flow">
+<CurrentValue  displayValue="1,921">1920.732532805</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Free Cash Flow">
+<CurrentValue  displayValue="1,996">1996.0271323812</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Free Cash Flow Per Share" clientsDescription="FREE_CASH_FLOW_PER_SHARE" rank="1" id="603" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Free Cash Flow Per Share">
+<CurrentValue  displayValue="$3.24">3.2379807692</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Free Cash Flow Per Share">
+<CurrentValue  displayValue="$4.45">4.4516844278</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Free Cash Flow Per Share">
+<CurrentValue  displayValue="$4.78">4.7842018353</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Free Cash Flow Per Share">
+<CurrentValue  displayValue="$5.06">5.0645094345</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Total Current Assets" clientsDescription="TOT_CUR_ASSETS" rank="1" id="103" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Total Current Assets">
+<CurrentValue  displayValue="9,855">9855</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Total Current Assets">
+<CurrentValue  displayValue="10,204">10204</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Total Current Assets">
+<CurrentValue  displayValue="11,015">11015.2982</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Total Current Assets">
+<CurrentValue  displayValue="11,869">11869.1314</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Total Assets" clientsDescription="TOTAL_ASSETS" rank="1" id="105" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Total Assets">
+<CurrentValue  displayValue="33,939">33939</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Total Assets">
+<CurrentValue  displayValue="34,436">34436</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Total Assets">
+<CurrentValue  displayValue="34,764">34763.5482</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Total Assets">
+<CurrentValue  displayValue="35,147">35147.3814</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Total Current Liabilities" clientsDescription="TOT_CUR_LIAB" rank="1" id="106" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Total Current Liabilities">
+<CurrentValue  displayValue="7,222">7222</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Total Current Liabilities">
+<CurrentValue  displayValue="6,942">6942</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Total Current Liabilities">
+<CurrentValue  displayValue="6,926">6926</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Total Current Liabilities">
+<CurrentValue  displayValue="7,001">7001</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Total Liabilities" clientsDescription="TOTAL_LIAB" rank="1" id="107" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Total Liabilities">
+<CurrentValue  displayValue="20,775">20775</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Total Liabilities">
+<CurrentValue  displayValue="21,408">21408</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Total Liabilities">
+<CurrentValue  displayValue="21,355">21355.2592</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Total Liabilities">
+<CurrentValue  displayValue="21,299">21299.4214</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Net Debt" clientsDescription="NET_DEBT" rank="1" id="776" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Net Debt">
+<CurrentValue  displayValue="8,112">8112</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Net Debt">
+<CurrentValue  displayValue="7,296">7296</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Net Debt">
+<CurrentValue  displayValue="6,568">6567.7018</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Net Debt">
+<CurrentValue  displayValue="5,198">5197.8686</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Total Shareholders&#39; Equity" clientsDescription="TOT_SHHLDR_EQ" rank="1" id="118" securityFinancialsType="" view="Full" qualifier="--" currencyName="CAD" currencySymbol="C$" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Total Shareholders&#39; Equity">
+<CurrentValue  displayValue="13,151">13151</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Total Shareholders&#39; Equity">
+<CurrentValue  displayValue="13,002">13002</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Total Shareholders&#39; Equity">
+<CurrentValue  displayValue="13,382">13382.289</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Total Shareholders&#39; Equity">
+<CurrentValue  displayValue="13,822">13821.96</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+<TimesSeriesList  description="Retail Inflation" clientsDescription="RETAIL_INFLATION" rank="1" id="1006" securityFinancialsType="" view="Full" qualifier="--" fiscalId="1" fiscalCalendar="Fiscal" qualifierId="0" gridNameFormat="">
+<FinancialValue  displayRank="1" estimateActual="Actual" period="Annual" periodEnd="2015-12-31T00:00:00.00" displayName="Retail Inflation">
+<CurrentValue  displayValue="4.3%">4.3461538462</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="2" estimateActual="Actual" period="Annual" periodEnd="2016-12-31T00:00:00.00" displayName="Retail Inflation">
+<CurrentValue  displayValue="0.8%">0.8076923077</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="3" estimateActual="Estimate" period="Annual" periodEnd="2017-12-31T00:00:00.00" displayName="Retail Inflation">
+<CurrentValue  displayValue="-2.1%">-2.0769230769</CurrentValue>
+</FinancialValue>
+<FinancialValue  displayRank="4" estimateActual="Estimate" period="Annual" periodEnd="2018-12-31T00:00:00.00" displayName="Retail Inflation">
+<CurrentValue  displayValue="1.0%">1</CurrentValue>
+</FinancialValue>
+</TimesSeriesList>
+</Security>
+<RelatedCompanies />
+<Authors>
+<Author  rank="1" fname="Peter" lname="Sklar" position="CPA, CA" phone="(416) 359-5188" email="peter.sklar@bmo.com" office="Toronto" id="78">
+<Status>
+<Series7>0</Series7>
+<Series16>0</Series16>
+<Series24>0</Series24>
+<Series8687>1</Series8687>
+<Fsa>1</Fsa>
+<OfficeId>1</OfficeId>
+<DivisionId>1</DivisionId>
+</Status>
+<CustomFields>
+<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Auto Parts</CustomField>
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</Author>
+<Author  rank="2" fname="Jennifer" lname="Panes" position="" phone="(416) 359-5961" email="jennifer.panes@bmo.com" office="Toronto" id="346">
+<Status>
+<Series7>0</Series7>
+<Series16>0</Series16>
+<Series24>0</Series24>
+<Series8687>1</Series8687>
+<Fsa>0</Fsa>
+<OfficeId>1</OfficeId>
+<DivisionId>1</DivisionId>
+</Status>
+<CustomFields>
+<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+</CustomFields>
+</Author>
+</Authors>
+<BoilerPlateChanges />
+</Extended>
+</Product>
