@@ -1,0 +1,7 @@
+bmo/
+
+*/bin
+
+*.pyc
+
+db.sqlite3
