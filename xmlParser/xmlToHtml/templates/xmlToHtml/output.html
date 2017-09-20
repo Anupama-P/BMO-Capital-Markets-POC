@@ -1,31 +1,31 @@
-{{ title.title }}
+{{ title.title|safe }}
 </br>
-{{ title.symbol }}
-</br>
-</br>
-{{ header_data.rating }}
-</br>
-{{ header_data.price }}
-</br>
-{{ header_data.target }}
-</br>
-{{ header_data.total_return }}
+{{ title.symbol|safe }}
 </br>
 </br>
-{{ passage.heading }}
+{{ header_data.rating|safe }}
 </br>
-{{ passage.bottom_line }}
+{{ header_data.price|safe }}
 </br>
-{{ passage.key_points }}
+{{ header_data.target|safe }}
+</br>
+{{ header_data.total_return|safe }}
 </br>
 </br>
-{{ team_members.members }}
+{{ passage.heading|safe }}
+</br>
+{{ passage.bottom_line|safe }}
+</br>
+{{ passage.key_points|safe }}
 </br>
 </br>
-{{ footer_stuff.certification }}
+{{ team_members.members|safe }}
 </br>
-{{ footer_stuff.disclosures }}
 </br>
-{{ footer_stuff.methodology }}
+{{ footer_stuff.certification|safe }}
 </br>
-{{ footer_stuff.risks }}
+{{ footer_stuff.disclosures|safe }}
+</br>
+{{ footer_stuff.methodology|safe }}
+</br>
+{{ footer_stuff.risks|safe }}
