@@ -1,31 +1,60 @@
-{{ title.title|safe }}
-</br>
-{{ title.symbol|safe }}
-</br>
-</br>
-{{ header_data.rating|safe }}
-</br>
-{{ header_data.price|safe }}
-</br>
-{{ header_data.target|safe }}
-</br>
-{{ header_data.total_return|safe }}
-</br>
-</br>
-{{ passage.heading|safe }}
-</br>
-{{ passage.bottom_line|safe }}
-</br>
-{{ passage.key_points|safe }}
-</br>
-</br>
-{{ team_members.members|safe }}
-</br>
-</br>
-{{ footer_stuff.certification|safe }}
-</br>
-{{ footer_stuff.disclosures|safe }}
-</br>
-{{ footer_stuff.methodology|safe }}
-</br>
-{{ footer_stuff.risks|safe }}
+<html lang="en">
+<head>
+  <title>BMO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class='col-md-8'>
+    <h2>{{ title.title|safe }}</h2>
+    </br>
+    {{ title.symbol|safe }}
+    </br>
+    </br>
+    <Table>
+      <tr>
+        <th>Rating</th>
+        <th>Price: May-2</th>
+        <th>Target</th>
+        <th>Total Rtn</th>
+      </tr>
+      <tr>
+        <td>{{ header_data.rating|safe }}</td>
+        <td>{{ header_data.price|safe }}</td>
+        <td>{{ header_data.target|safe }}</td>
+        <td>{{ header_data.total_return|safe }}</td>
+      </tr>
+    </Table>
+    
+    <h3>{{ passage.heading|safe }}</h3>
+    </br>
+    <p>Bottom Line:</p>
+    {{ passage.bottom_line|safe }}
+    </br>
+    <p>Key Points</p>
+    </br>
+    {{ passage.key_points|safe }}
+    </br>
+    </br>
+    {{ footer_stuff.certification|safe }}
+    </br>
+    {{ footer_stuff.disclosures|safe }}
+    </br>
+    {{ footer_stuff.methodology|safe }}
+    </br>
+    {{ footer_stuff.risks|safe }}
+  </div>
+  <div class='col-lg-4'>
+    <h3>BMO CAPITAL MARKETS</h3>
+    </br>
+    <h4>Retailing/Consumer</h4>
+    </br>
+    {%for member in team_members.members %}
+      <p>{{member.name}},{{member.position}}-{{member.analyst}}</p>
+      <p>{{member.email}}, {{member.phone}}</p>
+    {%endfor%}
+  </div>
+</body>
