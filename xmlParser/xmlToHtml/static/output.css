@@ -1,0 +1,105 @@
+.row {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    border: 1px solid;
+    padding-left: 70px;
+}
+
+.row .column-1,
+.row .column-2 {
+    padding: 0;
+}
+
+.row table tr th,
+.row table tr td {
+    padding: 5px;
+}
+
+.row .column-1 .inner-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row .column-2 h3,
+.row .column-2 h4 {
+  color: #0079c1;
+}
+
+.row .column-2 .team-member-table {
+    width: 100%;
+}
+
+.row .column-1 .header-table {
+    border: none;
+}
+
+.row .column-1 .header-table th,
+.row .column-1 .header-table td {
+    border: none;
+    padding: 0;
+    font-weight: 500;
+}
+
+.row .column-1 .header-table tr th:nth-child(1) {
+    border-right: 1px solid #ddd;
+    font-weight: bold
+}
+
+.row .column-1 .header-table tr th:nth-child(2) {
+    padding-left: 10px;
+}
+
+.row .column-1 .header-table tr:nth-child(2) th,
+.row .column-1 .header-table tr:nth-child(2) td {
+    color: #0079c1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.row .disclosures-section {
+    width: 93.5%;
+    margin: 0 auto;
+}
+
+.block-summary-modal {
+    margin: 0 auto;
+}
+
+.block-summary-modal .table,
+.company-data-tables .table {
+    margin: 0;
+}
+
+.block-summary-modal .table tr th,
+.block-summary-modal .table tr td {
+    background: #e1f1fd;
+    width: 20%;
+    border-color: #fff;
+    text-align: right;
+}
+
+.block-summary-modal .table tr th:nth-child(1),
+.block-summary-modal .table tr td:nth-child(1) {
+    width: 40%;
+    text-align: left;
+}
+
+.company-data-tables .table tr th,
+.company-data-tables .table tr td {
+    width: 25%;
+    background: #e1f1fd;
+    border-color: #fff;
+}
+.block-summary-modal .table tr:nth-child(1) th,
+.company-data-tables .table tr:nth-child(1) th {
+    background: #0079c1;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.company-data-tables .company-data tr:nth-child(1) th:nth-child(2),
+.company-data-tables .bmo_estimates tr:nth-child(1) th:nth-child(2) {
+    text-align: right;
+}
