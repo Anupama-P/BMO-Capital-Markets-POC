@@ -4,6 +4,7 @@ import random
 
 # from django.template import Context, Template
 from elasticsearch import Elasticsearch
+from elasticsearch.helpers import bulk
 from threading import Thread
 from io import StringIO, BytesIO
 # from blog.models import XMLData
@@ -86,62 +87,64 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     footer_constant_stuff_other_important_disclosures = footer_constant_stuff_parser(tree).get('other_important_disclosures')
 
     context_dict = {
-        'passage_heading': passage_heading,
-        'passage_bottom_line': passage_bottom_line,
-        'passage_key_points': passage_key_points,
-        'title_title': title_title,
-        'title_symbol': title_symbol,
-        'header_data_rating': header_data_rating,
-        'header_data_price': header_data_price,
-        'header_data_target': header_data_target,
-        'header_data_total_return': header_data_total_return,
-        'header_data_side_title': header_data_side_title,
-        'company_data_dividend': company_data_dividend,
-        'company_data_shares': company_data_shares,
-        'company_data_yield': company_data_yield,
-        'company_data_market_cap': company_data_market_cap,
-        'company_data_nav': company_data_nav,
-        'company_data_p_nav': company_data_p_nav,
-        'bmo_estimates': bmo_estimates,
-        'consensus_estimates': consensus_estimates,
-        'valuation': valuation,
-        'eps': eps,
-        "sidebar_stuff_our_thesis": sidebar_stuff_our_thesis,
-        "sidebar_stuff_valuation": sidebar_stuff_valuation,
-        "sidebar_stuff_upside_scenario": sidebar_stuff_upside_scenario,
-        "sidebar_stuff_downside_scenario": sidebar_stuff_downside_scenario,
-        "sidebar_stuff_company_description": sidebar_stuff_company_description,
-        "member1_name": member1_name,
-        "member1_position": member1_position,
-        "member1_email": member1_email,
-        "member1_role": member1_role,
-        "member1_phone": member1_phone,
-        "member2_name": member2_name,
-        "member2_position": member2_position,
-        "member2_email": member2_email,
-        "member2_role": member2_role,
-        "member2_phone": member2_phone,
-        "member3_name": member3_name,
-        "member3_position": member3_position,
-        "member3_email": member3_email,
-        "member3_role": member3_role,
-        "member3_phone": member3_phone,
-        'income_statement': income_statement,
-        'cash_flow_statement': cash_flow_statement,
-        'balance_sheet': balance_sheet,
-        'key_metrics': key_metrics,
-        'footer_stuff_certification': footer_stuff_certification,
-        'footer_stuff_disclosures_1': footer_stuff_disclosures_1,
-        'footer_stuff_disclosures_2': footer_stuff_disclosures_2,
-        'footer_stuff_disclosures_3': footer_stuff_disclosures_3,
-        'footer_stuff_disclosures_4': footer_stuff_disclosures_4,
-        'footer_stuff_disclosures_5': footer_stuff_disclosures_5,
-        'footer_stuff_methodology': footer_stuff_methodology,
-        'footer_stuff_risks': footer_stuff_risks,
-        'footer_constant_stuff_ratings': footer_constant_stuff_ratings,
-        'footer_constant_stuff_ratings_key': footer_constant_stuff_ratings_key,
-        'footer_constant_stuff_other_important_disclosures': footer_constant_stuff_other_important_disclosures,
-        'footer_constant_stuff_actual_footer': footer_constant_stuff_actual_footer
+        '_source' : {
+            'passage_heading': passage_heading,
+            'passage_bottom_line': passage_bottom_line,
+            'passage_key_points': passage_key_points,
+            'title_title': title_title,
+            'title_symbol': title_symbol,
+            'header_data_rating': header_data_rating,
+            'header_data_price': header_data_price,
+            'header_data_target': header_data_target,
+            'header_data_total_return': header_data_total_return,
+            'header_data_side_title': header_data_side_title,
+            'company_data_dividend': company_data_dividend,
+            'company_data_shares': company_data_shares,
+            'company_data_yield': company_data_yield,
+            'company_data_market_cap': company_data_market_cap,
+            'company_data_nav': company_data_nav,
+            'company_data_p_nav': company_data_p_nav,
+            'bmo_estimates': bmo_estimates,
+            'consensus_estimates': consensus_estimates,
+            'valuation': valuation,
+            'eps': eps,
+            "sidebar_stuff_our_thesis": sidebar_stuff_our_thesis,
+            "sidebar_stuff_valuation": sidebar_stuff_valuation,
+            "sidebar_stuff_upside_scenario": sidebar_stuff_upside_scenario,
+            "sidebar_stuff_downside_scenario": sidebar_stuff_downside_scenario,
+            "sidebar_stuff_company_description": sidebar_stuff_company_description,
+            "member1_name": member1_name,
+            "member1_position": member1_position,
+            "member1_email": member1_email,
+            "member1_role": member1_role,
+            "member1_phone": member1_phone,
+            "member2_name": member2_name,
+            "member2_position": member2_position,
+            "member2_email": member2_email,
+            "member2_role": member2_role,
+            "member2_phone": member2_phone,
+            "member3_name": member3_name,
+            "member3_position": member3_position,
+            "member3_email": member3_email,
+            "member3_role": member3_role,
+            "member3_phone": member3_phone,
+            'income_statement': income_statement,
+            'cash_flow_statement': cash_flow_statement,
+            'balance_sheet': balance_sheet,
+            'key_metrics': key_metrics,
+            'footer_stuff_certification': footer_stuff_certification,
+            'footer_stuff_disclosures_1': footer_stuff_disclosures_1,
+            'footer_stuff_disclosures_2': footer_stuff_disclosures_2,
+            'footer_stuff_disclosures_3': footer_stuff_disclosures_3,
+            'footer_stuff_disclosures_4': footer_stuff_disclosures_4,
+            'footer_stuff_disclosures_5': footer_stuff_disclosures_5,
+            'footer_stuff_methodology': footer_stuff_methodology,
+            'footer_stuff_risks': footer_stuff_risks,
+            'footer_constant_stuff_ratings': footer_constant_stuff_ratings,
+            'footer_constant_stuff_ratings_key': footer_constant_stuff_ratings_key,
+            'footer_constant_stuff_other_important_disclosures': footer_constant_stuff_other_important_disclosures,
+            'footer_constant_stuff_actual_footer': footer_constant_stuff_actual_footer
+        }
     }
 
     # context = Context(context_dict)
@@ -181,17 +184,21 @@ def xml_to_html_parser(xmlFileName, esObj, index):
         'To Outperform'
     ]
     #
-    context_dict['filename'] = xmlFileName
-    context_dict['country'] = countries[random.randint(0, 2)]
-    context_dict['research_type'] = research_type[random.randint(0, 10)]
-    context_dict['performance'] = performance[random.randint(0, 2)]
+    context_dict['_index'] = 'xml_data'
+    context_dict['_type'] = 'xml_body'
+    context_dict['_source']['filename'] = xmlFileName
+    context_dict['_source']['country'] = countries[random.randint(0, 2)]
+    context_dict['_source']['research_type'] = research_type[random.randint(0, 10)]
+    context_dict['_source']['performance'] = performance[random.randint(0, 2)]
 
-    esObj.index(
-        index="xml_data",
-        doc_type="xml_body",
-        id=xmlFileName,
-        body=context_dict
-    )
+    return context_dict
+
+    # esObj.index(
+    #     index="xml_data",
+    #     doc_type="xml_body",
+    #     id=xmlFileName,
+    #     body=context_dict
+    # )
 
     # saveObjInModel(context_dict)
 
@@ -624,9 +631,19 @@ es_settings = {
 
 def new_thread(name, start, es, s_time):
     print name + " started"
-    for i in range(start, start + 25001):
+    xmlObject = list()
+
+    count = 0
+    for i in range(start, start + 1001):
         filename = 'newCC' + str(i)
-        xml_to_html_parser(filename, es, i)
+        xmlObject.append(xml_to_html_parser(filename, es, i))
+        if count == 2000:
+            bulk(es, xmlObject, index = 'xml_data', raise_on_error=True)
+            print "2000 records indexed, Start %s" %i
+            count = 0
+            xmlObject = list()
+        count += 1
+
     print name + " ended"
     e_time = datetime.datetime.now() - s_time
     print str(e_time.seconds) + ' seconds'
@@ -648,7 +665,7 @@ def Main():
     num_of_threads = 4
     threads = list()
     for i in range(num_of_threads):
-        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 25000, es, start))
+        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 1000, es, start))
         print 'created thread ' + str(i)
         threads.append(t)
 
