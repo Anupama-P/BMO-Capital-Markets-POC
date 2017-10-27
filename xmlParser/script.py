@@ -161,12 +161,30 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     # f.write(final_template)
     # f.close()
 
-    countries = ['France', 'Germany', 'England', 'Africa']
-    research_type = ['Periodical', 'Videocast', 'Comments', 'Flashes']
+    countries = [
+        'France',
+        'Germany',
+        'England'
+    ]
+    research_type = [
+        'Reports', 'Periodical',
+        'Videocast', 'Comments',
+        'Flashes', 'Red Sheets',
+        'Company Specific Only',
+        'Member of Top 15 lists',
+        'Derivatives', 'Charts',
+        'NAVs'
+    ]
+    performance = [
+        'To Underperform',
+        'To Market Perform',
+        'To Outperform'
+    ]
 
     context_dict['filename'] = xmlFileName
-    context_dict['country'] = countries[random.randint(0, 3)]
-    context_dict['research_type'] = research_type[random.randint(0, 3)]
+    context_dict['country'] = countries[random.randint(0, 2)]
+    context_dict['research_type'] = research_type[random.randint(0, 10)]
+    context_dict['performance'] = performance[random.randint(0, 2)]
 
     esObj.index(
         index="xml_data",
@@ -566,22 +584,12 @@ es_settings = {
     "mappings": {
         "xml_body": {
             "properties": {
+                "title_symbol": {
+                    "type": "string",
+                    "analyzer": "edge_nGram_analyzer",
+                    "search_analyzer": "whitespace_analyzer"
+                },
                 "member1_name": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member1_email": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member1_role": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member1_position": {
                     "type": "string",
                     "analyzer": "edge_nGram_analyzer",
                     "search_analyzer": "whitespace_analyzer"
@@ -591,51 +599,23 @@ es_settings = {
                     "analyzer": "edge_nGram_analyzer",
                     "search_analyzer": "whitespace_analyzer"
                 },
-                "member2_email": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member2_role": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member2_position": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
                 "member3_name": {
                     "type": "string",
                     "analyzer": "edge_nGram_analyzer",
                     "search_analyzer": "whitespace_analyzer"
                 },
-                "member3_email": {
+                "performance": {
                     "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member3_role": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                },
-                "member3_position": {
-                    "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
+                    "analyzer": "keyword"
                 },
                 "research_type": {
                     "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
+                    "analyzer": "keyword"
                 },
                 "country": {
                     "type": "string",
-                    "analyzer": "edge_nGram_analyzer",
-                    "search_analyzer": "whitespace_analyzer"
-                }
+                    "analyzer": "keyword"
+                },
             }
         }
     }
@@ -644,7 +624,7 @@ es_settings = {
 
 def new_thread(name, start, es, s_time):
     print name + " started"
-    for i in range(start, start + 501):
+    for i in range(start, start + 51):
         filename = 'newCC' + str(i)
         xml_to_html_parser(filename, es, i)
     print name + " ended"
@@ -664,10 +644,11 @@ def Main():
         es.indices.create(index='xml_data', body=es_settings)
 
     # With Threading
-    num_of_threads = 4
+
+    num_of_threads = 2
     threads = list()
     for i in range(num_of_threads):
-        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 500, es, start))
+        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 50, es, start))
         print 'created thread ' + str(i)
         threads.append(t)
 

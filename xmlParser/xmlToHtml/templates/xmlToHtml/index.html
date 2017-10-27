@@ -11,9 +11,45 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <label>Type here:</label>
-    <input type="text" name="search" id="search_field" />
-    <div class="results"></div>
+    <div class="row">
+        <div class="col-xs-3">
+            <label>Search Term: </label>
+            <input type="text" name="search" /><br>
+            <button class="search-button">search</button>
+            <form id="search-filter">
+                {% csrf_token %}
+                <label>Date Range.</label><br>
+                <input type="date" name="from-date" /><br>
+                <input type="date" name="to-date" /><br>
+                <label>Location</label><br>
+                <input type="checkbox" name="location" value="France">France<br>
+                <input type="checkbox" name="location" value="Germany">Germany<br>
+                <input type="checkbox" name="location" value="England">England<br>
+                <label>Research Type</label><br>
+                <!-- <input type="checkbox" name="research-type" value="all">Show all<br> -->
+                <input type="checkbox" name="research-type" value="Reports">Reports<br>
+                <input type="checkbox" name="research-type" value="Comments">Comments<br>
+                <input type="checkbox" name="research-type" value="Flashes">Flashes<br>
+                <input type="checkbox" name="research-type" value="Periodicals">Periodicals<br>
+                <input type="checkbox" name="research-type" value="Red Sheets">Red Sheets<br>
+                <input type="checkbox" name="research-type" value="Videocast">Videocasts<br>
+                <input type="checkbox" name="research-type" value="Company Specific Only">Company Specific Only<br>
+                <input type="checkbox" name="research-type" value="Member of Top 15 lists">Member of Top 15 lists<br>
+                <input type="checkbox" name="research-type" value="Derivatives">Derivatives<br>
+                <input type="checkbox" name="research-type" value="Charts">Charts<br>
+                <input type="checkbox" name="research-type" value="NAVs">NAVs<br>
+                <label>Performance</label><br>
+                <input type="checkbox" name="performance" value="To Outperform">To Outperform<br>
+                <input type="checkbox" name="performance" value="To Market Perform">To Market Perform<br>
+                <input type="checkbox" name="performance" value="To Underperform">To Underperform<br>
+                <!-- <input type="checkbox" name="performance" value="all">Show all launches<br> -->
+            </form>
+        </div>
+        <div class="col-xs-9">
+            <h1>Results</h1>
+            <div class="results"></div>
+        </div>
+    </div>
     <script type="text/javascript" src="{% static 'index.js' %}"></script>
 </body>
 </html>
