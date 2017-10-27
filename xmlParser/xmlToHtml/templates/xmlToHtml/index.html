@@ -11,47 +11,139 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="row">
-        <div class="col-xs-3">
-            <label>Search Term: </label>
-            <input type="text" name="search" /><br>
-            <button class="search-button">search</button>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Search</h1>
+            <div class="form-group">
+                <div class="col-md-11">
+                    <input type="text" name="search" class="form-control" placeholder="What are you looking for?" /><br>
+                </div>
+                <div class="col-md-1">
+                    <button class="search-button btn btn-primary glyphicon glyphicon-menu-right"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
             <form id="search-filter">
                 {% csrf_token %}
-                <label>Date Range.</label><br>
-                <input type="date" name="from-date" /><br>
-                <input type="date" name="to-date" /><br>
-                <label>Location</label><br>
-                <input type="checkbox" name="location" value="France">France<br>
-                <input type="checkbox" name="location" value="Germany">Germany<br>
-                <input type="checkbox" name="location" value="England">England<br>
-                <label>Research Type</label><br>
-                <!-- <input type="checkbox" name="research-type" value="all">Show all<br> -->
-                <input type="checkbox" name="research-type" value="Reports">Reports<br>
-                <input type="checkbox" name="research-type" value="Comments">Comments<br>
-                <input type="checkbox" name="research-type" value="Flashes">Flashes<br>
-                <input type="checkbox" name="research-type" value="Periodicals">Periodicals<br>
-                <input type="checkbox" name="research-type" value="Red Sheets">Red Sheets<br>
-                <input type="checkbox" name="research-type" value="Videocast">Videocasts<br>
-                <input type="checkbox" name="research-type" value="Company Specific Only">Company Specific Only<br>
-                <input type="checkbox" name="research-type" value="Member of Top 15 lists">Member of Top 15 lists<br>
-                <input type="checkbox" name="research-type" value="Derivatives">Derivatives<br>
-                <input type="checkbox" name="research-type" value="Charts">Charts<br>
-                <input type="checkbox" name="research-type" value="NAVs">NAVs<br>
-                <label>Performance</label><br>
-                <input type="checkbox" name="performance" value="To Outperform">To Outperform<br>
-                <input type="checkbox" name="performance" value="To Market Perform">To Market Perform<br>
-                <input type="checkbox" name="performance" value="To Underperform">To Underperform<br>
-                <!-- <input type="checkbox" name="performance" value="all">Show all launches<br> -->
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Date Range</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">From</label>
+                                <input type="date" name="from-date" />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">To</label>
+                                <input type="date" name="to-date" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Location</div>
+                        <div class="panel-body">
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="location" value="France">France</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="location" value="Germany">Germany</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="location" value="England">England</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Research Type</div>
+                        <div class="panel-body">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Reports">Reports
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Comments">Comments
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Flashes">Flashes
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Periodicals">Periodicals
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Red Sheets">Red Sheets
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Videocast">Videocasts
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Company Specific Only">Company Specific Only
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Member of Top 15 lists">Member of Top 15 lists
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Derivatives">Derivatives
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="Charts">Charts
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="research-type" value="NAVs">NAVs
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Performance</div>
+                        <div class="panel-body">
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="performance" value="To Outperform">To Outperform</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="performance" value="To Market Perform">To Market Perform</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="performance" value="To Underperform">To Underperform</label>
+                            </div>
+                            <!-- <input type="checkbox" name="performance" value="all">Show all launches<br> -->
+                        </div>
+                    </div>
+                </div>
             </form>
-        </div>
-        <div class="col-xs-9">
-            <h1>Results</h1>
-            <div class="results"></div>
+
+            <div class="col-md-9">
+                <h2>Results</h2>
+                <div class="results"></div>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="{% static 'index.js' %}"></script>
 </body>
 </html>
-
-

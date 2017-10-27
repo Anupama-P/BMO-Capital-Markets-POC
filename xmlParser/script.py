@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 import os
 import datetime
 import random
@@ -7,13 +5,15 @@ import random
 # from django.template import Context, Template
 from elasticsearch import Elasticsearch
 from threading import Thread
-from blog.models import XMLData
+from io import StringIO, BytesIO
+# from blog.models import XMLData
 
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 
 def xml_to_html_parser(xmlFileName, esObj, index):
     file_name = os.path.join(os.getcwd(), 'CC') + '.xml'
+
     tree = ET.parse(file_name)
     tree = tree.getroot()
 
@@ -147,16 +147,16 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     # context = Context(context_dict)
 
     # # print ('Parsing {} done.'.format(file_name))
-
+    #
     # template_text = open('xmlToHtml/templates/xmlToHtml/output.html', 'r').read()
-
+    #
     # template = Template(template_text)
-
+    #
     # final_template = template.render(context)
     # final_template = final_template.encode('utf-8')
-
+    #
     # # print ('Starting generating html. {}'.format(file_name))
-
+    #
     # f = open(xmlFileName + '.html', 'w+')
     # f.write(final_template)
     # f.close()
@@ -180,7 +180,7 @@ def xml_to_html_parser(xmlFileName, esObj, index):
         'To Market Perform',
         'To Outperform'
     ]
-
+    #
     context_dict['filename'] = xmlFileName
     context_dict['country'] = countries[random.randint(0, 2)]
     context_dict['research_type'] = research_type[random.randint(0, 10)]
@@ -193,7 +193,7 @@ def xml_to_html_parser(xmlFileName, esObj, index):
         body=context_dict
     )
 
-    saveObjInModel(context_dict)
+    # saveObjInModel(context_dict)
 
     # print 'Indexed the %s' % (xmlFilesName)
     # print ('Html generation done. {}'.format(file_name))
@@ -201,72 +201,72 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     return context_dict
 
 
-def saveObjInModel(context):
-    try:
-        obj = XMLData(
-            file_name=context['filename'],
-            research_type=context['research_type'],
-            country=context['country'],
-            passage_heading=context['passage_heading'],
-            passage_bottom_line=context['passage_bottom_line'],
-            passage_key_points=context['passage_key_points'],
-            title_title=context['title_title'],
-            title_symbol=context['title_symbol'],
-            header_data_rating=context['header_data_rating'],
-            header_data_price=context['header_data_price'],
-            header_data_target=context['header_data_target'],
-            header_data_total_return=context['header_data_total_return'],
-            header_data_side_title=context['header_data_side_title'],
-            company_data_dividend=context['company_data_dividend'],
-            company_data_shares=context['company_data_shares'],
-            company_data_yield=context['company_data_yield'],
-            company_data_market_cap=context['company_data_market_cap'],
-            company_data_nav=context['company_data_nav'],
-            company_data_p_nav=context['company_data_p_nav'],
-            bmo_estimates=context['bmo_estimates'],
-            consensus_estimates=context['consensus_estimates'],
-            valuation=context['valuation'],
-            eps=context['eps'],
-            sidebar_stuff_our_thesis=context['sidebar_stuff_our_thesis'],
-            sidebar_stuff_valuation=context['sidebar_stuff_valuation'],
-            sidebar_stuff_upside_scenario=context['sidebar_stuff_upside_scenario'],
-            sidebar_stuff_downside_scenario=context['sidebar_stuff_downside_scenario'],
-            sidebar_stuff_company_description=context['sidebar_stuff_company_description'],
-            member1_name=context['member1_name'],
-            member1_position=context['member1_position'],
-            member1_email=context['member1_email'],
-            member1_role=context['member1_role'],
-            member1_phone=context['member1_phone'],
-            member2_name=context['member2_name'],
-            member2_position=context['member2_position'],
-            member2_email=context['member2_email'],
-            member2_role=context['member2_role'],
-            member2_phone=context['member2_phone'],
-            member3_name=context['member3_name'],
-            member3_position=context['member3_position'],
-            member3_email=context['member3_email'],
-            member3_role=context['member3_role'],
-            member3_phone=context['member3_phone'],
-            income_statement=context['income_statement'],
-            cash_flow_statement=context['cash_flow_statement'],
-            balance_sheet=context['balance_sheet'],
-            key_metrics=context['key_metrics'],
-            footer_stuff_certification=context['footer_stuff_certification'],
-            footer_stuff_disclosures_1=context['footer_stuff_disclosures_1'],
-            footer_stuff_disclosures_2=context['footer_stuff_disclosures_2'],
-            footer_stuff_disclosures_3=context['footer_stuff_disclosures_3'],
-            footer_stuff_disclosures_4=context['footer_stuff_disclosures_4'],
-            footer_stuff_disclosures_5=context['footer_stuff_disclosures_5'],
-            footer_stuff_methodology=context['footer_stuff_methodology'],
-            footer_stuff_risks=context['footer_stuff_risks'],
-            footer_constant_stuff_ratings=context['footer_constant_stuff_ratings'],
-            footer_constant_stuff_ratings_key=context['footer_constant_stuff_ratings_key'],
-            footer_constant_stuff_other_important_disclosures=context['footer_constant_stuff_other_important_disclosures'],
-            footer_constant_stuff_actual_footer=context['footer_constant_stuff_actual_footer']
-        )
-        obj.save()
-    except XMLData.DoesNotExist:
-        pass
+# def saveObjInModel(context):
+#     try:
+#         obj = XMLData(
+#             file_name=context['filename'],
+#             research_type=context['research_type'],
+#             country=context['country'],
+#             passage_heading=context['passage_heading'],
+#             passage_bottom_line=context['passage_bottom_line'],
+#             passage_key_points=context['passage_key_points'],
+#             title_title=context['title_title'],
+#             title_symbol=context['title_symbol'],
+#             header_data_rating=context['header_data_rating'],
+#             header_data_price=context['header_data_price'],
+#             header_data_target=context['header_data_target'],
+#             header_data_total_return=context['header_data_total_return'],
+#             header_data_side_title=context['header_data_side_title'],
+#             company_data_dividend=context['company_data_dividend'],
+#             company_data_shares=context['company_data_shares'],
+#             company_data_yield=context['company_data_yield'],
+#             company_data_market_cap=context['company_data_market_cap'],
+#             company_data_nav=context['company_data_nav'],
+#             company_data_p_nav=context['company_data_p_nav'],
+#             bmo_estimates=context['bmo_estimates'],
+#             consensus_estimates=context['consensus_estimates'],
+#             valuation=context['valuation'],
+#             eps=context['eps'],
+#             sidebar_stuff_our_thesis=context['sidebar_stuff_our_thesis'],
+#             sidebar_stuff_valuation=context['sidebar_stuff_valuation'],
+#             sidebar_stuff_upside_scenario=context['sidebar_stuff_upside_scenario'],
+#             sidebar_stuff_downside_scenario=context['sidebar_stuff_downside_scenario'],
+#             sidebar_stuff_company_description=context['sidebar_stuff_company_description'],
+#             member1_name=context['member1_name'],
+#             member1_position=context['member1_position'],
+#             member1_email=context['member1_email'],
+#             member1_role=context['member1_role'],
+#             member1_phone=context['member1_phone'],
+#             member2_name=context['member2_name'],
+#             member2_position=context['member2_position'],
+#             member2_email=context['member2_email'],
+#             member2_role=context['member2_role'],
+#             member2_phone=context['member2_phone'],
+#             member3_name=context['member3_name'],
+#             member3_position=context['member3_position'],
+#             member3_email=context['member3_email'],
+#             member3_role=context['member3_role'],
+#             member3_phone=context['member3_phone'],
+#             income_statement=context['income_statement'],
+#             cash_flow_statement=context['cash_flow_statement'],
+#             balance_sheet=context['balance_sheet'],
+#             key_metrics=context['key_metrics'],
+#             footer_stuff_certification=context['footer_stuff_certification'],
+#             footer_stuff_disclosures_1=context['footer_stuff_disclosures_1'],
+#             footer_stuff_disclosures_2=context['footer_stuff_disclosures_2'],
+#             footer_stuff_disclosures_3=context['footer_stuff_disclosures_3'],
+#             footer_stuff_disclosures_4=context['footer_stuff_disclosures_4'],
+#             footer_stuff_disclosures_5=context['footer_stuff_disclosures_5'],
+#             footer_stuff_methodology=context['footer_stuff_methodology'],
+#             footer_stuff_risks=context['footer_stuff_risks'],
+#             footer_constant_stuff_ratings=context['footer_constant_stuff_ratings'],
+#             footer_constant_stuff_ratings_key=context['footer_constant_stuff_ratings_key'],
+#             footer_constant_stuff_other_important_disclosures=context['footer_constant_stuff_other_important_disclosures'],
+#             footer_constant_stuff_actual_footer=context['footer_constant_stuff_actual_footer']
+#         )
+#         obj.save()
+#     except XMLData.DoesNotExist:
+#         pass
 
 
 def passage_parser(tree):
@@ -624,7 +624,7 @@ es_settings = {
 
 def new_thread(name, start, es, s_time):
     print name + " started"
-    for i in range(start, start + 51):
+    for i in range(start, start + 25001):
         filename = 'newCC' + str(i)
         xml_to_html_parser(filename, es, i)
     print name + " ended"
@@ -639,16 +639,16 @@ def Main():
     try:
         es.indices.delete(index='xml_data')
         es.indices.create(index='xml_data', body=es_settings)
-        XMLData.objects.all().delete()
+        # XMLData.objects.all().delete()
     except Exception:
         es.indices.create(index='xml_data', body=es_settings)
 
     # With Threading
 
-    num_of_threads = 2
+    num_of_threads = 4
     threads = list()
     for i in range(num_of_threads):
-        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 50, es, start))
+        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 25000, es, start))
         print 'created thread ' + str(i)
         threads.append(t)
 
