@@ -637,9 +637,9 @@ def new_thread(name, start, es, s_time):
     for i in range(start, start + 1001):
         filename = 'newCC' + str(i)
         xmlObject.append(xml_to_html_parser(filename, es, i))
-        if count == 2000:
+        if count == 1000:
             bulk(es, xmlObject, index = 'xml_data', raise_on_error=True)
-            print "2000 records indexed, Start %s" %i
+            print "1000 records indexed, Start %s" %i
             count = 0
             xmlObject = list()
         count += 1
