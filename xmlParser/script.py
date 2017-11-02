@@ -184,8 +184,8 @@ def xml_to_html_parser(xmlFileName, esObj, index):
         'To Outperform'
     ]
     #
-    context_dict['_index'] = 'xml_data'
-    context_dict['_type'] = 'xml_body'
+    context_dict['_index'] = 'bmo_capital_markets'
+    context_dict['_type'] = 'research_data'
     context_dict['_source']['filename'] = xmlFileName
     context_dict['_source']['country'] = countries[random.randint(0, 2)]
     context_dict['_source']['research_type'] = research_type[random.randint(0, 10)]
@@ -589,7 +589,7 @@ es_settings = {
         }
     },
     "mappings": {
-        "xml_body": {
+        "research_data": {
             "properties": {
                 "title_symbol": {
                     "type": "string",
@@ -638,7 +638,7 @@ def new_thread(name, start, es, s_time):
         filename = 'newCC' + str(i)
         xmlObject.append(xml_to_html_parser(filename, es, i))
         if count == 1000:
-            bulk(es, xmlObject, index = 'xml_data', raise_on_error=True)
+            bulk(es, xmlObject, index = 'bmo_capital_markets', raise_on_error=True)
             print "1000 records indexed, Start %s" %i
             count = 0
             xmlObject = list()
@@ -654,11 +654,12 @@ def Main():
     es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
     try:
-        es.indices.delete(index='xml_data')
-        es.indices.create(index='xml_data', body=es_settings)
+        es.indices.delete(index='bmo_capital_markets')
+        es.indices.create(index='bmo_capital_markets', body=es_settings)
         # XMLData.objects.all().delete()
-    except Exception:
-        es.indices.create(index='xml_data', body=es_settings)
+    except Exception as inst:
+        print str(inst)
+        # es.indices.create(index='bmo_capital_markets', body=es_settings)
 
     # With Threading
 

@@ -83,7 +83,7 @@ def search_filter(request):
 
     print q2
     print q_dict
-    resp = es.search(index='xml_data', doc_type='xml_body', body=q2)
+    resp = es.search(index='bmo_capital_markets', doc_type='', body=q2)
     resp = json.dumps(resp)
     return JsonResponse(
         {
@@ -97,7 +97,7 @@ def search(request):
     es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
     query_str = request.get_full_path().split('?q=')[1]
     q1 = {
-        "size": 2000,
+        "size": 50,
         "query": {
             "bool": {
                 "should": [
@@ -124,8 +124,38 @@ def search(request):
             },
         }
     }
-    resp = es.search(index='xml_data', doc_type='xml_body', body=q1)
-    resp = json.dumps(resp)
+
+    q2 = {
+        "size": 50,
+        "query": {
+            "bool": {
+                "should": [
+                    {
+                        "multi_match": {
+                            "query": query_str,
+                            "fields": ["_all"]
+                        }
+                    },
+                    {
+                        "multi_match": {
+                            "query": query_str,
+                            "fields": [
+                                "investment_vehicleid",
+                            ]
+                        }
+                    }
+                ]
+            },
+        }
+    }
+
+    resp = {}
+
+    # import ipdb; ipdb.set_trace()
+    resp['research_data'] = es.search(index='bmo_capital_markets', doc_type='research_data', body=q1)
+    resp['company_data'] = es.search(index='bmo_capital_markets', doc_type='company_data', body=q2)
+
+
     return JsonResponse(
         {
             'success': True,
@@ -146,6 +176,20 @@ def show_document(request, doc_name):
         }
     }
 
-    resp = es.search(index='xml_data', doc_type='xml_body', body=query)
+    resp = es.search(index='bmo_capital_markets', doc_type='', body=query)
     context = resp.get('hits').get('hits')[0]['_source']
     return render(request, 'xmlToHtml/output.html', context)
+
+def show_company(request, company):
+    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    query = {
+        "query": {
+            "match": {
+                "investment_vehicleid": company.encode('utf-8')
+            }
+        }
+    }
+
+    resp = es.search(index='bmo_capital_markets', doc_type='', body=query)
+    context = resp.get('hits').get('hits')[0]['_source']
+    return render(request, 'xmlToHtml/company.html', context)

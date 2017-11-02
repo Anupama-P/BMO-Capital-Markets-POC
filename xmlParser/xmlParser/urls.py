@@ -16,9 +16,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
+from xmlToHtml import views
+
 
 urlpatterns = [
     url(r'^documents/', include('xmlToHtml.urls')),
+    url(r'^company/(?P<company>[0-9a-zA-Z]+)/', views.show_company),
     url(r'^admin/', admin.site.urls),
     # url(r'^blog/', include('blog.urls')),
 ]
