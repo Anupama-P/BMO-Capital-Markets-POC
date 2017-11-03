@@ -11,7 +11,7 @@ def search_view(request):
 
 
 def search_filter(request):
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
     query = urllib.unquote(request.get_full_path())
     query_array = query.split('?q=')[1].split('&')
     q_dict = dict()
@@ -81,8 +81,6 @@ def search_filter(request):
             bool_query['bool']['should'].append(dic)
         q2["query"]["bool"]["must"]["bool"]["must"].append(bool_query)
 
-    print q2
-    print q_dict
     resp = es.search(index='bmo_capital_markets', doc_type='', body=q2)
     resp = json.dumps(resp)
     return JsonResponse(
@@ -94,7 +92,7 @@ def search_filter(request):
 
 
 def search(request):
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
     query_str = request.get_full_path().split('?q=')[1]
     q1 = {
         "size": 50,
@@ -165,7 +163,7 @@ def search(request):
 
 
 def show_document(request, doc_name):
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
     query = {
         "query": {
             "match": {
@@ -181,7 +179,7 @@ def show_document(request, doc_name):
     return render(request, 'xmlToHtml/output.html', context)
 
 def show_company(request, company):
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
     query = {
         "query": {
             "match": {

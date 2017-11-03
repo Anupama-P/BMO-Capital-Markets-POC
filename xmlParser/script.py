@@ -651,7 +651,7 @@ def new_thread(name, start, es, s_time):
 
 def Main():
     start = datetime.datetime.now()
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
 
     try:
         es.indices.delete(index='bmo_capital_markets')

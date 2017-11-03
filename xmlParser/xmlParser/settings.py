@@ -25,7 +25,7 @@ SECRET_KEY = 'ew)jysnv_yskij)%@j!8x6n)8c@abqe-@cujc%$@vk32*&9upw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'xmlParser.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bmo',
-        'USER': 'bmo_poc',
-        'PASSWORD': 'bmo_poc',
-        'HOST': 'localhost',
+        'NAME': 'bmo_capital_markets',
+        'USER': 'bmo_capital_markets',
+        'PASSWORD': 'bmo_capital_markets',
+        'HOST': 'database',
         'PORT': '5432',
     }
 }

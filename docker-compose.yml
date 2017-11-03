@@ -1,22 +1,25 @@
 version: '2'
 
 volumes:
+  app-python-site-packages:
+    driver: local
+  app-usr-local-bin:
+    driver: local
   esdata1:
     driver: local
-  psql-bmo_poc-data:
+  psql-bmo_data:
     driver: local
 
 services:
   database:
     image: postgres:9.5.2
-    ports:
-      - 5432:5432
     volumes:
-      - psql-bmo_poc-data:/var/lib/postgresql/data
+      - psql-bmo_data:/var/lib/postgresql/data
       - .:/shared
-  elasticsearch1:
+    env_file:
+      - ./.env
+  elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:5.3.2
-    container_name: elasticsearch1
     environment:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
@@ -25,9 +28,26 @@ services:
       memlock:
         soft: -1
         hard: -1
-    mem_limit: 1g
+    mem_limit: 3g
     volumes:
       - esdata1:/usr/share/elasticsearch/data
       - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     ports:
       - 9200:9200
+    env_file:
+      - ./.env
+  app:
+    image: masood09/django-development:0.1.0
+    links:
+      - database
+      - elasticsearch
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/application
+      - ~/.ssh:/root/.ssh
+      - app-python-site-packages:/usr/local/lib/python3.4/site-packages
+      - app-usr-local-bin:/usr/local/bin
+    env_file:
+      - ./.env
+

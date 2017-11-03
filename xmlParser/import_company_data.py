@@ -1,13 +1,12 @@
 import os
-import datetime
-import random
 import json
 
-# from django.template import Context, Template
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 # from threading import Thread
-from io import StringIO, BytesIO
+
+
+print ("Process started")
 
 file_path = os.path.join(os.getcwd(), 'mf') + '.json'
 
@@ -55,7 +54,7 @@ es_settings = {
     "mappings": {
         "company_data": {
             "properties": {
-                "investment_vehicleid": {
+                "ticker": {
                     "type": "string",
                     "analyzer": "edge_nGram_analyzer",
                     "search_analyzer": "whitespace_analyzer"
@@ -64,33 +63,34 @@ es_settings = {
         }
     }
 }
-# "name_en": {
-#     "type": "string",
-#     "analyzer": "edge_nGram_analyzer",
-#     "search_analyzer": "whitespace_analyzer"
-# },
 
-es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+es = Elasticsearch([{'host': 'elasticsearch', 'port': 9200}])
 
 try:
-	# es.indices.delete(index='bmo_capital_markets')
-	es.indices.create(index='bmo_capital_markets', body=es_settings)
-	# XMLData.objects.all().delete()
-except Exception as inst:
-	print str(inst)
-	# es.indices.create(index='bmo_capital_markets', body=es_settings)
+    es.indices.delete(index='bmo_capital_markets')
+    es.indices.create(index='bmo_capital_markets', body=es_settings)
+    # XMLData.objects.all().delete()
+except Exception as err:
+    print (err)
+    # es.indices.create(index='bmo_capital_markets', body=es_settings)
 
-for row in data['hits']['hits']:
+total = len(data)
 
-	row['_index'] = 'bmo_capital_markets'
-	row['_type'] = 'company_data'
+for company in data:
+    row = {}
+    row['_index'] = 'bmo_capital_markets'
+    row['_type'] = 'company_data'
+    row['_source'] = company
+    company_data.append(row)
 
-	company_data.append(row)
+    if count == 500:
+        count = 0
+        bulk(es, company_data, index='bmo_capital_markets', raise_on_error=True)
+        company_data = list()
+        total = total - 500
 
-	if count == 1000:
-		count = 0
-		bulk(es, company_data, index = 'bmo_capital_markets', raise_on_error=True)
-		company_data = list()
-		print "1000 %s Records Indexed"
+    count += 1
 
-	count += 1
+    if count == total:
+        bulk(es, company_data, index='bmo_capital_markets', raise_on_error=True)
+print ("Process ended")

@@ -1,375 +1,489 @@
-<Product  productID="4c40416c-cde2-4d66-b357-cdb35dd5b611" shortProductID="R5D8iNm9" language="en">
-
-<ProductStatus  statusType="Published" extendedStatus="Published" statusDateTime="2017-05-02T19:23:56.00" userDisplayDate="2017-05-03T05:00:00.00" releaseDate="2017-05-03T05:00:00.00" localeStatusDate="2017-05-02T19:23:56.00" customLocaleStatusDate="2017-05-02T19:23:56.00" displayDateTime="2017-05-03T05:00:00.00" localeDisplayDateTime="2017-05-03T05:00:00.00" customLocaleDisplayDateTime="2017-05-03T05:00:00.00" previousWorkDay="2017-05-02" bluematrixXmlID="21" documentStatus="15" bluematrixDocId="35303" previousDocId="34645" updateFinancials="No" bluematrixXmlAbbr="SC" bluematrixXmlDescr="2. Sector_Comment" comment="" productCategory="Sector/Industry" focus="Issuer" libraryOnly="no" mailListOnly="no" internalUseOnly="no" sendingMail="yes" totalPageNumber="9" server_tz="GMT-4:00" server_tz_short="EDT" baseHref="https://bmo.bluematrix.com" analyst_tz="GMT-5:00" analyst_tz_short="EST" />
-<Source>
-<Publisher  sequence="1" primaryIndicator="Yes">
-<PublisherID  idType="Shortname">bmo</PublisherID>
-<PublisherID  idType="BM" encrypted="oJofgHhfPKfZivBqpgMaN+mi8xMfzs7B" library="https://bmoresearch.bluematrix.com">18524</PublisherID>
-<PublisherName  nameType="Legal">BMO Capital Markets</PublisherName>
-<PublisherName  nameType="Person">
-<LastName>Pisani</LastName>
-<FirstName>Peg</FirstName>
-<DisplayName>Peg Pisani</DisplayName>
-<ClientCode>P3P</ClientCode>
-</PublisherName>
-<Team>
-<TeamMember  sequence="1" primaryIndicator="Yes" personID="109">
-<Role  rank="1">Analyst</Role>
-<LastName>Pham</LastName>
-<FirstName>Ben</FirstName>
-<MiddleName />
-<Position>CFA</Position>
-<ClientCode>BP</ClientCode>
-<Division  ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
-<Office  ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
-<DisplayName>Ben Pham</DisplayName>
-<Phone>(416) 359-4061</Phone>
-<Email>ben.pham@bmo.com</Email>
-<Sector  id="66" parentId="" analystRank="1">Energy Infrastructure</Sector>
-<Sector  id="103" parentId="" analystRank="1">Energy Infrastructure</Sector>
-<Sector  id="191" parentId="" analystRank="1">Energy Infrastructure</Sector>
-<Tagging />
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Energy Infrastructure</CustomField>
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</TeamMember>
-<TeamMember  sequence="2" primaryIndicator="No" personID="180">
-<Role  rank="1">Associate</Role>
-<LastName>Tang</LastName>
-<FirstName>Eric</FirstName>
-<MiddleName />
-<Position />
-<ClientCode>ET</ClientCode>
-<Division  ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
-<Office  ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
-<DisplayName>Eric Tang</DisplayName>
-<Phone>(416) 359-8110</Phone>
-<Email>eric.tang@bmo.com</Email>
-<Tagging />
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</TeamMember>
-<TeamMember  sequence="3" primaryIndicator="No" personID="312">
-<Role  rank="1">Associate</Role>
-<LastName>Dyer</LastName>
-<FirstName>Nigel</FirstName>
-<MiddleName />
-<Position />
-<ClientCode>NZD</ClientCode>
-<Division  ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
-<Office  ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
-<DisplayName>Nigel Dyer</DisplayName>
-<Phone>(416) 359-6017</Phone>
-<Email>nigel.dyer@bmo.com</Email>
-<Tagging />
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</TeamMember>
-</Team>
-</Publisher>
-</Source>
-<Content>
-<Title><![CDATA[Q1/17 Final Earnings Scorecard]]></Title>
-<SubTitle />
-<Abstract />
-<Resource  resourceID="4c40416c-cde2-4d66-b357-cdb35dd5b611">
-<Data>
-<TextElement  name="bottom_line" elementId="227" max_word_count="150" displayName="Bottom Line" status="optional" rixmlName="bottom_line" clientCode="bottom_line"><![CDATA[<p align="LEFT">Reporting for Canadian energy infrastructure continues this week with 7 companies reporting (BEP and VSN today), followed by 11 companies next week. Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview published on April 20. Notable changes in consensus expectations include: 1) H (EPS to $0.31 from $0.33, or -6%); 2) IPL (EBITDA to $295M from $286M or +3%); and 3) ENB (EPS to $0.65 from $0.67 or -3%).</p>]]></TextElement>
-<TextElement  name="key_points" elementId="228" max_word_count="450" displayName="Key Points" status="optional" rixmlName="key_points" clientCode="key_points"><![CDATA[<p align="LEFT"><strong>Approximately 20% of our Canadian energy Infrastructure companies have reported</strong> <strong>so far.</strong> Reporting for Canadian energy infrastructure continues this week with seven companies reporting, followed by eleven companies next week to close off the season. Five have reported so far (three beats and two misses relative to consensus).</p><p align="LEFT"><strong>Earnings calendar table.</strong> Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview comment published on April 20. Notable changes include: 1) <strong>H</strong> (EPS to $0.31 from $0.33, or -6%); 2) <strong>IPL</strong> (EBITDA to $295M from $286M or +3%); and 3) <strong>ENB</strong> (EPS to $0.65 from $0.67 or -3%).</p><p align="LEFT"><strong>Recommendations.</strong> We are maintaining our Outperform ratings on <strong>BLX, FTS, AQN, CPX,</strong> <strong>BEP, INE,</strong> and <strong>PEGI</strong> within utility and power, and <strong>ENB, TRP,</strong> and <strong>PPL</strong> within pipeline and midstream.</p><p align="LEFT"><strong>What we&#39;ve learned so far.</strong> 1) The strong frac spread environment (average US$0.35/gallon in Q1/17 vs. US$0.19 in Q1/16) is benefiting midstream results as evident in the ALA gas midstream results ($67M segment EBITDA vs. our $53M). Marketing is also boosting results. We believe GEI, IPL, PPL, and VSN could directionally benefit from this positive dynamic. 2) Production results so far on wind farms we follow highlighted improved resource conditions, particularly relative to the softness we observed last year. Also, NextEra reported Q1/17 wind production that was 101% of the long-term average. PEGI is the most levered to wind in our coverage. 3) Acquisitions are continuing at a torrid pace. On Monday, PPL/VSN announced a $33B combination, and on April 28, ENB acquired the balance of the Midcoast gas assets from Enbridge Energy Partners (EEP-NYSE, not rated). EEP also noted the potential for future liquid drop-downs from Enbridge Inc. given its improved balance sheet metrics and dividend coverage.</p><p align="LEFT"><strong>What we remain focused on.</strong> 1) Dividend increase announcements from ENB (+6% to bring 2017 annual growth to +15%) and PEGI (+2%). 2) Alberta gas processing and NGL volumes (positive datapoints from ALA&#39;s Q1/17 results). 3) Updated commentary from the North American utilities regarding U.S. President Trump&#39;s recent proposed tax plan. 4) The status of acquisition integration/synergies following last year&#39;s record year for Canadian energy infrastructure acquisitions. 5) A potential return to normal hydrology conditions following a very weak 2016. 6) Any significant change in the Alberta power forward curve following Sundance A retirement/mothball.</p>]]></TextElement>
-<TextElement  name="banner_insertion_box" elementId="235" max_word_count="0" displayName="Banner Insertion Box" status="optional" rixmlName="BANNER_BOX" clientCode="BANNER_BOX" />
-<TextElement  name="body_text" elementId="229" max_word_count="0" displayName="Body Text" status="optional" rixmlName="body_text" clientCode="body_text" />
-<TextElement  name="sector_name_override" elementId="250" max_word_count="0" displayName="Sector Name Override" status="optional" rixmlName="sector_name_override" clientCode="SECTOR_OR"><![CDATA[Energy Infrastructure]]></TextElement>
-<TextElement  name="summary" elementId="253" max_word_count="100" displayName="Summary" status="required" rixmlName="summary" clientCode="summary"><![CDATA[<p><font>Reporting for Canadian energy infrastructure continues this week with 7 companies reporting (BEP and VSN today), followed by 11 companies next week. Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview published on April 20. Notable changes in consensus expectations include: 1) H (EPS to $0.31 from $0.33, or -6%); 2) IPL (EBITDA to $295M from $286M or +3%); and 3) ENB (EPS to $0.65 from $0.67 or -3%).</font></p>]]></TextElement>
-<TextElement  name="bmort_category_override" elementId="287" max_word_count="0" displayName="BMORT Category Override" status="optional" rixmlName="BMORTCO" clientCode="" />
-<TextElement  name="what&#39;s_inside_this_week" elementId="300" max_word_count="0" displayName="What's inside this week" status="optional" rixmlName="WHATS_INSIDE_THIS_WEEK" clientCode="" />
-<TextElement  name="legal_entity" elementId="309" max_word_count="0" displayName="Legal Entity" status="optional" rixmlName="LEGAL_ENTITY" clientCode="LEGAL_ENTITY"><![CDATA[<p class="legalEntity">BMO Nesbitt Burns Inc.</p>]]></TextElement>
-<TextElement  name="today&#39;s_highlights_bmort" elementId="286" max_word_count="200" displayName="Today's Highlights BMORT" status="optional" rixmlName="THBMORT" clientCode="" />
-<TextElement  name="automated_footnote" elementId="319" max_word_count="0" displayName="Automated Footnote" status="optional" rixmlName="AUTO_FN" clientCode="AUTO_FN" />
-<TextElement  name="text_box1/3" elementId="606" max_word_count="0" displayName="Text_Box1/3" status="optional" rixmlName="ONETHIRD_TEXTBOX" clientCode="" />
-<TextElement  name="text_box1/2" elementId="607" max_word_count="0" displayName="Text_Box1/2" status="optional" rixmlName="TWOTHIRD_TEXT" clientCode="" />
-<TextElement  name="left_column" elementId="608" max_word_count="0" displayName="Left Column" status="optional" rixmlName="LEFT_COLUMN" clientCode="" />
-<TextElement  name="right_column" elementId="609" max_word_count="0" displayName="Right Column" status="optional" rixmlName="RIGHT_COLUMN" clientCode="RIGHT_COLUMN" />
-<TextElement  name="sector_chart_insertion_box" elementId="256" max_word_count="0" displayName="Sector Chart Insertion Box" status="optional" rixmlName="Sector Chart Insertion Box" clientCode="" />
-<BoilerPlate  id="226" formId="boilerplate.100.1582.226" stylesheetId="boilerplate.1582.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="226" formId="boilerplate.100.488.226" stylesheetId="boilerplate.488.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]></BoilerPlate>
-<BoilerPlate  id="226" formId="boilerplate.100.583.226" stylesheetId="boilerplate.583.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]></BoilerPlate>
-<BoilerPlate  id="226" formId="boilerplate.100.716.226" stylesheetId="boilerplate.716.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="INE-TSX"><![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]></BoilerPlate>
-<BoilerPlate  id="226" formId="boilerplate.100.1423.226" stylesheetId="boilerplate.1423.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>We believe the shares are reasonably valued at current levels. Our rating is Market Perform.</p>]]></BoilerPlate>
-<BoilerPlate  id="231" formId="boilerplate.100.1582.231" stylesheetId="boilerplate.1582.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="231" formId="boilerplate.100.488.231" stylesheetId="boilerplate.488.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 15.5x to our FY18E estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="231" formId="boilerplate.100.583.231" stylesheetId="boilerplate.583.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>FTS trades at 16.5x forward P/E, in line with peer group utility average of 16.5x. We believe a modest premium is warranted given FTS&#39;s above-average dividend growth profile and low business risk (100% regulated/contracted exposure). Our $51 price target is based on a blend of our DCF and a forward P/E multiple of 19x applied to our 2018 estimate.</p>]]></BoilerPlate>
-<BoilerPlate  id="231" formId="boilerplate.100.716.231" stylesheetId="boilerplate.716.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="INE-TSX"><![CDATA[<p>INE trades at 2018E FCF Yield of ~7.5% compared to the peer contracted power average of 7.5%. A premium multiple is warranted given INE&#39;s premium long-life hydro assets underpinned by high-quality counterparties and strong execution track record. Our target price is based on the average of applying an EV/EBITDA multiple of 14.5x to our FY18 estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="231" formId="boilerplate.100.1423.231" stylesheetId="boilerplate.1423.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>Our $18.65 target price represents the PPL offer at day of announcement.</p>]]></BoilerPlate>
-<BoilerPlate  id="232" formId="boilerplate.100.1582.232" stylesheetId="boilerplate.1582.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="232" formId="boilerplate.100.488.232" stylesheetId="boilerplate.488.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>Our upside scenario of $85 assumes that the shares trade at an implied forward FCF yield of 5.5% on enhancement to the 10-12% dividend growth profile (i.e., material new projects/acquisitions).</p>]]></BoilerPlate>
-<BoilerPlate  id="232" formId="boilerplate.100.583.232" stylesheetId="boilerplate.583.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>Our upside scenario of $54.50 assumes that bond yields remain at historical lows levels and the dividend growth guidance is revised higher from the current 6%. This scenario price is based on a 21x forward P/E multiple.</p>]]></BoilerPlate>
-<BoilerPlate  id="232" formId="boilerplate.100.716.232" stylesheetId="boilerplate.716.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="INE-TSX"><![CDATA[<p>Our upside scenario of $21.50 assumes that bond yields remain at historical lows levels and that additional development opportunities are crystallized (i.e., Canada, Mexico, France). This scenario price is based on 15.5x forward EV/EBITDA.</p>]]></BoilerPlate>
-<BoilerPlate  id="232" formId="boilerplate.100.1423.232" stylesheetId="boilerplate.1423.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>Our upside scenario of $18.65 reflects the offer price proposed by PPL. Given the attractive offer proposed by PPL, we would not anticipate any additional buyers stepping in for VSN at this point.</p>]]></BoilerPlate>
-<BoilerPlate  id="233" formId="boilerplate.100.1582.233" stylesheetId="boilerplate.1582.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="233" formId="boilerplate.100.488.233" stylesheetId="boilerplate.488.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>Our downside scenario of $47 assumes that the shares trade at an implied forward FCF yield of 10%, which would be a function of balance sheet concerns and reduced growth prospects (project delays, cost overruns, equity needs).</p>]]></BoilerPlate>
-<BoilerPlate  id="233" formId="boilerplate.100.583.233" stylesheetId="boilerplate.583.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>Our downside scenario case of $39 assumes bond yields rise significantly and management isn&#39;t able to deliver to growth guidance. This scenario price implies a 15x forward P/E multiple.</p>]]></BoilerPlate>
-<BoilerPlate  id="233" formId="boilerplate.100.716.233" stylesheetId="boilerplate.716.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="INE-TSX"><![CDATA[<p>Our downside scenario case of $12.50 assumes bond yields rise significantly and that growth normalizes to inflation. This scenario price implies 12.5x forward EV/EBITDA.</p>]]></BoilerPlate>
-<BoilerPlate  id="233" formId="boilerplate.100.1423.233" stylesheetId="boilerplate.1423.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>Our downside scenario of $14 reflects our previous target price, prior to the proposed offer by PPL, which is based on the average of applying an EV/EBITDA of 11.5x to our FY2018 estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="234" formId="boilerplate.100.1582.234" stylesheetId="boilerplate.1582.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="234" formId="boilerplate.100.488.234" stylesheetId="boilerplate.488.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>Enbridge&#39;s business platforms include an extensive network of crude oil, liquids and natural gas pipelines, gas distribution utilities, and renewable power generation. Enbridge delivers an average of 2.8 mbbls/d of crude oil each, accounting for ~68% of U.S.-bound Canadian crude oil production, and moves approximately 20% of all natural gas consumed in the U.S.</p>]]></BoilerPlate>
-<BoilerPlate  id="234" formId="boilerplate.100.583.234" stylesheetId="boilerplate.583.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>Fortis Inc. is a publicly listed holding company with three key businesses: electric utility operations, regulated natural gas distribution, and non-regulated electric power generation. Its assets of more than $48B serve customers in five Canadian provinces, nine U.S. states and three Caribbean countries.</p>]]></BoilerPlate>
-<BoilerPlate  id="234" formId="boilerplate.100.716.234" stylesheetId="boilerplate.716.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="INE-TSX"><![CDATA[<p>Innergex Renewable Energy Inc. is an independent power producer that owns a portfolio of projects that consists of: 1) interests in 47 operating facilities with an aggregate net installed capacity of 939MW, 2) interests in two projects under construction with an aggregate net installed capacity of 71MW, and 3) prospective projects totaling ~3,560MW (net).</p>]]></BoilerPlate>
-<BoilerPlate  id="234" formId="boilerplate.100.1423.234" stylesheetId="boilerplate.1423.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>Veresen (VSN) owns various ownership interests in several energy infrastructure assets in the U.S. and Canada, including pipelines, midstream and contracted power generation.</p>]]></BoilerPlate>
-<BoilerPlate  id="237" formId="boilerplate.100.1582.237" stylesheetId="boilerplate.1582.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="237" formId="boilerplate.100.488.237" stylesheetId="boilerplate.488.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 15.5x to our FY18E estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="237" formId="boilerplate.100.583.237" stylesheetId="boilerplate.583.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>Our target price is based on the average of applying a P/E multiple of 19.0x to our FY18E estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="237" formId="boilerplate.100.716.237" stylesheetId="boilerplate.716.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="INE-TSX"><![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 14.5x to our FY18E estimates and a DCF.</p>]]></BoilerPlate>
-<BoilerPlate  id="237" formId="boilerplate.100.1423.237" stylesheetId="boilerplate.1423.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>Our $18.65 target price is based on PPL&#39;s proposed offer for VSN at day of announcement.</p>]]></BoilerPlate>
-<BoilerPlate  id="238" formId="boilerplate.100.1582.238" stylesheetId="boilerplate.1582.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="238" formId="boilerplate.100.488.238" stylesheetId="boilerplate.488.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="ENB-TSX"><![CDATA[<p>1) volume risk on Mainline, 2) regulatory risk, 3) U.S.-Canadian exchange rates, and 4) project execution risk.</p>]]></BoilerPlate>
-<BoilerPlate  id="238" formId="boilerplate.100.583.238" stylesheetId="boilerplate.583.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="FTS-TSX"><![CDATA[<p>Key risks include interest rates, execution, acquisition integration, capital markets, and regulatory risk.</p>]]></BoilerPlate>
-<BoilerPlate  id="238" formId="boilerplate.100.716.238" stylesheetId="boilerplate.716.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="INE-TSX"><![CDATA[<p>Key risks include interest rates, execution, capital markets, foreign exchange, and weather risk.</p>]]></BoilerPlate>
-<BoilerPlate  id="238" formId="boilerplate.100.1423.238" stylesheetId="boilerplate.1423.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="VSN-TSX"><![CDATA[<p>1) volume risk, 2) commodity prices, 3) dividend reduction, and 4) U.S.-Canadian exchanges rates</p>]]></BoilerPlate>
-<BoilerPlate  id="251" formId="boilerplate.100.1582.251" stylesheetId="boilerplate.1582.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="251" formId="boilerplate.100.488.251" stylesheetId="boilerplate.488.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
-<BoilerPlate  id="251" formId="boilerplate.100.583.251" stylesheetId="boilerplate.583.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
-<BoilerPlate  id="251" formId="boilerplate.100.716.251" stylesheetId="boilerplate.716.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="INE-TSX" />
-<BoilerPlate  id="251" formId="boilerplate.100.1423.251" stylesheetId="boilerplate.1423.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
-<BoilerPlate  id="252" formId="boilerplate.100.1582.252" stylesheetId="boilerplate.1582.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="252" formId="boilerplate.100.488.252" stylesheetId="boilerplate.488.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
-<BoilerPlate  id="252" formId="boilerplate.100.583.252" stylesheetId="boilerplate.583.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
-<BoilerPlate  id="252" formId="boilerplate.100.716.252" stylesheetId="boilerplate.716.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="INE-TSX" />
-<BoilerPlate  id="252" formId="boilerplate.100.1423.252" stylesheetId="boilerplate.1423.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
-<BoilerPlate  id="257" formId="boilerplate.100.1582.257" stylesheetId="boilerplate.1582.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="257" formId="boilerplate.100.488.257" stylesheetId="boilerplate.488.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
-<BoilerPlate  id="257" formId="boilerplate.100.583.257" stylesheetId="boilerplate.583.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
-<BoilerPlate  id="257" formId="boilerplate.100.716.257" stylesheetId="boilerplate.716.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="INE-TSX" />
-<BoilerPlate  id="257" formId="boilerplate.100.1423.257" stylesheetId="boilerplate.1423.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
-<BoilerPlate  id="305" formId="boilerplate.300.191.305" stylesheetId="boilerplate.191.SECTOR_BOILER_1" type="Sector Type" typeId="300" name="Sector Boiler Plate 1" maxWordCount="" required="0" typeSymbol="UTINFR" />
-<BoilerPlate  id="306" formId="boilerplate.300.191.306" stylesheetId="boilerplate.191.SECTOR_BOILER_2" type="Sector Type" typeId="300" name="Sector Boiler Plate 2" maxWordCount="" required="0" typeSymbol="UTINFR" />
-<BoilerPlate  id="307" formId="boilerplate.300.191.307" stylesheetId="boilerplate.191.SECTOR_BOILER_3" type="Sector Type" typeId="300" name="Sector Boiler Plate 3" maxWordCount="" required="0" typeSymbol="UTINFR" />
-<BoilerPlate  id="317" formId="boilerplate.300.191.317" stylesheetId="boilerplate.191.SECTOR_BOILER_4" type="Sector Type" typeId="300" name="Sector Boiler Plate 4" maxWordCount="" required="0" typeSymbol="UTINFR" />
-<BoilerPlate  id="318" formId="boilerplate.300.191.318" stylesheetId="boilerplate.191.SECTOR_BOILER_5" type="Sector Type" typeId="300" name="Sector Boiler Plate 5" maxWordCount="" required="0" typeSymbol="UTINFR" />
-<BoilerPlate  id="1275" formId="boilerplate.100.1582.1275" stylesheetId="boilerplate.1582.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
-<BoilerPlate  id="1275" formId="boilerplate.100.488.1275" stylesheetId="boilerplate.488.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="ENB-TSX" />
-<BoilerPlate  id="1275" formId="boilerplate.100.583.1275" stylesheetId="boilerplate.583.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="FTS-TSX" />
-<BoilerPlate  id="1275" formId="boilerplate.100.716.1275" stylesheetId="boilerplate.716.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="INE-TSX" />
-<BoilerPlate  id="1275" formId="boilerplate.100.1423.1275" stylesheetId="boilerplate.1423.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="VSN-TSX" />
-</Data>
-<Length  lengthUnit="Pages">9</Length>
-</Resource>
-<Attachments>
-<Attachment  type="199" tag="1" rank="1" fileName="PPQ1-17 Final Scorecard Attachement.docx" originalFile="/sellside/AttachmentViewer.action?encrypt=4c40416c-cde2-4d66-b357-cdb35dd5b611&amp;fileId=35303_a088ca0a-cba4-421b-bd83-0d272fb3ac4c&amp;isPdf=false" pages="3" landscapePages="">35303_a088ca0a-cba4-421b-bd83-0d272fb3ac4c.pdf</Attachment>
-</Attachments>
-</Content>
-<Context>
-<ProductClassifications>
-<SectorIndustry  level="1" classificationType="GICS" code="5510" focusLevel="Yes" primaryIndicator="Yes" BM_ID="191" clientSymbol="Energy Infrastructure">
-<Name>Utilities</Name>
-</SectorIndustry>
-<SectorIndustry  code="UTINFR" level="1" classificationType="PublisherDefined" focusLevel="Yes" primaryIndicator="Yes" BM_ID="191" clientsSymbol="Energy Infrastructure">
-<Name>Energy Infrastructure</Name>
-<CustomFields>
-<CustomField  displayName="FactSet Code" type="Textbox" clientCode="FS_CODE" length="50" />
-<CustomField  displayName="Display Sector Page" type="Dropdown, single choice" clientCode="DISP_SCTR_PG" />
-<CustomField  displayName="Sector Short Name" type="Textbox" clientCode="SECTOR_SNAME" length="50">Energy Infrastructure</CustomField>
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</SectorIndustry>
-<Tagging>
-<Tag  name="HideCoverageUniverseTable" rank="1" code="Y" attributeId="10085" levelId="1" clientCode="">Yes</Tag>
-<Tag  name="MainSubject" rank="1" code="EP" attributeId="20" levelId="6" clientCode="MainSubject">4-Earnings Preview</Tag>
-</Tagging>
-<CustomFields />
-</ProductClassifications>
-<RelatedCompanies>
-<Company  companyId="1582" securityId="1682" ticker="DEBT.HYO" pricingSymbol="DEBT.HYO" displaySymbol="DEBT.HYO" clientSymbol="DEBT.HYO" cusip="44810ZBG4" sedol="B630T67" isin="" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Hydro One" price="103.89" rating="" ratingId="" ratingSymbol="" target="" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="1582" securityId="1682" ticker="DEBT.HYO" pricingSymbol="DEBT.HYO" displaySymbol="DEBT.HYO" clientSymbol="DEBT.HYO" cusip="44810ZBG4" sedol="B630T67" isin="" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Hydro One" price="103.89" rating="" ratingId="" ratingSymbol="" target="" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="488" securityId="488" ticker="ENB-TSX" pricingSymbol="ENB-TSX" displaySymbol="ENB" clientSymbol="ENB=CA" cusip="29250N105" sedol="2466149" isin="CA29250N1050" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Enbridge" price="56.94" rating="Outperform" ratingId="1" ratingSymbol="OP" target="72.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="488" securityId="488" ticker="ENB-TSX" pricingSymbol="ENB-TSX" displaySymbol="ENB" clientSymbol="ENB=CA" cusip="29250N105" sedol="2466149" isin="CA29250N1050" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Enbridge" price="56.94" rating="Outperform" ratingId="1" ratingSymbol="OP" target="72.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="583" securityId="584" ticker="FTS-TSX" pricingSymbol="FTS-TSX" displaySymbol="FTS" clientSymbol="FTS=CA" cusip="349553107" sedol="2347200" isin="CA3495531079" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Fortis" price="44.69" rating="Outperform" ratingId="1" ratingSymbol="OP" target="51.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="583" securityId="584" ticker="FTS-TSX" pricingSymbol="FTS-TSX" displaySymbol="FTS" clientSymbol="FTS=CA" cusip="349553107" sedol="2347200" isin="CA3495531079" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Fortis" price="44.69" rating="Outperform" ratingId="1" ratingSymbol="OP" target="51.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="716" securityId="717" ticker="INE-TSX" pricingSymbol="INE-TSX" displaySymbol="INE" clientSymbol="INE=CA" cusip="45790B104" sedol="B29TNV3" isin="CA45790B1040" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Innergex Renewable Energy" price="13.99" rating="Outperform" ratingId="1" ratingSymbol="OP" target="18.50" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="716" securityId="717" ticker="INE-TSX" pricingSymbol="INE-TSX" displaySymbol="INE" clientSymbol="INE=CA" cusip="45790B104" sedol="B29TNV3" isin="CA45790B1040" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Innergex Renewable Energy" price="13.99" rating="Outperform" ratingId="1" ratingSymbol="OP" target="18.50" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="1423" securityId="1426" ticker="VSN-TSX" pricingSymbol="VSN-TSX" displaySymbol="VSN" clientSymbol="VSN=CA" cusip="92340R106" sedol="B3MBSJ6" isin="CA92340R1064" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Veresen" price="18.37" rating="Market Perform" ratingId="3" ratingSymbol="Mkt" target="18.65" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-<Company  companyId="1423" securityId="1426" ticker="VSN-TSX" pricingSymbol="VSN-TSX" displaySymbol="VSN" clientSymbol="VSN=CA" cusip="92340R106" sedol="B3MBSJ6" isin="CA92340R1064" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Veresen" price="18.37" rating="Market Perform" ratingId="3" ratingSymbol="Mkt" target="18.65" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
-</RelatedCompanies>
-<IssuerDetails>
-<IndustryDetails>
-<Industry  sequence="1" primaryIndicator="Yes" BM_ID="191">
-<FinancialDates  reportingDate="2017-05-02T19:23:56.00" />
-</Industry>
-</IndustryDetails>
-</IssuerDetails>
-</Context>
-<Legal>
-<MAR  sequence="1" publishedDateTime="2017-05-02T19:23:56.00" releasedDateTime="2017-05-03T05:00:00.00" timezone="EDT" />
-<Disclosure  code="15-013" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO" companyName="Hydro One" priority="19"><![CDATA[Disclosure 15: A member of the Board of Directors of Bank of Montreal is also a member of the Board of Directors or is an officer of Hydro One:  Philip  Orsino (Director/Member Board).]]></Disclosure>
-<Disclosure  code="1" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO" companyName="Hydro One" priority="1"><![CDATA[Disclosure 1: BMO Capital Markets has undertaken an underwriting liability with respect to Hydro One within the past 12 months.]]></Disclosure>
-<Disclosure  code="2" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="2"><![CDATA[Disclosure 2: BMO Capital Markets has provided investment banking services with respect to Hydro One, Fortis and Veresen within the past 12 months.]]></Disclosure>
-<Disclosure  code="3" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="3"><![CDATA[Disclosure 3: BMO Capital Markets has managed or co-managed a public offering of securities with respect to Hydro One, Fortis and Veresen within the past 12 months.]]></Disclosure>
-<Disclosure  code="4" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="4"><![CDATA[Disclosure 4: BMO Capital Markets or an affiliate has received compensation for investment banking services from Hydro One, Fortis and Veresen within the past 12 months.]]></Disclosure>
-<Disclosure  code="6A" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="7"><![CDATA[Disclosure 6A: Hydro One, Fortis and Veresen is a client (or was a client) of BMO Nesbitt Burns Inc., BMO Capital Markets Corp., BMO Capital Markets Limited or an affiliate within the past 12 months: A) Investment Banking Services]]></Disclosure>
-<Disclosure  code="8E" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO and ENB-TSX" companyName="Hydro One and Enbridge" priority="12"><![CDATA[Disclosure 8E: BMO Capital Markets trades or may trade as principal in the debt securities of Hydro One and Enbridge.]]></Disclosure>
-<Disclosure  code="5" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="5"><![CDATA[Disclosure 5: BMO Capital Markets or an affiliate received compensation for products or services other than investment banking services within the past 12 months from Enbridge, Fortis, Innergex Renewable Energy and Veresen.]]></Disclosure>
-<Disclosure  code="6C" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="9"><![CDATA[Disclosure 6C: Enbridge, Fortis, Innergex Renewable Energy and Veresen are clients (or were clients) of <font style="line-height:20.8px">BMO Nesbitt Burns Inc., BMO Capital Markets Corp., BMO Capital Markets Limited</font> or an affiliate within the past 12 months: C) Non-Securities Related Services.]]></Disclosure>
-<Disclosure  code="8A" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="11"><![CDATA[Disclosure 8A: BMO Capital Markets or an affiliate has a financial interest in 1% or more of any class of the equity securities of Enbridge, Fortis, Innergex Renewable Energy and Veresen.]]></Disclosure>
-<Disclosure  code="9" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX" companyName="Enbridge" priority="13"><![CDATA[Disclosure 9: BMO Capital Markets makes a market in Enbridge.]]></Disclosure>
-<Disclosure  code="8C" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX and INE-TSX" companyName="Enbridge, Fortis and Innergex Renewable Energy" priority="12"><![CDATA[Disclosure 8C: BMO Capital Markets or an affiliate has a financial interest in 0.5% or more in the issued share capital of Enbridge, Fortis and Innergex Renewable Energy.]]></Disclosure>
-<Disclaimer  code="DOR_LEGEND" typeId="2" priority="2"><![CDATA[* Reflects rating distribution of all companies covered by BMO Capital Markets Corp. equity research analysts.<br/>** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage within ratings category.<br/>*** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage of Investment Banking clients.<br/>**** Reflects rating distribution of all companies covered by BMO Capital Markets equity research analysts.<br/>***** Reflects rating distribution of all companies from which BMO Capital Markets has received compensation for Investment Banking services as percentage of Investment Banking clients.]]></Disclaimer>
-<Disclaimer  code="RATINGS" typeId="2" priority="2"><![CDATA[<p><strong>Ratings Key (as of October 2016)</strong></p><p>We use the following ratings system definitions:<br/>OP = Outperform - Forecast to outperform the analyst&#8217;s coverage universe on a total return basis;<br/>Mkt = Market Perform - Forecast to perform roughly in line with the analyst&#8217;s coverage universe on a total return basis;<br/>Und = Underperform - Forecast to underperform the analyst&#8217;s coverage universe on a total return basis;<br/>(S) = Speculative investment;<br/>Spd = Suspended - Coverage and rating suspended until coverage is reinstated;<br/>NR = No Rated - No rating at this time; and<br/>R = Restricted - Dissemination of research is currently restricted.</p><p>BMO Capital Markets&#39; seven Top 15 lists guide investors to our best ideas according to different objectives (CDN Large Cap, CDN Small Cap, US Large Cap, US Small Cap, Income, CDN Quant, and US Quant have replaced the Top Pick rating).</p><p><strong>Prior BMO Capital Markets Rating System</strong></p><p><strong>(April 2013 - October 2016)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf</a></p><p><strong>(January 2010 - April 2013)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf</a></p>]]></Disclaimer>
-<Disclaimer  code="OTHER_DIS" typeId="2" priority="3"><![CDATA[<p><strong>Other Important Disclosures</strong></p><p>For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a> or write to Editorial Department, BMO Capital Markets, 3 Times Square, New York, NY 10036 or Editorial Department, BMO Capital Markets, 1 First Canadian Place, Toronto, Ontario, M5X 1H3.</p><p><strong>Dissemination of Research</strong></p><p>Dissemination of BMO Capital Markets Equity Research is available via our website <a href="https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx">https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx</a>. Institutional clients may also receive our research via Thomson Reuters, Bloomberg, FactSet, and Capital IQ. Research reports and other commentary are required to be simultaneously disseminated internally and externally to our clients.</p><p>~ Research distribution and approval times are provided on the cover of each report. Times are approximations as system and distribution processes are not exact and can vary based on the sender and recipients&#8217; services. Unless otherwise noted, times are Eastern Standard and when two times are provided, the approval time precedes the distribution time.</p><p>BMO Capital Markets may use proprietary models in the preparation of reports. Material information about such models may be obtained by contacting the research analyst directly. There is no planned frequency of updates to this report.</p><p><strong>General Disclaimer</strong></p><p>&quot;BMO Capital Markets&quot; is a trade name used by the BMO Investment Banking Group, which includes the wholesale arm of Bank of Montreal and its subsidiaries BMO Nesbitt Burns Inc., BMO Capital Markets Limited in the U.K. and BMO Capital Markets Corp. in the U.S. BMO Nesbitt Burns Inc., BMO Capital Markets Limited and BMO Capital Markets Corp are affiliates. Bank of Montreal or its subsidiaries (&quot;BMO Financial Group&quot;) has lending arrangements with, or provide other remunerated services to, many issuers covered by BMO Capital Markets. The opinions, estimates and projections contained in this report are those of BMO Capital Markets as of the date of this report and are subject to change without notice. BMO Capital Markets endeavours to ensure that the contents have been compiled or derived from sources that we believe are reliable and contain information and opinions that are accurate and complete. However, BMO Capital Markets makes no representation or warranty, express or implied, in respect thereof, takes no responsibility for any errors and omissions contained herein and accepts no liability whatsoever for any loss arising from any use of, or reliance on, this report or its contents. Information may be available to BMO Capital Markets or its affiliates that is not reflected in this report. The information in this report is not intended to be used as the primary basis of investment decisions, and because of individual client objectives, should not be construed as advice designed to meet the particular investment needs of any investor. This material is for information purposes only and is not an offer to sell or the solicitation of an offer to buy any security. BMO Capital Markets or its affiliates will buy from or sell to customers the securities of issuers mentioned in this report on a principal basis. BMO Capital Markets or its affiliates, officers, directors or employees have a long or short position in many of the securities discussed herein, related securities or in options, futures or other derivative instruments based thereon. The reader should assume that BMO Capital Markets or its affiliates may have a conflict of interest and should not rely solely on this report in evaluating whether or not to buy or sell securities of issuers discussed herein.</p><p><strong>Additional Matters</strong></p><p>To Canadian Residents: BMO Nesbitt Burns Inc. furnishes this report to Canadian residents and accepts responsibility for the contents herein subject to the terms set out above. Any Canadian person wishing to effect transactions in any of the securities included in this report should do so through BMO Nesbitt Burns Inc.</p><p>The following applies if this research was prepared in whole or in part by Alexander Pearce, David Round, Edward Sterck or Brendan Warn: This research is not prepared subject to Canadian disclosure requirements. This research is prepared by BMO Capital Markets Limited and subject to the regulations of the Financial Conduct Authority (FCA) in the United Kingdom. FCA regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 5% or more of the equity of the issuer. Canadian regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 1% or more of the equity of the issuer that is the subject of the research. Therefore BMO Capital Markets Limited will disclose its and its affiliates&#39; ownership interest in the subject issuer only if such ownership exceeds 5% of the equity of the issuer.</p><p>To E.U. Residents: In an E.U. Member State this document is issued and distributed by BMO Capital Markets Limited which is authorised and regulated in the UK and operates in the E.U. on a passported basis. This document is only intended for Professional Clients, as defined in Annex II to &#8220;Markets in Financial Instruments Directive&#8221; 2004/39/EC (&#8220;MiFID&#8221;).</p><p>To U.S. Residents: BMO Capital Markets Corp. furnishes this report to U.S. residents and accepts responsibility for the contents herein, except to the extent that it refers to securities of Bank of Montreal. Any U.S. person wishing to effect transactions in any security discussed herein should do so through BMO Capital Markets Corp.</p><p>To U.K. Residents: In the UK this document is published by BMO Capital Markets Limited which is authorised and regulated by the Financial Conduct Authority. The contents hereof are intended solely for the use of, and may only be issued or passed on to, (I) persons who have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the &quot;Order&quot;) or (II) high net worth entities falling within Article 49(2)(a) to (d) of the Order (all such persons together referred to as &quot;relevant persons&quot;). The contents hereof are not intended for the use of and may not be issued or passed on to retail clients.</p><p>Unauthorized reproduction, distribution, transmission or publication without the prior written consent of BMO Capital Markets is strictly prohibited.</p><p><a href="http://research-ca.bmocapitalmarkets.com/documents/C17EA078-97CF-4438-AC2C-B5A8118F8C4B.PDF">Click here</a> for data vendor disclosures when referenced within a BMO Capital Markets research document.</p>]]></Disclaimer>
-<Disclaimer  code="ADDL_INFO" typeId="2" priority="16"><![CDATA[<p align="center"><strong>ADDITIONAL INFORMATION IS AVAILABLE UPON REQUEST</strong><br/>BMO Financial Group (NYSE, TSX: BMO) is an integrated financial services provider offering a range of retail banking, wealth management, and investment and corporate banking products. BMO serves Canadian retail clients through BMO Bank of Montreal and BMO Nesbitt Burns. In the United States, personal and commercial banking clients are served by BMO Harris Bank N.A., (Member FDIC). Investment and corporate banking services are provided in Canada and the US through BMO Capital Markets.</p><p align="center">BMO Capital Markets is a trade name used by BMO Financial Group for the wholesale banking businesses of Bank of Montreal, BMO Harris Bank N.A, (Member FDIC), BMO Ireland Plc, and Bank of Montreal (China) Co. Ltd. and the institutional broker dealer businesses of BMO Capital Markets Corp. (Member SIPC) in the U.S., BMO Nesbitt Burns Inc. (Member Canadian Investor Protection Fund) in Canada, Europe and Asia, BMO Capital Markets Limited in Europe and Australia and BMO Advisors Private Limited in India.</p><p align="center">&#174; Registered trademark of Bank of Montreal in the United States, Canada and elsewhere.<br/>TM Trademark Bank of Montreal</p><p align="center">&#169;COPYRIGHT 2017 BMO CAPITAL MARKETS CORP.</p><p align="center"><img width="300" src="http://research-ca.bmocapitalmarkets.com/ebooks/a-member-of-bmo-financial.jpg" height="29" alt="A Member of BMO Financial Group"/></p>]]></Disclaimer>
-<Disclaimer  code="P1-CA" typeId="2" priority="1"><![CDATA[This report was prepared by an analyst(s) employed by BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="P1-UK" typeId="2" priority="1"><![CDATA[This report was prepared by an analyst(s) employed by BMO Capital Markets Limited, authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="P1-CAUSUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by analysts employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited, authorised and regulated by the Financial Services Authority in the UK, and who are not registered as research analysts under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="P1-CAUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK, and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="P1-CAUS" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="P1-USUK" typeId="2" priority="1"><![CDATA[This report was prepared in part by an analyst(s) employed by BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]></Disclaimer>
-<Disclaimer  code="COMP" typeId="2" priority="1"><![CDATA[For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a>.]]></Disclaimer>
-<Disclaimer  code="REG_AC" typeId="6" priority="1"><![CDATA[<p>I, Ben Pham, hereby certify that the views expressed in this report accurately reflect my personal views about the subject securities or issuers. I also certify that no part of my compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.</p><p>Analysts who prepared this report are compensated based upon (among other factors) the overall profitability of BMO Capital Markets and their affiliates, which includes the overall profitability of investment banking services. Compensation for research is based on effectiveness in generating new ideas and in communication of ideas to clients, performance of recommendations, accuracy of earnings estimates, and service to clients.</p><p>Analysts employed by BMO Nesbitt Burns Inc. and/or BMO Capital Markets Limited are not registered as research analysts with FINRA. These analysts may not be associated persons of BMO Capital Markets Corp. and therefore may not be subject to the FINRA Rule 2241 restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.</p>]]></Disclaimer>
-<Chart  ticker="DEBT.HYO">
-<URLsvg>/nas/web/charts/clients/18524/out/large/DEBT.HYO.svg</URLsvg>
-<staticURL>/nas/web/charts/clients/18524/out/largeStatic/DEBT.HYO.35303.png</staticURL>
-<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/DEBT.HYO.35303.png</staticURL2>
-</Chart>
-<Chart  ticker="ENB-TSX">
-<URLsvg>/nas/web/charts/clients/18524/out/large/ENB-TSX.svg</URLsvg>
-<staticURL>/nas/web/charts/clients/18524/out/largeStatic/ENB-TSX.35303.png</staticURL>
-<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/ENB-TSX.35303.png</staticURL2>
-</Chart>
-<Chart  ticker="FTS-TSX">
-<URLsvg>/nas/web/charts/clients/18524/out/large/FTS-TSX.svg</URLsvg>
-<staticURL>/nas/web/charts/clients/18524/out/largeStatic/FTS-TSX.35303.png</staticURL>
-<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/FTS-TSX.35303.png</staticURL2>
-</Chart>
-<Chart  ticker="INE-TSX">
-<URLsvg>/nas/web/charts/clients/18524/out/large/INE-TSX.svg</URLsvg>
-<staticURL>/nas/web/charts/clients/18524/out/largeStatic/INE-TSX.35303.png</staticURL>
-<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/INE-TSX.35303.png</staticURL2>
-</Chart>
-<Chart  ticker="VSN-TSX">
-<URLsvg>/nas/web/charts/clients/18524/out/large/VSN-TSX.svg</URLsvg>
-<staticURL>/nas/web/charts/clients/18524/out/largeStatic/VSN-TSX.35303.png</staticURL>
-<staticURL2>https://bmo.bluematrix.com/charts/largeStatic/VSN-TSX.35303.png</staticURL2>
-</Chart>
-</Legal>
-<Extended>
-<RelatedCompanies>
-<Security  securityId="1682" pricingSymbol="DEBT.HYO">
-<CustomFields>
-<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
-<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">H045208</CustomField>
-<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
-<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
-<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
-<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Security>
-<Security  securityId="488" pricingSymbol="ENB-TSX">
-<CustomFields>
-<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15">
-<Value>Cdn Large Cap</Value>
-<Value>Income Stock</Value>
-</CustomField>
-<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">E100301</CustomField>
-<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
-<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
-<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
-<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Security>
-<Security  securityId="584" pricingSymbol="FTS-TSX">
-<CustomFields>
-<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15">
-<Value />
-</CustomField>
-<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">F538065</CustomField>
-<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
-<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
-<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
-<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Security>
-<Security  securityId="717" pricingSymbol="INE-TSX">
-<CustomFields>
-<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
-<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">H106110</CustomField>
-<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
-<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
-<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
-<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Security>
-<Security  securityId="1426" pricingSymbol="VSN-TSX">
-<CustomFields>
-<CustomField  displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
-<CustomField  displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">V006139</CustomField>
-<CustomField  displayName="RCode" type="Dropdown, single choice" clientCode="RCode">EU</CustomField>
-<CustomField  displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
-<CustomField  displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
-<CustomField  displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Security>
-</RelatedCompanies>
-<Authors>
-<Author  rank="1" fname="Ben" lname="Pham" position="CFA" phone="(416) 359-4061" email="ben.pham@bmo.com" office="Toronto" id="109">
-<Status>
-<Series7>0</Series7>
-<Series16>0</Series16>
-<Series24>0</Series24>
-<Series8687>1</Series8687>
-<Fsa>1</Fsa>
-<OfficeId>1</OfficeId>
-<DivisionId>1</DivisionId>
-</Status>
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Energy Infrastructure</CustomField>
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Author>
-<Author  rank="2" fname="Eric" lname="Tang" position="" phone="(416) 359-8110" email="eric.tang@bmo.com" office="Toronto" id="180">
-<Status>
-<Series7>0</Series7>
-<Series16>0</Series16>
-<Series24>0</Series24>
-<Series8687>1</Series8687>
-<Fsa>1</Fsa>
-<OfficeId>1</OfficeId>
-<DivisionId>1</DivisionId>
-</Status>
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Author>
-<Author  rank="3" fname="Nigel" lname="Dyer" position="" phone="(416) 359-6017" email="nigel.dyer@bmo.com" office="Toronto" id="312">
-<Status>
-<Series7>0</Series7>
-<Series16>0</Series16>
-<Series24>0</Series24>
-<Series8687>0</Series8687>
-<Fsa>0</Fsa>
-<OfficeId>1</OfficeId>
-<DivisionId>1</DivisionId>
-</Status>
-<CustomFields>
-<CustomField  displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
-<CustomField  displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
-<CustomField  displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
-</CustomFields>
-</Author>
-</Authors>
-<BoilerPlateChanges />
-</Extended>
+<Product productID="4c40416c-cde2-4d66-b357-cdb35dd5b611" shortProductID="R5D8iNm9" language="en">
+    <ProductStatus statusType="Published" extendedStatus="Published" statusDateTime="2017-05-02T19:23:56.00" userDisplayDate="2017-05-03T05:00:00.00" releaseDate="2017-05-03T05:00:00.00" localeStatusDate="2017-05-02T19:23:56.00" customLocaleStatusDate="2017-05-02T19:23:56.00" displayDateTime="2017-05-03T05:00:00.00" localeDisplayDateTime="2017-05-03T05:00:00.00" customLocaleDisplayDateTime="2017-05-03T05:00:00.00" previousWorkDay="2017-05-02" bluematrixXmlID="21" documentStatus="15" bluematrixDocId="35303" previousDocId="34645" updateFinancials="No" bluematrixXmlAbbr="SC" bluematrixXmlDescr="2. Sector_Comment" comment="" productCategory="Sector/Industry" focus="Issuer" libraryOnly="no" mailListOnly="no" internalUseOnly="no" sendingMail="yes" totalPageNumber="9" server_tz="GMT-4:00" server_tz_short="EDT" baseHref="https://bmo.bluematrix.com" analyst_tz="GMT-5:00" analyst_tz_short="EST" />
+    <Source>
+    <Publisher sequence="1" primaryIndicator="Yes">
+        <PublisherID idType="Shortname">bmo</PublisherID>
+        <PublisherID idType="BM" encrypted="oJofgHhfPKfZivBqpgMaN+mi8xMfzs7B" library="https://bmoresearch.bluematrix.com">18524</PublisherID>
+        <PublisherName nameType="Legal">BMO Capital Markets</PublisherName>
+        <PublisherName nameType="Person">
+            <LastName>Pisani</LastName>
+            <FirstName>Peg</FirstName>
+            <DisplayName>Peg Pisani</DisplayName>
+            <ClientCode>P3P</ClientCode>
+        </PublisherName>
+        <Team>
+            <TeamMember sequence="1" primaryIndicator="Yes" personID="109">
+                <Role rank="1">Analyst</Role>
+                <LastName>Pham</LastName>
+                <FirstName>Ben</FirstName>
+                <MiddleName />
+                <Position>CFA</Position>
+                <ClientCode>BP</ClientCode>
+                <Division ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
+                <Office ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
+                <DisplayName>Ben Pham</DisplayName>
+                <Phone>(416) 359-4061</Phone>
+                <Email>ben.pham@bmo.com</Email>
+                <Sector id="66" parentId="" analystRank="1">Energy Infrastructure</Sector>
+                <Sector id="103" parentId="" analystRank="1">Energy Infrastructure</Sector>
+                <Sector id="191" parentId="" analystRank="1">Energy Infrastructure</Sector>
+                <Tagging />
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Energy Infrastructure</CustomField>
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </TeamMember>
+            <TeamMember sequence="2" primaryIndicator="No" personID="180">
+                <Role rank="1">Associate</Role>
+                <LastName>Tang</LastName>
+                <FirstName>Eric</FirstName>
+                <MiddleName />
+                <Position />
+                <ClientCode>ET</ClientCode>
+                <Division ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
+                <Office ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
+                <DisplayName>Eric Tang</DisplayName>
+                <Phone>(416) 359-8110</Phone>
+                <Email>eric.tang@bmo.com</Email>
+                <Tagging />
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </TeamMember>
+            <TeamMember sequence="3" primaryIndicator="No" personID="312">
+                <Role rank="1">Associate</Role>
+                <LastName>Dyer</LastName>
+                <FirstName>Nigel</FirstName>
+                <MiddleName />
+                <Position />
+                <ClientCode>NZD</ClientCode>
+                <Division ID="1" code="Canada Research" name="BMO Nesbitt Burns Inc." />
+                <Office ID="1" name="TOR" legalName="" time_zone_name="(GMT-5:00) Eastern Time (US &amp; Canada)" time_zone_short="EST" address1="" address2="" address3="" />
+                <DisplayName>Nigel Dyer</DisplayName>
+                <Phone>(416) 359-6017</Phone>
+                <Email>nigel.dyer@bmo.com</Email>
+                <Tagging />
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </TeamMember>
+        </Team>
+    </Publisher>
+    </Source>
+    <Content>
+        <Title>
+            <![CDATA[Q1/17 Final Earnings Scorecard]]>
+        </Title>
+        <SubTitle />
+        <Abstract />
+        <Resource resourceID="4c40416c-cde2-4d66-b357-cdb35dd5b611">
+            <Data>
+                <TextElement name="bottom_line" elementId="227" max_word_count="150" displayName="Bottom Line" status="optional" rixmlName="bottom_line" clientCode="bottom_line">
+                    <![CDATA[<p align="LEFT">Reporting for Canadian energy infrastructure continues this week with 7 companies reporting (BEP and VSN today), followed by 11 companies next week. Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview published on April 20. Notable changes in consensus expectations include: 1) H (EPS to $0.31 from $0.33, or -6%); 2) IPL (EBITDA to $295M from $286M or +3%); and 3) ENB (EPS to $0.65 from $0.67 or -3%).</p>]]>
+                </TextElement>
+                <TextElement name="key_points" elementId="228" max_word_count="450" displayName="Key Points" status="optional" rixmlName="key_points" clientCode="key_points">
+                    <![CDATA[<p align="LEFT"><strong>Approximately 20% of our Canadian energy Infrastructure companies have reported</strong> <strong>so far.</strong> Reporting for Canadian energy infrastructure continues this week with seven companies reporting, followed by eleven companies next week to close off the season. Five have reported so far (three beats and two misses relative to consensus).</p><p align="LEFT"><strong>Earnings calendar table.</strong> Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview comment published on April 20. Notable changes include: 1) <strong>H</strong> (EPS to $0.31 from $0.33, or -6%); 2) <strong>IPL</strong> (EBITDA to $295M from $286M or +3%); and 3) <strong>ENB</strong> (EPS to $0.65 from $0.67 or -3%).</p><p align="LEFT"><strong>Recommendations.</strong> We are maintaining our Outperform ratings on <strong>BLX, FTS, AQN, CPX,</strong> <strong>BEP, INE,</strong> and <strong>PEGI</strong> within utility and power, and <strong>ENB, TRP,</strong> and <strong>PPL</strong> within pipeline and midstream.</p><p align="LEFT"><strong>What we&#39;ve learned so far.</strong> 1) The strong frac spread environment (average US$0.35/gallon in Q1/17 vs. US$0.19 in Q1/16) is benefiting midstream results as evident in the ALA gas midstream results ($67M segment EBITDA vs. our $53M). Marketing is also boosting results. We believe GEI, IPL, PPL, and VSN could directionally benefit from this positive dynamic. 2) Production results so far on wind farms we follow highlighted improved resource conditions, particularly relative to the softness we observed last year. Also, NextEra reported Q1/17 wind production that was 101% of the long-term average. PEGI is the most levered to wind in our coverage. 3) Acquisitions are continuing at a torrid pace. On Monday, PPL/VSN announced a $33B combination, and on April 28, ENB acquired the balance of the Midcoast gas assets from Enbridge Energy Partners (EEP-NYSE, not rated). EEP also noted the potential for future liquid drop-downs from Enbridge Inc. given its improved balance sheet metrics and dividend coverage.</p><p align="LEFT"><strong>What we remain focused on.</strong> 1) Dividend increase announcements from ENB (+6% to bring 2017 annual growth to +15%) and PEGI (+2%). 2) Alberta gas processing and NGL volumes (positive datapoints from ALA&#39;s Q1/17 results). 3) Updated commentary from the North American utilities regarding U.S. President Trump&#39;s recent proposed tax plan. 4) The status of acquisition integration/synergies following last year&#39;s record year for Canadian energy infrastructure acquisitions. 5) A potential return to normal hydrology conditions following a very weak 2016. 6) Any significant change in the Alberta power forward curve following Sundance A retirement/mothball.</p>]]>
+                </TextElement>
+                <TextElement name="banner_insertion_box" elementId="235" max_word_count="0" displayName="Banner Insertion Box" status="optional" rixmlName="BANNER_BOX" clientCode="BANNER_BOX" />
+                <TextElement name="body_text" elementId="229" max_word_count="0" displayName="Body Text" status="optional" rixmlName="body_text" clientCode="body_text" />
+                <TextElement name="sector_name_override" elementId="250" max_word_count="0" displayName="Sector Name Override" status="optional" rixmlName="sector_name_override" clientCode="SECTOR_OR">
+                    <![CDATA[Energy Infrastructure]]>
+                </TextElement>
+                <TextElement name="summary" elementId="253" max_word_count="100" displayName="Summary" status="required" rixmlName="summary" clientCode="summary">
+                    <![CDATA[<p><font>Reporting for Canadian energy infrastructure continues this week with 7 companies reporting (BEP and VSN today), followed by 11 companies next week. Exhibit 1 lists chronological reporting dates for the names under coverage, including our Q1/17E estimates. The table also reflects changes in consensus estimates since our Q1/17 earnings preview published on April 20. Notable changes in consensus expectations include: 1) H (EPS to $0.31 from $0.33, or -6%); 2) IPL (EBITDA to $295M from $286M or +3%); and 3) ENB (EPS to $0.65 from $0.67 or -3%).</font></p>]]>
+                </TextElement>
+                <TextElement name="bmort_category_override" elementId="287" max_word_count="0" displayName="BMORT Category Override" status="optional" rixmlName="BMORTCO" clientCode="" />
+                <TextElement name="what&#39;s_inside_this_week" elementId="300" max_word_count="0" displayName="What's inside this week" status="optional" rixmlName="WHATS_INSIDE_THIS_WEEK" clientCode="" />
+                <TextElement name="legal_entity" elementId="309" max_word_count="0" displayName="Legal Entity" status="optional" rixmlName="LEGAL_ENTITY" clientCode="LEGAL_ENTITY">
+                    <![CDATA[<p class="legalEntity">BMO Nesbitt Burns Inc.</p>]]>
+                </TextElement>
+                <TextElement name="today&#39;s_highlights_bmort" elementId="286" max_word_count="200" displayName="Today's Highlights BMORT" status="optional" rixmlName="THBMORT" clientCode="" />
+                <TextElement name="automated_footnote" elementId="319" max_word_count="0" displayName="Automated Footnote" status="optional" rixmlName="AUTO_FN" clientCode="AUTO_FN" />
+                <TextElement name="text_box1/3" elementId="606" max_word_count="0" displayName="Text_Box1/3" status="optional" rixmlName="ONETHIRD_TEXTBOX" clientCode="" />
+                <TextElement name="text_box1/2" elementId="607" max_word_count="0" displayName="Text_Box1/2" status="optional" rixmlName="TWOTHIRD_TEXT" clientCode="" />
+                <TextElement name="left_column" elementId="608" max_word_count="0" displayName="Left Column" status="optional" rixmlName="LEFT_COLUMN" clientCode="" />
+                <TextElement name="right_column" elementId="609" max_word_count="0" displayName="Right Column" status="optional" rixmlName="RIGHT_COLUMN" clientCode="RIGHT_COLUMN" />
+                <TextElement name="sector_chart_insertion_box" elementId="256" max_word_count="0" displayName="Sector Chart Insertion Box" status="optional" rixmlName="Sector Chart Insertion Box" clientCode="" />
+                <BoilerPlate id="226" formId="boilerplate.100.1582.226" stylesheetId="boilerplate.1582.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="226" formId="boilerplate.100.488.226" stylesheetId="boilerplate.488.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="226" formId="boilerplate.100.583.226" stylesheetId="boilerplate.583.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="226" formId="boilerplate.100.716.226" stylesheetId="boilerplate.716.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>We believe the shares are attractively valued at current levels. Our rating is Outperform.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="226" formId="boilerplate.100.1423.226" stylesheetId="boilerplate.1423.THESIS" type="Company Type" typeId="100" name="Our Thesis" maxWordCount="400" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>We believe the shares are reasonably valued at current levels. Our rating is Market Perform.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="231" formId="boilerplate.100.1582.231" stylesheetId="boilerplate.1582.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="231" formId="boilerplate.100.488.231" stylesheetId="boilerplate.488.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 15.5x to our FY18E estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="231" formId="boilerplate.100.583.231" stylesheetId="boilerplate.583.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>FTS trades at 16.5x forward P/E, in line with peer group utility average of 16.5x. We believe a modest premium is warranted given FTS&#39;s above-average dividend growth profile and low business risk (100% regulated/contracted exposure). Our $51 price target is based on a blend of our DCF and a forward P/E multiple of 19x applied to our 2018 estimate.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="231" formId="boilerplate.100.716.231" stylesheetId="boilerplate.716.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>INE trades at 2018E FCF Yield of ~7.5% compared to the peer contracted power average of 7.5%. A premium multiple is warranted given INE&#39;s premium long-life hydro assets underpinned by high-quality counterparties and strong execution track record. Our target price is based on the average of applying an EV/EBITDA multiple of 14.5x to our FY18 estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="231" formId="boilerplate.100.1423.231" stylesheetId="boilerplate.1423.VALUATION" type="Company Type" typeId="100" name="Valuation" maxWordCount="400" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>Our $18.65 target price represents the PPL offer at day of announcement.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="232" formId="boilerplate.100.1582.232" stylesheetId="boilerplate.1582.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="232" formId="boilerplate.100.488.232" stylesheetId="boilerplate.488.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>Our upside scenario of $85 assumes that the shares trade at an implied forward FCF yield of 5.5% on enhancement to the 10-12% dividend growth profile (i.e., material new projects/acquisitions).</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="232" formId="boilerplate.100.583.232" stylesheetId="boilerplate.583.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>Our upside scenario of $54.50 assumes that bond yields remain at historical lows levels and the dividend growth guidance is revised higher from the current 6%. This scenario price is based on a 21x forward P/E multiple.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="232" formId="boilerplate.100.716.232" stylesheetId="boilerplate.716.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>Our upside scenario of $21.50 assumes that bond yields remain at historical lows levels and that additional development opportunities are crystallized (i.e., Canada, Mexico, France). This scenario price is based on 15.5x forward EV/EBITDA.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="232" formId="boilerplate.100.1423.232" stylesheetId="boilerplate.1423.UPSIDE" type="Company Type" typeId="100" name="Upside Scenario" maxWordCount="400" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>Our upside scenario of $18.65 reflects the offer price proposed by PPL. Given the attractive offer proposed by PPL, we would not anticipate any additional buyers stepping in for VSN at this point.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="233" formId="boilerplate.100.1582.233" stylesheetId="boilerplate.1582.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="233" formId="boilerplate.100.488.233" stylesheetId="boilerplate.488.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>Our downside scenario of $47 assumes that the shares trade at an implied forward FCF yield of 10%, which would be a function of balance sheet concerns and reduced growth prospects (project delays, cost overruns, equity needs).</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="233" formId="boilerplate.100.583.233" stylesheetId="boilerplate.583.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>Our downside scenario case of $39 assumes bond yields rise significantly and management isn&#39;t able to deliver to growth guidance. This scenario price implies a 15x forward P/E multiple.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="233" formId="boilerplate.100.716.233" stylesheetId="boilerplate.716.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>Our downside scenario case of $12.50 assumes bond yields rise significantly and that growth normalizes to inflation. This scenario price implies 12.5x forward EV/EBITDA.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="233" formId="boilerplate.100.1423.233" stylesheetId="boilerplate.1423.DOWNSIDE" type="Company Type" typeId="100" name="Downside Scenario" maxWordCount="400" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>Our downside scenario of $14 reflects our previous target price, prior to the proposed offer by PPL, which is based on the average of applying an EV/EBITDA of 11.5x to our FY2018 estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="234" formId="boilerplate.100.1582.234" stylesheetId="boilerplate.1582.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="234" formId="boilerplate.100.488.234" stylesheetId="boilerplate.488.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>Enbridge&#39;s business platforms include an extensive network of crude oil, liquids and natural gas pipelines, gas distribution utilities, and renewable power generation. Enbridge delivers an average of 2.8 mbbls/d of crude oil each, accounting for ~68% of U.S.-bound Canadian crude oil production, and moves approximately 20% of all natural gas consumed in the U.S.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="234" formId="boilerplate.100.583.234" stylesheetId="boilerplate.583.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>Fortis Inc. is a publicly listed holding company with three key businesses: electric utility operations, regulated natural gas distribution, and non-regulated electric power generation. Its assets of more than $48B serve customers in five Canadian provinces, nine U.S. states and three Caribbean countries.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="234" formId="boilerplate.100.716.234" stylesheetId="boilerplate.716.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>Innergex Renewable Energy Inc. is an independent power producer that owns a portfolio of projects that consists of: 1) interests in 47 operating facilities with an aggregate net installed capacity of 939MW, 2) interests in two projects under construction with an aggregate net installed capacity of 71MW, and 3) prospective projects totaling ~3,560MW (net).</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="234" formId="boilerplate.100.1423.234" stylesheetId="boilerplate.1423.COMPANY_DESC" type="Company Type" typeId="100" name="Company Description" maxWordCount="375" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>Veresen (VSN) owns various ownership interests in several energy infrastructure assets in the U.S. and Canada, including pipelines, midstream and contracted power generation.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="237" formId="boilerplate.100.1582.237" stylesheetId="boilerplate.1582.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="237" formId="boilerplate.100.488.237" stylesheetId="boilerplate.488.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 15.5x to our FY18E estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="237" formId="boilerplate.100.583.237" stylesheetId="boilerplate.583.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>Our target price is based on the average of applying a P/E multiple of 19.0x to our FY18E estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="237" formId="boilerplate.100.716.237" stylesheetId="boilerplate.716.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>Our target price is based on the average of applying an EV/EBITDA multiple of 14.5x to our FY18E estimates and a DCF.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="237" formId="boilerplate.100.1423.237" stylesheetId="boilerplate.1423.METHODOLOGY" type="Company Type" typeId="100" name="Methodology" maxWordCount="" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>Our $18.65 target price is based on PPL&#39;s proposed offer for VSN at day of announcement.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="238" formId="boilerplate.100.1582.238" stylesheetId="boilerplate.1582.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="238" formId="boilerplate.100.488.238" stylesheetId="boilerplate.488.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="ENB-TSX">
+                    <![CDATA[<p>1) volume risk on Mainline, 2) regulatory risk, 3) U.S.-Canadian exchange rates, and 4) project execution risk.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="238" formId="boilerplate.100.583.238" stylesheetId="boilerplate.583.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="FTS-TSX">
+                    <![CDATA[<p>Key risks include interest rates, execution, acquisition integration, capital markets, and regulatory risk.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="238" formId="boilerplate.100.716.238" stylesheetId="boilerplate.716.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="INE-TSX">
+                    <![CDATA[<p>Key risks include interest rates, execution, capital markets, foreign exchange, and weather risk.</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="238" formId="boilerplate.100.1423.238" stylesheetId="boilerplate.1423.RISKS" type="Company Type" typeId="100" name="Risks" maxWordCount="" required="0" typeSymbol="VSN-TSX">
+                    <![CDATA[<p>1) volume risk, 2) commodity prices, 3) dividend reduction, and 4) U.S.-Canadian exchanges rates</p>]]>
+                </BoilerPlate>
+                <BoilerPlate id="251" formId="boilerplate.100.1582.251" stylesheetId="boilerplate.1582.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="251" formId="boilerplate.100.488.251" stylesheetId="boilerplate.488.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
+                <BoilerPlate id="251" formId="boilerplate.100.583.251" stylesheetId="boilerplate.583.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
+                <BoilerPlate id="251" formId="boilerplate.100.716.251" stylesheetId="boilerplate.716.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="INE-TSX" />
+                <BoilerPlate id="251" formId="boilerplate.100.1423.251" stylesheetId="boilerplate.1423.x Re-use later" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
+                <BoilerPlate id="252" formId="boilerplate.100.1582.252" stylesheetId="boilerplate.1582.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="252" formId="boilerplate.100.488.252" stylesheetId="boilerplate.488.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
+                <BoilerPlate id="252" formId="boilerplate.100.583.252" stylesheetId="boilerplate.583.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
+                <BoilerPlate id="252" formId="boilerplate.100.716.252" stylesheetId="boilerplate.716.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="INE-TSX" />
+                <BoilerPlate id="252" formId="boilerplate.100.1423.252" stylesheetId="boilerplate.1423.unused" type="Company Type" typeId="100" name="x Re-use later" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
+                <BoilerPlate id="257" formId="boilerplate.100.1582.257" stylesheetId="boilerplate.1582.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="257" formId="boilerplate.100.488.257" stylesheetId="boilerplate.488.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="ENB-TSX" />
+                <BoilerPlate id="257" formId="boilerplate.100.583.257" stylesheetId="boilerplate.583.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="FTS-TSX" />
+                <BoilerPlate id="257" formId="boilerplate.100.716.257" stylesheetId="boilerplate.716.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="INE-TSX" />
+                <BoilerPlate id="257" formId="boilerplate.100.1423.257" stylesheetId="boilerplate.1423.CHART_TEXT" type="Company Type" typeId="100" name="Chart Text Box" maxWordCount="" required="0" typeSymbol="VSN-TSX" />
+                <BoilerPlate id="305" formId="boilerplate.300.191.305" stylesheetId="boilerplate.191.SECTOR_BOILER_1" type="Sector Type" typeId="300" name="Sector Boiler Plate 1" maxWordCount="" required="0" typeSymbol="UTINFR" />
+                <BoilerPlate id="306" formId="boilerplate.300.191.306" stylesheetId="boilerplate.191.SECTOR_BOILER_2" type="Sector Type" typeId="300" name="Sector Boiler Plate 2" maxWordCount="" required="0" typeSymbol="UTINFR" />
+                <BoilerPlate id="307" formId="boilerplate.300.191.307" stylesheetId="boilerplate.191.SECTOR_BOILER_3" type="Sector Type" typeId="300" name="Sector Boiler Plate 3" maxWordCount="" required="0" typeSymbol="UTINFR" />
+                <BoilerPlate id="317" formId="boilerplate.300.191.317" stylesheetId="boilerplate.191.SECTOR_BOILER_4" type="Sector Type" typeId="300" name="Sector Boiler Plate 4" maxWordCount="" required="0" typeSymbol="UTINFR" />
+                <BoilerPlate id="318" formId="boilerplate.300.191.318" stylesheetId="boilerplate.191.SECTOR_BOILER_5" type="Sector Type" typeId="300" name="Sector Boiler Plate 5" maxWordCount="" required="0" typeSymbol="UTINFR" />
+                <BoilerPlate id="1275" formId="boilerplate.100.1582.1275" stylesheetId="boilerplate.1582.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="DEBT.HYO" />
+                <BoilerPlate id="1275" formId="boilerplate.100.488.1275" stylesheetId="boilerplate.488.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="ENB-TSX" />
+                <BoilerPlate id="1275" formId="boilerplate.100.583.1275" stylesheetId="boilerplate.583.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="FTS-TSX" />
+                <BoilerPlate id="1275" formId="boilerplate.100.716.1275" stylesheetId="boilerplate.716.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="INE-TSX" />
+                <BoilerPlate id="1275" formId="boilerplate.100.1423.1275" stylesheetId="boilerplate.1423.CATALYSTS" type="Company Type" typeId="100" name="Key Catalysts" maxWordCount="400" required="0" typeSymbol="VSN-TSX" />
+            </Data>
+            <Length lengthUnit="Pages">9</Length>
+        </Resource>
+        <Attachments>
+            <Attachment type="199" tag="1" rank="1" fileName="PPQ1-17 Final Scorecard Attachement.docx" originalFile="/sellside/AttachmentViewer.action?encrypt=4c40416c-cde2-4d66-b357-cdb35dd5b611&amp;fileId=35303_a088ca0a-cba4-421b-bd83-0d272fb3ac4c&amp;isPdf=false" pages="3" landscapePages="">35303_a088ca0a-cba4-421b-bd83-0d272fb3ac4c.pdf</Attachment>
+        </Attachments>
+    </Content>
+    <Context>
+        <ProductClassifications>
+            <SectorIndustry level="1" classificationType="GICS" code="5510" focusLevel="Yes" primaryIndicator="Yes" BM_ID="191" clientSymbol="Energy Infrastructure">
+                <Name>Utilities</Name>
+            </SectorIndustry>
+            <SectorIndustry code="UTINFR" level="1" classificationType="PublisherDefined" focusLevel="Yes" primaryIndicator="Yes" BM_ID="191" clientsSymbol="Energy Infrastructure">
+                <Name>Energy Infrastructure</Name>
+                <CustomFields>
+                    <CustomField displayName="FactSet Code" type="Textbox" clientCode="FS_CODE" length="50" />
+                    <CustomField displayName="Display Sector Page" type="Dropdown, single choice" clientCode="DISP_SCTR_PG" />
+                    <CustomField displayName="Sector Short Name" type="Textbox" clientCode="SECTOR_SNAME" length="50">Energy Infrastructure</CustomField>
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </SectorIndustry>
+            <Tagging>
+                <Tag name="HideCoverageUniverseTable" rank="1" code="Y" attributeId="10085" levelId="1" clientCode="">Yes</Tag>
+                <Tag name="MainSubject" rank="1" code="EP" attributeId="20" levelId="6" clientCode="MainSubject">4-Earnings Preview</Tag>
+            </Tagging>
+            <CustomFields />
+        </ProductClassifications>
+        <RelatedCompanies>
+            <Company companyId="1582" securityId="1682" ticker="DEBT.HYO" pricingSymbol="DEBT.HYO" displaySymbol="DEBT.HYO" clientSymbol="DEBT.HYO" cusip="44810ZBG4" sedol="B630T67" isin="" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Hydro One" price="103.89" rating="" ratingId="" ratingSymbol="" target="" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="1582" securityId="1682" ticker="DEBT.HYO" pricingSymbol="DEBT.HYO" displaySymbol="DEBT.HYO" clientSymbol="DEBT.HYO" cusip="44810ZBG4" sedol="B630T67" isin="" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Hydro One" price="103.89" rating="" ratingId="" ratingSymbol="" target="" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="488" securityId="488" ticker="ENB-TSX" pricingSymbol="ENB-TSX" displaySymbol="ENB" clientSymbol="ENB=CA" cusip="29250N105" sedol="2466149" isin="CA29250N1050" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Enbridge" price="56.94" rating="Outperform" ratingId="1" ratingSymbol="OP" target="72.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="488" securityId="488" ticker="ENB-TSX" pricingSymbol="ENB-TSX" displaySymbol="ENB" clientSymbol="ENB=CA" cusip="29250N105" sedol="2466149" isin="CA29250N1050" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Enbridge" price="56.94" rating="Outperform" ratingId="1" ratingSymbol="OP" target="72.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="583" securityId="584" ticker="FTS-TSX" pricingSymbol="FTS-TSX" displaySymbol="FTS" clientSymbol="FTS=CA" cusip="349553107" sedol="2347200" isin="CA3495531079" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Fortis" price="44.69" rating="Outperform" ratingId="1" ratingSymbol="OP" target="51.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="583" securityId="584" ticker="FTS-TSX" pricingSymbol="FTS-TSX" displaySymbol="FTS" clientSymbol="FTS=CA" cusip="349553107" sedol="2347200" isin="CA3495531079" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Fortis" price="44.69" rating="Outperform" ratingId="1" ratingSymbol="OP" target="51.00" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="716" securityId="717" ticker="INE-TSX" pricingSymbol="INE-TSX" displaySymbol="INE" clientSymbol="INE=CA" cusip="45790B104" sedol="B29TNV3" isin="CA45790B1040" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Innergex Renewable Energy" price="13.99" rating="Outperform" ratingId="1" ratingSymbol="OP" target="18.50" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="716" securityId="717" ticker="INE-TSX" pricingSymbol="INE-TSX" displaySymbol="INE" clientSymbol="INE=CA" cusip="45790B104" sedol="B29TNV3" isin="CA45790B1040" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Innergex Renewable Energy" price="13.99" rating="Outperform" ratingId="1" ratingSymbol="OP" target="18.50" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="1423" securityId="1426" ticker="VSN-TSX" pricingSymbol="VSN-TSX" displaySymbol="VSN" clientSymbol="VSN=CA" cusip="92340R106" sedol="B3MBSJ6" isin="CA92340R1064" type="0" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Veresen" price="18.37" rating="Market Perform" ratingId="3" ratingSymbol="Mkt" target="18.65" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+            <Company companyId="1423" securityId="1426" ticker="VSN-TSX" pricingSymbol="VSN-TSX" displaySymbol="VSN" clientSymbol="VSN=CA" cusip="92340R106" sedol="B3MBSJ6" isin="CA92340R1064" type="1" active="1" rank="1" exchange="TSX" reportingCurrency="C$" tradingCurrency="C$" description="Veresen" price="18.37" rating="Market Perform" ratingId="3" ratingSymbol="Mkt" target="18.65" risk="" riskName="" coverage="1" hidden="0" universeId="100" />
+        </RelatedCompanies>
+        <IssuerDetails>
+            <IndustryDetails>
+                <Industry sequence="1" primaryIndicator="Yes" BM_ID="191">
+                    <FinancialDates reportingDate="2017-05-02T19:23:56.00" />
+                </Industry>
+            </IndustryDetails>
+        </IssuerDetails>
+    </Context>
+    <Legal>
+        <MAR sequence="1" publishedDateTime="2017-05-02T19:23:56.00" releasedDateTime="2017-05-03T05:00:00.00" timezone="EDT" />
+        <Disclosure code="15-013" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO" companyName="Hydro One" priority="19">
+            <![CDATA[Disclosure 15: A member of the Board of Directors of Bank of Montreal is also a member of the Board of Directors or is an officer of Hydro One:  Philip  Orsino (Director/Member Board).]]>
+        </Disclosure>
+        <Disclosure code="1" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO" companyName="Hydro One" priority="1">
+            <![CDATA[Disclosure 1: BMO Capital Markets has undertaken an underwriting liability with respect to Hydro One within the past 12 months.]]>
+        </Disclosure>
+        <Disclosure code="2" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="2">
+            <![CDATA[Disclosure 2: BMO Capital Markets has provided investment banking services with respect to Hydro One, Fortis and Veresen within the past 12 months.]]>
+        </Disclosure>
+        <Disclosure code="3" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="3">
+            <![CDATA[Disclosure 3: BMO Capital Markets has managed or co-managed a public offering of securities with respect to Hydro One, Fortis and Veresen within the past 12 months.]]>
+        </Disclosure>
+        <Disclosure code="4" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="4">
+            <![CDATA[Disclosure 4: BMO Capital Markets or an affiliate has received compensation for investment banking services from Hydro One, Fortis and Veresen within the past 12 months.]]>
+        </Disclosure>
+        <Disclosure code="6A" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO, FTS-TSX and VSN-TSX" companyName="Hydro One, Fortis and Veresen" priority="7">
+            <![CDATA[Disclosure 6A: Hydro One, Fortis and Veresen is a client (or was a client) of BMO Nesbitt Burns Inc., BMO Capital Markets Corp., BMO Capital Markets Limited or an affiliate within the past 12 months: A) Investment Banking Services]]>
+        </Disclosure>
+        <Disclosure code="8E" typeId="1" isPrimaryTopic="1" ticker="DEBT.HYO and ENB-TSX" companyName="Hydro One and Enbridge" priority="12">
+            <![CDATA[Disclosure 8E: BMO Capital Markets trades or may trade as principal in the debt securities of Hydro One and Enbridge.]]>
+        </Disclosure>
+        <Disclosure code="5" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="5">
+            <![CDATA[Disclosure 5: BMO Capital Markets or an affiliate received compensation for products or services other than investment banking services within the past 12 months from Enbridge, Fortis, Innergex Renewable Energy and Veresen.]]>
+        </Disclosure>
+        <Disclosure code="6C" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="9">
+            <![CDATA[Disclosure 6C: Enbridge, Fortis, Innergex Renewable Energy and Veresen are clients (or were clients) of <font style="line-height:20.8px">BMO Nesbitt Burns Inc., BMO Capital Markets Corp., BMO Capital Markets Limited</font> or an affiliate within the past 12 months: C) Non-Securities Related Services.]]>
+        </Disclosure>
+        <Disclosure code="8A" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX, INE-TSX and VSN-TSX" companyName="Enbridge, Fortis, Innergex Renewable Energy and Veresen" priority="11">
+            <![CDATA[Disclosure 8A: BMO Capital Markets or an affiliate has a financial interest in 1% or more of any class of the equity securities of Enbridge, Fortis, Innergex Renewable Energy and Veresen.]]>
+        </Disclosure>
+        <Disclosure code="9" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX" companyName="Enbridge" priority="13">
+            <![CDATA[Disclosure 9: BMO Capital Markets makes a market in Enbridge.]]>
+        </Disclosure>
+        <Disclosure code="8C" typeId="1" isPrimaryTopic="1" ticker="ENB-TSX, FTS-TSX and INE-TSX" companyName="Enbridge, Fortis and Innergex Renewable Energy" priority="12">
+            <![CDATA[Disclosure 8C: BMO Capital Markets or an affiliate has a financial interest in 0.5% or more in the issued share capital of Enbridge, Fortis and Innergex Renewable Energy.]]>
+        </Disclosure>
+        <Disclaimer code="DOR_LEGEND" typeId="2" priority="2">
+            <![CDATA[* Reflects rating distribution of all companies covered by BMO Capital Markets Corp. equity research analysts.<br/>** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage within ratings category.<br/>*** Reflects rating distribution of all companies from which BMO Capital Markets Corp. has received compensation for Investment Banking services as percentage of Investment Banking clients.<br/>**** Reflects rating distribution of all companies covered by BMO Capital Markets equity research analysts.<br/>***** Reflects rating distribution of all companies from which BMO Capital Markets has received compensation for Investment Banking services as percentage of Investment Banking clients.]]>
+        </Disclaimer>
+        <Disclaimer code="RATINGS" typeId="2" priority="2">
+            <![CDATA[<p><strong>Ratings Key (as of October 2016)</strong></p><p>We use the following ratings system definitions:<br/>OP = Outperform - Forecast to outperform the analyst&#8217;s coverage universe on a total return basis;<br/>Mkt = Market Perform - Forecast to perform roughly in line with the analyst&#8217;s coverage universe on a total return basis;<br/>Und = Underperform - Forecast to underperform the analyst&#8217;s coverage universe on a total return basis;<br/>(S) = Speculative investment;<br/>Spd = Suspended - Coverage and rating suspended until coverage is reinstated;<br/>NR = No Rated - No rating at this time; and<br/>R = Restricted - Dissemination of research is currently restricted.</p><p>BMO Capital Markets&#39; seven Top 15 lists guide investors to our best ideas according to different objectives (CDN Large Cap, CDN Small Cap, US Large Cap, US Small Cap, Income, CDN Quant, and US Quant have replaced the Top Pick rating).</p><p><strong>Prior BMO Capital Markets Rating System</strong></p><p><strong>(April 2013 - October 2016)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/rating_key_2013_to_2016.pdf</a></p><p><strong>(January 2010 - April 2013)</strong><br/><a href="http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf">http://researchglobal.bmocapitalmarkets.com/documents/2013/prior_rating_system.pdf</a></p>]]>
+        </Disclaimer>
+        <Disclaimer code="OTHER_DIS" typeId="2" priority="3">
+            <![CDATA[<p><strong>Other Important Disclosures</strong></p><p>For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a> or write to Editorial Department, BMO Capital Markets, 3 Times Square, New York, NY 10036 or Editorial Department, BMO Capital Markets, 1 First Canadian Place, Toronto, Ontario, M5X 1H3.</p><p><strong>Dissemination of Research</strong></p><p>Dissemination of BMO Capital Markets Equity Research is available via our website <a href="https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx">https://research-ca.bmocapitalmarkets.com/Public/Secure/Login.aspx? ReturnUrl=/Member/Home/ResearchHome.aspx</a>. Institutional clients may also receive our research via Thomson Reuters, Bloomberg, FactSet, and Capital IQ. Research reports and other commentary are required to be simultaneously disseminated internally and externally to our clients.</p><p>~ Research distribution and approval times are provided on the cover of each report. Times are approximations as system and distribution processes are not exact and can vary based on the sender and recipients&#8217; services. Unless otherwise noted, times are Eastern Standard and when two times are provided, the approval time precedes the distribution time.</p><p>BMO Capital Markets may use proprietary models in the preparation of reports. Material information about such models may be obtained by contacting the research analyst directly. There is no planned frequency of updates to this report.</p><p><strong>General Disclaimer</strong></p><p>&quot;BMO Capital Markets&quot; is a trade name used by the BMO Investment Banking Group, which includes the wholesale arm of Bank of Montreal and its subsidiaries BMO Nesbitt Burns Inc., BMO Capital Markets Limited in the U.K. and BMO Capital Markets Corp. in the U.S. BMO Nesbitt Burns Inc., BMO Capital Markets Limited and BMO Capital Markets Corp are affiliates. Bank of Montreal or its subsidiaries (&quot;BMO Financial Group&quot;) has lending arrangements with, or provide other remunerated services to, many issuers covered by BMO Capital Markets. The opinions, estimates and projections contained in this report are those of BMO Capital Markets as of the date of this report and are subject to change without notice. BMO Capital Markets endeavours to ensure that the contents have been compiled or derived from sources that we believe are reliable and contain information and opinions that are accurate and complete. However, BMO Capital Markets makes no representation or warranty, express or implied, in respect thereof, takes no responsibility for any errors and omissions contained herein and accepts no liability whatsoever for any loss arising from any use of, or reliance on, this report or its contents. Information may be available to BMO Capital Markets or its affiliates that is not reflected in this report. The information in this report is not intended to be used as the primary basis of investment decisions, and because of individual client objectives, should not be construed as advice designed to meet the particular investment needs of any investor. This material is for information purposes only and is not an offer to sell or the solicitation of an offer to buy any security. BMO Capital Markets or its affiliates will buy from or sell to customers the securities of issuers mentioned in this report on a principal basis. BMO Capital Markets or its affiliates, officers, directors or employees have a long or short position in many of the securities discussed herein, related securities or in options, futures or other derivative instruments based thereon. The reader should assume that BMO Capital Markets or its affiliates may have a conflict of interest and should not rely solely on this report in evaluating whether or not to buy or sell securities of issuers discussed herein.</p><p><strong>Additional Matters</strong></p><p>To Canadian Residents: BMO Nesbitt Burns Inc. furnishes this report to Canadian residents and accepts responsibility for the contents herein subject to the terms set out above. Any Canadian person wishing to effect transactions in any of the securities included in this report should do so through BMO Nesbitt Burns Inc.</p><p>The following applies if this research was prepared in whole or in part by Alexander Pearce, David Round, Edward Sterck or Brendan Warn: This research is not prepared subject to Canadian disclosure requirements. This research is prepared by BMO Capital Markets Limited and subject to the regulations of the Financial Conduct Authority (FCA) in the United Kingdom. FCA regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 5% or more of the equity of the issuer. Canadian regulations require that a firm providing research disclose its ownership interest in the issuer that is the subject of the research if it and its affiliates own 1% or more of the equity of the issuer that is the subject of the research. Therefore BMO Capital Markets Limited will disclose its and its affiliates&#39; ownership interest in the subject issuer only if such ownership exceeds 5% of the equity of the issuer.</p><p>To E.U. Residents: In an E.U. Member State this document is issued and distributed by BMO Capital Markets Limited which is authorised and regulated in the UK and operates in the E.U. on a passported basis. This document is only intended for Professional Clients, as defined in Annex II to &#8220;Markets in Financial Instruments Directive&#8221; 2004/39/EC (&#8220;MiFID&#8221;).</p><p>To U.S. Residents: BMO Capital Markets Corp. furnishes this report to U.S. residents and accepts responsibility for the contents herein, except to the extent that it refers to securities of Bank of Montreal. Any U.S. person wishing to effect transactions in any security discussed herein should do so through BMO Capital Markets Corp.</p><p>To U.K. Residents: In the UK this document is published by BMO Capital Markets Limited which is authorised and regulated by the Financial Conduct Authority. The contents hereof are intended solely for the use of, and may only be issued or passed on to, (I) persons who have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the &quot;Order&quot;) or (II) high net worth entities falling within Article 49(2)(a) to (d) of the Order (all such persons together referred to as &quot;relevant persons&quot;). The contents hereof are not intended for the use of and may not be issued or passed on to retail clients.</p><p>Unauthorized reproduction, distribution, transmission or publication without the prior written consent of BMO Capital Markets is strictly prohibited.</p><p><a href="http://research-ca.bmocapitalmarkets.com/documents/C17EA078-97CF-4438-AC2C-B5A8118F8C4B.PDF">Click here</a> for data vendor disclosures when referenced within a BMO Capital Markets research document.</p>]]>
+        </Disclaimer>
+        <Disclaimer code="ADDL_INFO" typeId="2" priority="16">
+            <![CDATA[<p align="center"><strong>ADDITIONAL INFORMATION IS AVAILABLE UPON REQUEST</strong><br/>BMO Financial Group (NYSE, TSX: BMO) is an integrated financial services provider offering a range of retail banking, wealth management, and investment and corporate banking products. BMO serves Canadian retail clients through BMO Bank of Montreal and BMO Nesbitt Burns. In the United States, personal and commercial banking clients are served by BMO Harris Bank N.A., (Member FDIC). Investment and corporate banking services are provided in Canada and the US through BMO Capital Markets.</p><p align="center">BMO Capital Markets is a trade name used by BMO Financial Group for the wholesale banking businesses of Bank of Montreal, BMO Harris Bank N.A, (Member FDIC), BMO Ireland Plc, and Bank of Montreal (China) Co. Ltd. and the institutional broker dealer businesses of BMO Capital Markets Corp. (Member SIPC) in the U.S., BMO Nesbitt Burns Inc. (Member Canadian Investor Protection Fund) in Canada, Europe and Asia, BMO Capital Markets Limited in Europe and Australia and BMO Advisors Private Limited in India.</p><p align="center">&#174; Registered trademark of Bank of Montreal in the United States, Canada and elsewhere.<br/>TM Trademark Bank of Montreal</p><p align="center">&#169;COPYRIGHT 2017 BMO CAPITAL MARKETS CORP.</p><p align="center"><img width="300" src="http://research-ca.bmocapitalmarkets.com/ebooks/a-member-of-bmo-financial.jpg" height="29" alt="A Member of BMO Financial Group"/></p>]]>
+        </Disclaimer>
+        <Disclaimer code="P1-CA" typeId="2" priority="1">
+            <![CDATA[This report was prepared by an analyst(s) employed by BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="P1-UK" typeId="2" priority="1">
+            <![CDATA[This report was prepared by an analyst(s) employed by BMO Capital Markets Limited, authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="P1-CAUSUK" typeId="2" priority="1">
+            <![CDATA[This report was prepared in part by analysts employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited, authorised and regulated by the Financial Services Authority in the UK, and who are not registered as research analysts under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="P1-CAUK" typeId="2" priority="1">
+            <![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and a UK affiliate, BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK, and who is (are) not registered as a research analyst(s) under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="P1-CAUS" typeId="2" priority="1">
+            <![CDATA[This report was prepared in part by an analyst(s) employed by a Canadian affiliate, BMO Nesbitt Burns Inc., and who is (are) not registered as a research analyst(s) under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="P1-USUK" typeId="2" priority="1">
+            <![CDATA[This report was prepared in part by an analyst(s) employed by BMO Capital Markets Limited., authorised and regulated by the Financial Conduct Authority in the UK. The analyst(s) is (are) not registered as a research analyst(s) under FINRA rules.]]>
+        </Disclaimer>
+        <Disclaimer code="COMP" typeId="2" priority="1">
+            <![CDATA[For Important Disclosures on the stocks discussed in this report, please go to <a href="http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx">http://researchglobal.bmocapitalmarkets.com/Public/Company_Disclosure_Public.aspx</a>.]]></Disclaimer>
+        <Disclaimer code="REG_AC" typeId="6" priority="1">
+            <![CDATA[<p>I, Ben Pham, hereby certify that the views expressed in this report accurately reflect my personal views about the subject securities or issuers. I also certify that no part of my compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.</p><p>Analysts who prepared this report are compensated based upon (among other factors) the overall profitability of BMO Capital Markets and their affiliates, which includes the overall profitability of investment banking services. Compensation for research is based on effectiveness in generating new ideas and in communication of ideas to clients, performance of recommendations, accuracy of earnings estimates, and service to clients.</p><p>Analysts employed by BMO Nesbitt Burns Inc. and/or BMO Capital Markets Limited are not registered as research analysts with FINRA. These analysts may not be associated persons of BMO Capital Markets Corp. and therefore may not be subject to the FINRA Rule 2241 restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.</p>]]>
+        </Disclaimer>
+        <Chart ticker="DEBT.HYO">
+            <URLsvg>/nas/web/charts/clients/18524/out/large/DEBT.HYO.svg</URLsvg>
+            <staticURL>/nas/web/charts/clients/18524/out/largeStatic/DEBT.HYO.35303.png</staticURL>
+            <staticURL2>https://bmo.bluematrix.com/charts/largeStatic/DEBT.HYO.35303.png</staticURL2>
+        </Chart>
+        <Chart ticker="ENB-TSX">
+            <URLsvg>/nas/web/charts/clients/18524/out/large/ENB-TSX.svg</URLsvg>
+            <staticURL>/nas/web/charts/clients/18524/out/largeStatic/ENB-TSX.35303.png</staticURL>
+            <staticURL2>https://bmo.bluematrix.com/charts/largeStatic/ENB-TSX.35303.png</staticURL2>
+        </Chart>
+        <Chart ticker="FTS-TSX">
+            <URLsvg>/nas/web/charts/clients/18524/out/large/FTS-TSX.svg</URLsvg>
+            <staticURL>/nas/web/charts/clients/18524/out/largeStatic/FTS-TSX.35303.png</staticURL>
+            <staticURL2>https://bmo.bluematrix.com/charts/largeStatic/FTS-TSX.35303.png</staticURL2>
+        </Chart>
+        <Chart ticker="INE-TSX">
+            <URLsvg>/nas/web/charts/clients/18524/out/large/INE-TSX.svg</URLsvg>
+            <staticURL>/nas/web/charts/clients/18524/out/largeStatic/INE-TSX.35303.png</staticURL>
+            <staticURL2>https://bmo.bluematrix.com/charts/largeStatic/INE-TSX.35303.png</staticURL2>
+        </Chart>
+        <Chart ticker="VSN-TSX">
+            <URLsvg>/nas/web/charts/clients/18524/out/large/VSN-TSX.svg</URLsvg>
+            <staticURL>/nas/web/charts/clients/18524/out/largeStatic/VSN-TSX.35303.png</staticURL>
+            <staticURL2>https://bmo.bluematrix.com/charts/largeStatic/VSN-TSX.35303.png</staticURL2>
+        </Chart>
+    </Legal>
+    <Extended>
+        <RelatedCompanies>
+            <Security securityId="1682" pricingSymbol="DEBT.HYO">
+                <CustomFields>
+                    <CustomField displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
+                    <CustomField displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">H045208</CustomField>
+                    <CustomField displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+                    <CustomField displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+                    <CustomField displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+                    <CustomField displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Security>
+            <Security securityId="488" pricingSymbol="ENB-TSX">
+                <CustomFields>
+                    <CustomField displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15">
+                        <Value>Cdn Large Cap</Value>
+                        <Value>Income Stock</Value>
+                    </CustomField>
+                    <CustomField displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">E100301</CustomField>
+                    <CustomField displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+                    <CustomField displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+                    <CustomField displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+                    <CustomField displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Security>
+            <Security securityId="584" pricingSymbol="FTS-TSX">
+                <CustomFields>
+                    <CustomField displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15">
+                        <Value />
+                    </CustomField>
+                    <CustomField displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">F538065</CustomField>
+                    <CustomField displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+                    <CustomField displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+                    <CustomField displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+                    <CustomField displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Security>
+            <Security securityId="717" pricingSymbol="INE-TSX">
+                <CustomFields>
+                    <CustomField displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
+                    <CustomField displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">H106110</CustomField>
+                    <CustomField displayName="RCode" type="Dropdown, single choice" clientCode="RCode" />
+                    <CustomField displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+                    <CustomField displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+                    <CustomField displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Security>
+            <Security securityId="1426" pricingSymbol="VSN-TSX">
+                <CustomFields>
+                    <CustomField displayName="Top 15 - Select one or many" type="Dropdown, multiple choice" clientCode="TOP15" />
+                    <CustomField displayName="ADP Security Code" type="Textbox" clientCode="ADP_CODE" length="20">V006139</CustomField>
+                    <CustomField displayName="RCode" type="Dropdown, single choice" clientCode="RCode">EU</CustomField>
+                    <CustomField displayName="EPS Metric Name" type="Textbox" clientCode="EPSMetricName" length="50" />
+                    <CustomField displayName="CFPS Metric Name" type="Textbox" clientCode="CFPSMetricName" length="50" />
+                    <CustomField displayName="DPS Metric Name" type="Textbox" clientCode="DPSMetricName" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Security>
+        </RelatedCompanies>
+        <Authors>
+            <Author rank="1" fname="Ben" lname="Pham" position="CFA" phone="(416) 359-4061" email="ben.pham@bmo.com" office="Toronto" id="109">
+                <Status>
+                    <Series7>0</Series7>
+                    <Series16>0</Series16>
+                    <Series24>0</Series24>
+                    <Series8687>1</Series8687>
+                    <Fsa>1</Fsa>
+                    <OfficeId>1</OfficeId>
+                    <DivisionId>1</DivisionId>
+                </Status>
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50">Energy Infrastructure</CustomField>
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Author>
+            <Author rank="2" fname="Eric" lname="Tang" position="" phone="(416) 359-8110" email="eric.tang@bmo.com" office="Toronto" id="180">
+                <Status>
+                    <Series7>0</Series7>
+                    <Series16>0</Series16>
+                    <Series24>0</Series24>
+                    <Series8687>1</Series8687>
+                    <Fsa>1</Fsa>
+                    <OfficeId>1</OfficeId>
+                    <DivisionId>1</DivisionId>
+                </Status>
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Author>
+            <Author rank="3" fname="Nigel" lname="Dyer" position="" phone="(416) 359-6017" email="nigel.dyer@bmo.com" office="Toronto" id="312">
+                <Status>
+                    <Series7>0</Series7>
+                    <Series16>0</Series16>
+                    <Series24>0</Series24>
+                    <Series8687>0</Series8687>
+                    <Fsa>0</Fsa>
+                    <OfficeId>1</OfficeId>
+                    <DivisionId>1</DivisionId>
+                </Status>
+                <CustomFields>
+                    <CustomField displayName="Mobile Phone" type="Textbox" clientCode="" length="250" />
+                    <CustomField displayName="Analyst Sector Email Display" type="Textbox" clientCode="DISPL_NAME" length="50" />
+                    <CustomField displayName="Do NOT sync to RDS" type="Checkbox" clientCode="Do_Not_Sync_To_RDS">OFF</CustomField>
+                </CustomFields>
+            </Author>
+        </Authors>
+        <BoilerPlateChanges />
+    </Extended>
 </Product>
