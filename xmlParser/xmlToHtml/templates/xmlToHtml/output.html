@@ -573,6 +573,13 @@
             </div>
         </div>
     </div>
+    {%for data in docx_to_html%}
+        <div class="row">
+            <div class="docx_to_html">
+                {{ data|safe }}
+            </div>
+        </div>
+    {%endfor%}
     <div class="row">
         <div class="disclosures-section">
             <h4>IMPORTANT DISCLOSURES</h3>

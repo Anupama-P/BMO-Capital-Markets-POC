@@ -1,6 +1,9 @@
 import os
 import datetime
 import random
+import os
+import shutil
+import mammoth
 
 # from django.template import Context, Template
 from elasticsearch import Elasticsearch
@@ -10,6 +13,58 @@ from io import StringIO, BytesIO
 # from blog.models import XMLData
 
 from lxml import etree as ET
+from django.conf import settings
+import urllib
+
+image_number = 1
+
+
+class ImageWriter(object):
+    def __init__(self, output_dir):
+        self._output_dir = output_dir
+
+    def __call__(self, element):
+        global image_number
+        extension = element.content_type.partition("/")[2]
+        image_filename = "{0}.{1}".format(image_number, extension)
+        with open(os.path.join(self._output_dir, image_filename), "wb") as image_dest:
+            with element.open() as image_source:
+                shutil.copyfileobj(image_source, image_dest)
+
+        image_number += 1
+
+        if extension == 'x-emf' or 'wmf':
+
+            new_name = str(image_filename.split('.')[0]) + '.emf'
+            os.rename('xmlToHtml/static/images/' + image_filename, 'xmlToHtml/static/images/' + new_name)
+            os.system('inkscape ' + 'xmlToHtml/static/images/' + new_name + ' --export-png=' + 'xmlToHtml/static/images/' + new_name.split('.')[0] + '.png')
+
+            return {"src": '/static/images/' + new_name.split('.')[0] + '.png'}
+        else:
+            return {"src": '/static/images/' + image_filename}
+
+
+def docx_to_html_conversion(tree):
+    docx_list = []
+    baseUrl = tree.findall('ProductStatus')[0].get('baseHref')
+    for attachment in tree.findall('Content/Attachments/Attachment'):
+        url = baseUrl + attachment.get('originalFile')
+        urllib.urlretrieve(url, 'test.docx')
+
+        style_map = """
+        p[style-name='Heading 1 for Top of Page'] => h1:fresh
+        p[style-name='Body Text'] => p
+        p[style-name='Exhibit Title Bold'] => bold
+        p[style-name='Source'] => src
+        """
+        with open("test.docx", "rb") as docx_file:
+            result = mammoth.convert_to_html(
+                docx_file,
+                style_map=style_map,
+                convert_image=mammoth.images.inline(ImageWriter('xmlToHtml/static/images'))
+            )
+            docx_list.append(result.value)
+    return docx_list
 
 
 def xml_to_html_parser(xmlFileName, esObj, index):
@@ -85,6 +140,7 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     footer_constant_stuff_ratings = footer_constant_stuff_parser(tree).get('ratings')
     footer_constant_stuff_ratings_key = footer_constant_stuff_parser(tree).get('ratings_key')
     footer_constant_stuff_other_important_disclosures = footer_constant_stuff_parser(tree).get('other_important_disclosures')
+    docx_to_html = docx_to_html_conversion(tree)
 
     context_dict = {
         '_source' : {
@@ -143,7 +199,8 @@ def xml_to_html_parser(xmlFileName, esObj, index):
             'footer_constant_stuff_ratings': footer_constant_stuff_ratings,
             'footer_constant_stuff_ratings_key': footer_constant_stuff_ratings_key,
             'footer_constant_stuff_other_important_disclosures': footer_constant_stuff_other_important_disclosures,
-            'footer_constant_stuff_actual_footer': footer_constant_stuff_actual_footer
+            'footer_constant_stuff_actual_footer': footer_constant_stuff_actual_footer,
+            'docx_to_html': docx_to_html
         }
     }
 
@@ -205,7 +262,7 @@ def xml_to_html_parser(xmlFileName, esObj, index):
     # print 'Indexed the %s' % (xmlFilesName)
     # print ('Html generation done. {}'.format(file_name))
 
-    return context_dict
+    # return context_dict
 
 
 # def saveObjInModel(context):
@@ -634,12 +691,12 @@ def new_thread(name, start, es, s_time):
     xmlObject = list()
 
     count = 0
-    for i in range(start, start + 1001):
+    for i in range(start, start + 11):
         filename = 'newCC' + str(i)
         xmlObject.append(xml_to_html_parser(filename, es, i))
-        if count == 1000:
+        if count == 10:
             bulk(es, xmlObject, index = 'bmo_capital_markets', raise_on_error=True)
-            print "1000 records indexed, Start %s" %i
+            print "10 records indexed, Start %s" %i
             count = 0
             xmlObject = list()
         count += 1
@@ -666,7 +723,7 @@ def Main():
     num_of_threads = 4
     threads = list()
     for i in range(num_of_threads):
-        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 1000, es, start))
+        t = Thread(target=new_thread, args=("Thread-" + str(i), i * 10, es, start))
         print 'created thread ' + str(i)
         threads.append(t)
 
@@ -682,5 +739,5 @@ def Main():
     end = datetime.datetime.now() - start
     print str(end.seconds) + ' seconds'
 
-
+print settings.STATIC_ROOT
 Main()
